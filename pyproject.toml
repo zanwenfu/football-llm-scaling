@@ -1,0 +1,110 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "football-llm-scaling"
+version = "0.1.0"
+description = "QLoRA vs. ICL vs. CoT on structured numerical reasoning — and the parser-rescue gap."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Zanwen Fu", email = "zanwenfu@gmail.com" }]
+keywords = [
+    "llm",
+    "qlora",
+    "scaling",
+    "structured-prediction",
+    "chain-of-thought",
+    "in-context-learning",
+    "evaluation",
+]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+# Analysis-only dependencies (no GPU needed).
+dependencies = [
+    "matplotlib>=3.7",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+# Install this extra to train or run live inference.
+train = [
+    "torch>=2.1",
+    "transformers>=4.44",
+    "peft>=0.11",
+    "bitsandbytes>=0.43",
+    "accelerate>=0.30",
+    "datasets>=2.18",
+    "trl>=0.9",
+    "huggingface-hub>=0.23",
+    "tensorboard",
+]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.5",
+    "black>=24.0",
+]
+
+[project.urls]
+"Paper" = "./paper/ECE590_Final_Project_Report.pdf"
+"Base repo" = "https://github.com/zanwenfu/football-llm"
+"Adapter on HF Hub" = "https://huggingface.co/zanwenfu/football-llm-qlora"
+
+# Flat `src/` layout: every `src/<name>.py` is exposed as a top-level module,
+# so `import parsing`, `import metrics`, etc. work after `pip install -e .`.
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = [
+    "aggregate",
+    "config",
+    "consistency",
+    "data",
+    "evaluation",
+    "generation",
+    "metrics",
+    "parsing",
+    "plotting",
+    "prompts",
+    "structured",
+    "training",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = ["-ra", "--strict-markers"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = [
+    "E", "F", "W",  # pycodestyle + pyflakes
+    "I",            # isort
+    "B",            # bugbear
+    "UP",           # pyupgrade
+    "PL",           # pylint
+    "RUF",          # ruff-specific
+]
+ignore = [
+    "PLR0913",  # too-many-arguments (config dataclasses)
+    "PLR2004",  # magic-value-comparison (numbers appear in tests for a reason)
+    "E501",     # line-length enforced by formatter
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["PLR2004"]
+
+[tool.black]
+line-length = 100
+target-version = ["py310"]

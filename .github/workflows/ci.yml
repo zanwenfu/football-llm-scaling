@@ -1,0 +1,48 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    name: tests + analysis smoke test
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Install (analysis-only)
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e '.[dev]'
+
+      - name: Ruff
+        run: ruff check src tests scripts
+
+      - name: Pytest
+        run: pytest tests/ -v
+
+      # The analysis pipeline is pure-python; we run it end-to-end in CI so a
+      # change to parsing/metrics/consistency can't silently drift the tables.
+      - name: Analysis pipeline smoke test
+        run: |
+          python scripts/03_analyze_results.py --raw-dir results/raw --tables-dir /tmp/tables
+          python scripts/04_make_figures.py --raw-dir results/raw --figures-dir /tmp/figures
+          python scripts/05_dump_contradictions.py --raw-dir results/raw --out /tmp/examples.md
+          python scripts/demo_structured_rescue.py
+          test -s /tmp/tables/scaling_metrics.json
+          test -s /tmp/tables/consistency_table.json
+          test -s /tmp/figures/consistency_curve.png
+          test -s /tmp/examples.md

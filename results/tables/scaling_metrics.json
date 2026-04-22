@@ -1,0 +1,284 @@
+{
+  "CoT": {
+    "overall": {
+      "total": 128,
+      "parsed": 128,
+      "parse_rate": 1.0,
+      "result_accuracy": 0.4453125,
+      "score_exact_match": 0.0859375,
+      "goal_mae": 1.08984375,
+      "pred_dist": {
+        "home_win": 127,
+        "away_win": 1,
+        "draw": 0,
+        "other": 0
+      },
+      "home_pred_rate": 0.9921875
+    },
+    "named": {
+      "total": 64,
+      "parsed": 64,
+      "parse_rate": 1.0,
+      "result_accuracy": 0.4375,
+      "score_exact_match": 0.0625,
+      "goal_mae": 1.1015625,
+      "pred_dist": {
+        "home_win": 63,
+        "away_win": 1,
+        "draw": 0,
+        "other": 0
+      },
+      "home_pred_rate": 0.984375
+    },
+    "anon": {
+      "total": 64,
+      "parsed": 64,
+      "parse_rate": 1.0,
+      "result_accuracy": 0.453125,
+      "score_exact_match": 0.109375,
+      "goal_mae": 1.078125,
+      "pred_dist": {
+        "home_win": 64,
+        "away_win": 0,
+        "draw": 0,
+        "other": 0
+      },
+      "home_pred_rate": 1.0
+    }
+  },
+  "ICL": {
+    "overall": {
+      "total": 128,
+      "parsed": 128,
+      "parse_rate": 1.0,
+      "result_accuracy": 0.4921875,
+      "score_exact_match": 0.109375,
+      "goal_mae": 0.984375,
+      "pred_dist": {
+        "home_win": 105,
+        "away_win": 1,
+        "draw": 22,
+        "other": 0
+      },
+      "home_pred_rate": 0.8203125
+    },
+    "named": {
+      "total": 64,
+      "parsed": 64,
+      "parse_rate": 1.0,
+      "result_accuracy": 0.5,
+      "score_exact_match": 0.140625,
+      "goal_mae": 0.9296875,
+      "pred_dist": {
+        "home_win": 49,
+        "away_win": 0,
+        "draw": 15,
+        "other": 0
+      },
+      "home_pred_rate": 0.765625
+    },
+    "anon": {
+      "total": 64,
+      "parsed": 64,
+      "parse_rate": 1.0,
+      "result_accuracy": 0.484375,
+      "score_exact_match": 0.078125,
+      "goal_mae": 1.0390625,
+      "pred_dist": {
+        "home_win": 56,
+        "away_win": 1,
+        "draw": 7,
+        "other": 0
+      },
+      "home_pred_rate": 0.875
+    }
+  },
+  "n192": {
+    "overall": {
+      "total": 128,
+      "parsed": 128,
+      "parse_rate": 1.0,
+      "result_accuracy": 0.6171875,
+      "score_exact_match": 0.484375,
+      "goal_mae": 0.73828125,
+      "pred_dist": {
+        "home_win": 57,
+        "away_win": 56,
+        "draw": 15,
+        "other": 0
+      },
+      "home_pred_rate": 0.4453125
+    },
+    "named": {
+      "total": 64,
+      "parsed": 64,
+      "parse_rate": 1.0,
+      "result_accuracy": 0.71875,
+      "score_exact_match": 0.65625,
+      "goal_mae": 0.53125,
+      "pred_dist": {
+        "home_win": 33,
+        "away_win": 21,
+        "draw": 10,
+        "other": 0
+      },
+      "home_pred_rate": 0.515625
+    },
+    "anon": {
+      "total": 64,
+      "parsed": 64,
+      "parse_rate": 1.0,
+      "result_accuracy": 0.515625,
+      "score_exact_match": 0.3125,
+      "goal_mae": 0.9453125,
+      "pred_dist": {
+        "home_win": 24,
+        "away_win": 35,
+        "draw": 5,
+        "other": 0
+      },
+      "home_pred_rate": 0.375
+    }
+  },
+  "n384": {
+    "overall": {
+      "total": 128,
+      "parsed": 128,
+      "parse_rate": 1.0,
+      "result_accuracy": 0.5078125,
+      "score_exact_match": 0.28125,
+      "goal_mae": 1.40234375,
+      "pred_dist": {
+        "home_win": 66,
+        "away_win": 59,
+        "draw": 3,
+        "other": 0
+      },
+      "home_pred_rate": 0.515625
+    },
+    "named": {
+      "total": 64,
+      "parsed": 64,
+      "parse_rate": 1.0,
+      "result_accuracy": 0.5,
+      "score_exact_match": 0.4375,
+      "goal_mae": 1.0859375,
+      "pred_dist": {
+        "home_win": 34,
+        "away_win": 28,
+        "draw": 2,
+        "other": 0
+      },
+      "home_pred_rate": 0.53125
+    },
+    "anon": {
+      "total": 64,
+      "parsed": 64,
+      "parse_rate": 1.0,
+      "result_accuracy": 0.515625,
+      "score_exact_match": 0.125,
+      "goal_mae": 1.71875,
+      "pred_dist": {
+        "home_win": 32,
+        "away_win": 31,
+        "draw": 1,
+        "other": 0
+      },
+      "home_pred_rate": 0.5
+    }
+  },
+  "n48": {
+    "overall": {
+      "total": 128,
+      "parsed": 128,
+      "parse_rate": 1.0,
+      "result_accuracy": 0.4609375,
+      "score_exact_match": 0.125,
+      "goal_mae": 1.0703125,
+      "pred_dist": {
+        "home_win": 126,
+        "away_win": 2,
+        "draw": 0,
+        "other": 0
+      },
+      "home_pred_rate": 0.984375
+    },
+    "named": {
+      "total": 64,
+      "parsed": 64,
+      "parse_rate": 1.0,
+      "result_accuracy": 0.453125,
+      "score_exact_match": 0.140625,
+      "goal_mae": 1.0859375,
+      "pred_dist": {
+        "home_win": 63,
+        "away_win": 1,
+        "draw": 0,
+        "other": 0
+      },
+      "home_pred_rate": 0.984375
+    },
+    "anon": {
+      "total": 64,
+      "parsed": 64,
+      "parse_rate": 1.0,
+      "result_accuracy": 0.46875,
+      "score_exact_match": 0.109375,
+      "goal_mae": 1.0546875,
+      "pred_dist": {
+        "home_win": 63,
+        "away_win": 1,
+        "draw": 0,
+        "other": 0
+      },
+      "home_pred_rate": 0.984375
+    }
+  },
+  "n96": {
+    "overall": {
+      "total": 128,
+      "parsed": 128,
+      "parse_rate": 1.0,
+      "result_accuracy": 0.515625,
+      "score_exact_match": 0.390625,
+      "goal_mae": 0.8671875,
+      "pred_dist": {
+        "home_win": 27,
+        "away_win": 77,
+        "draw": 24,
+        "other": 0
+      },
+      "home_pred_rate": 0.2109375
+    },
+    "named": {
+      "total": 64,
+      "parsed": 64,
+      "parse_rate": 1.0,
+      "result_accuracy": 0.6875,
+      "score_exact_match": 0.65625,
+      "goal_mae": 0.46875,
+      "pred_dist": {
+        "home_win": 23,
+        "away_win": 25,
+        "draw": 16,
+        "other": 0
+      },
+      "home_pred_rate": 0.359375
+    },
+    "anon": {
+      "total": 64,
+      "parsed": 64,
+      "parse_rate": 1.0,
+      "result_accuracy": 0.34375,
+      "score_exact_match": 0.125,
+      "goal_mae": 1.265625,
+      "pred_dist": {
+        "home_win": 4,
+        "away_win": 52,
+        "draw": 8,
+        "other": 0
+      },
+      "home_pred_rate": 0.0625
+    }
+  }
+}

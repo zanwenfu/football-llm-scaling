@@ -1,0 +1,44 @@
+{
+  "CoT": {
+    "n_disagreements": 27,
+    "score_matches_gt": 6,
+    "text_matches_gt": 13,
+    "neither_matches_gt": 8,
+    "parser_rescue_to_penalty_ratio": 0.46153846153846156
+  },
+  "ICL": {
+    "n_disagreements": 20,
+    "score_matches_gt": 4,
+    "text_matches_gt": 9,
+    "neither_matches_gt": 7,
+    "parser_rescue_to_penalty_ratio": 0.4444444444444444
+  },
+  "n192": {
+    "n_disagreements": 23,
+    "score_matches_gt": 18,
+    "text_matches_gt": 2,
+    "neither_matches_gt": 3,
+    "parser_rescue_to_penalty_ratio": 9.0
+  },
+  "n384": {
+    "n_disagreements": 22,
+    "score_matches_gt": 12,
+    "text_matches_gt": 2,
+    "neither_matches_gt": 8,
+    "parser_rescue_to_penalty_ratio": 6.0
+  },
+  "n48": {
+    "n_disagreements": 2,
+    "score_matches_gt": 1,
+    "text_matches_gt": 0,
+    "neither_matches_gt": 1,
+    "parser_rescue_to_penalty_ratio": Infinity
+  },
+  "n96": {
+    "n_disagreements": 34,
+    "score_matches_gt": 28,
+    "text_matches_gt": 2,
+    "neither_matches_gt": 4,
+    "parser_rescue_to_penalty_ratio": 14.0
+  }
+}

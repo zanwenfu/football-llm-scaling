@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Training artifacts — adapters and tensorboard logs can be very large and are
+# regeneratable via scripts/01_train_scaling.py. The public adapter used for
+# n=384 lives on the HuggingFace Hub at zanwenfu/football-llm-qlora.
+adapters/
+runs/
+wandb/
+*.safetensors
+*.bin
+
+# HuggingFace caches
+.cache/
+hf_cache/
+
+# Scratch
+scratch/
+tmp/

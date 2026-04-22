@@ -1,0 +1,24 @@
+# Pinned for the Colab T4 setup used in the paper. For analysis-only work
+# (recomputing tables/figures from results/raw/), only matplotlib and numpy
+# are required — everything below from `torch` onward is only needed to
+# train a new adapter or run live inference.
+#
+# See pyproject.toml for canonical ranges. These are the exact versions
+# used to produce the results in results/tables/.
+
+matplotlib>=3.7
+numpy>=1.24
+
+# Training / inference extras
+torch>=2.1
+transformers>=4.44
+peft>=0.11
+bitsandbytes>=0.43
+accelerate>=0.30
+datasets>=2.18
+trl>=0.9
+huggingface-hub>=0.23
+tensorboard
+
+# Dev / test
+pytest>=8.0
