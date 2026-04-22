@@ -8,7 +8,7 @@ training notebook; see METHODS in the paper for the rationale.
 
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 
 # Model identifiers ----------------------------------------------------------
 

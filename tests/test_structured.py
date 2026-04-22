@@ -14,10 +14,8 @@ from structured import (
     extract_function_name,
     extract_json_block,
     extract_json_path,
-    parse_multifield,
     structured_consistency_table,
 )
-
 
 # ---------------------------------------------------------------------------
 # Generic regime classifier

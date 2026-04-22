@@ -13,7 +13,7 @@ trl so the analysis-only code path does not pay the import cost.
 from __future__ import annotations
 
 from pathlib import Path
-from typing import TYPE_CHECKING, Any, Optional
+from typing import TYPE_CHECKING, Any
 
 from config import (
     BASE_MODEL_ID,
@@ -48,15 +48,15 @@ def train_qlora(
     an ``adapter_model.safetensors``, training is skipped — this makes the
     scaling ablation script restart-safe.
     """
-    import torch  # noqa: PLC0415
-    from datasets import Dataset  # noqa: PLC0415
-    from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training  # noqa: PLC0415
-    from transformers import (  # noqa: PLC0415
+    import torch
+    from datasets import Dataset
+    from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
+    from transformers import (
         AutoModelForCausalLM,
         AutoTokenizer,
         BitsAndBytesConfig,
     )
-    from trl import SFTConfig, SFTTrainer  # noqa: PLC0415
+    from trl import SFTConfig, SFTTrainer
 
     output_dir = Path(output_dir)
     if resume_if_exists and (output_dir / "adapter_model.safetensors").exists():

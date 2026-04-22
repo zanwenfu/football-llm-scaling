@@ -19,8 +19,9 @@ from __future__ import annotations
 import json
 import random
 from collections import defaultdict
+from collections.abc import Iterable
 from pathlib import Path
-from typing import Any, Iterable, Optional
+from typing import Any
 
 from config import SCALING_BUDGETS
 
@@ -43,7 +44,7 @@ def load_predictions(path: str | Path) -> list[dict[str, Any]]:
             "output_len": Optional[int],  # CoT only
         }
     """
-    with open(path, "r", encoding="utf-8") as f:
+    with open(path, encoding="utf-8") as f:
         data = json.load(f)
     if not isinstance(data, list):
         raise ValueError(f"expected list of records in {path}, got {type(data).__name__}")
@@ -77,7 +78,7 @@ def split_named_anon(
 # ---------------------------------------------------------------------------
 
 
-def _gt_label(record: dict[str, Any]) -> Optional[str]:
+def _gt_label(record: dict[str, Any]) -> str | None:
     return (record.get("gt") or record.get("metadata") or {}).get("result")
 
 
@@ -127,7 +128,7 @@ def stratified_nested_prefix_indices(
             allocated += k
         # Fix off-by-one from rounding by topping up / trimming the largest class
         while allocated < budget:
-            lab = max(class_rates, key=lambda l: class_rates[l])
+            lab = max(class_rates, key=class_rates.get)
             take.append(by_label[lab][allocated])
             allocated += 1
         while allocated > budget:
@@ -141,8 +142,9 @@ def stratified_nested_prefix_indices(
 
 
 def _verify_nested(indices_by_budget: dict[int, list[int]]) -> None:
-    budgets = sorted(indices_by_budget)
-    for smaller, larger in zip(budgets, budgets[1:]):
+    from itertools import pairwise
+
+    for smaller, larger in pairwise(sorted(indices_by_budget)):
         if not set(indices_by_budget[smaller]).issubset(set(indices_by_budget[larger])):
             raise AssertionError(
                 f"nested-subset invariant violated: n={smaller} not a subset of n={larger}"
@@ -162,7 +164,7 @@ def load_hf_dataset(
 
     Lazy-imports `datasets` so this module stays import-cheap.
     """
-    from datasets import load_dataset  # noqa: PLC0415
+    from datasets import load_dataset
 
     ds = load_dataset(dataset_id, split=split)
     return list(ds)

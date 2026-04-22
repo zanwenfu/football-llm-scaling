@@ -20,7 +20,6 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass
 from enum import Enum
-from typing import Optional
 
 # ---------------------------------------------------------------------------
 # Labels
@@ -35,7 +34,7 @@ class Label(str, Enum):
     DRAW = "draw"
 
     @classmethod
-    def from_str(cls, s: str) -> Optional["Label"]:
+    def from_str(cls, s: str) -> Label | None:
         s = s.strip().lower().replace("-", "_").replace(" ", "_")
         if s in ("home_win", "home", "homewin", "home_draw_home"):
             return cls.HOME_WIN
@@ -46,7 +45,7 @@ class Label(str, Enum):
         return None
 
     @classmethod
-    def from_score(cls, home_goals: int, away_goals: int) -> "Label":
+    def from_score(cls, home_goals: int, away_goals: int) -> Label:
         if home_goals > away_goals:
             return cls.HOME_WIN
         if away_goals > home_goals:
@@ -61,7 +60,7 @@ class Label(str, Enum):
 _TEXT_LABEL_RE = re.compile(r"prediction\s*[:\-]\s*([a-zA-Z_][\w\s\-]*)", re.IGNORECASE)
 
 
-def extract_text_label(raw: str) -> Optional[Label]:
+def extract_text_label(raw: str) -> Label | None:
     """Return the label written on the `Prediction:` line, or None.
 
     This extractor ignores everything on the `Score:` line. It is the
@@ -90,7 +89,7 @@ _REALISTIC_SCORE_MAX = 15
 _TAIL_SCAN_CHARS = 400
 
 
-def extract_score(raw: str) -> Optional[tuple[int, int]]:
+def extract_score(raw: str) -> tuple[int, int] | None:
     """Return `(home_goals, away_goals)` from the `Score:` line, or None.
 
     Strategy: prefer the `Score: h-a` labeled form anywhere in the output.
@@ -119,7 +118,7 @@ def _is_realistic(h: int, a: int) -> bool:
     return 0 <= h <= _REALISTIC_SCORE_MAX and 0 <= a <= _REALISTIC_SCORE_MAX
 
 
-def extract_score_label(raw: str) -> Optional[Label]:
+def extract_score_label(raw: str) -> Label | None:
     """Label implied by the numeric `Score:` line, computed independently."""
     score = extract_score(raw)
     if score is None:
@@ -158,7 +157,7 @@ _DRAW_KEYWORDS = (
 )
 
 
-def extract_reasoning_label(raw: str) -> Optional[Label]:
+def extract_reasoning_label(raw: str) -> Label | None:
     """Infer the intended winner from the `Reasoning:` paragraph.
 
     This is a keyword heuristic and is known to be noisy (low hit rate:
@@ -193,11 +192,11 @@ class ParsedOutput:
     """All three channels extracted from one raw model output."""
 
     raw: str
-    text_label: Optional[Label]
-    score_label: Optional[Label]
-    home_goals: Optional[int]
-    away_goals: Optional[int]
-    reasoning_label: Optional[Label]
+    text_label: Label | None
+    score_label: Label | None
+    home_goals: int | None
+    away_goals: int | None
+    reasoning_label: Label | None
 
     @property
     def has_prediction_line(self) -> bool:
@@ -236,7 +235,7 @@ def parse_output(raw: str) -> ParsedOutput:
 # ---------------------------------------------------------------------------
 
 
-def resolve_score_overrides_text(parsed: ParsedOutput) -> Optional[Label]:
+def resolve_score_overrides_text(parsed: ParsedOutput) -> Label | None:
     """Apply the legacy eval convention: use score when both exist, else text.
 
     This matches the original `eval_harness.ipynb` logic and is the number

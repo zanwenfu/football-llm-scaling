@@ -92,7 +92,7 @@ def build_cot_messages(user_prompt: str) -> list[dict[str, str]]:
 
 def select_stratified_demos(
     train_records: list[dict[str, Any]],
-    cfg: ICLConfig = ICLConfig(),
+    cfg: ICLConfig | None = None,
 ) -> list[int]:
     """Pick 2 home + 2 away + 1 draw indices from the named training split.
 
@@ -102,6 +102,8 @@ def select_stratified_demos(
     (``messages[1].content`` and ``messages[2].content`` for the HuggingFace
     chat-format training data).
     """
+    if cfg is None:
+        cfg = ICLConfig()
     rng = random.Random(cfg.seed)
     by_label: dict[str, list[int]] = {"home_win": [], "away_win": [], "draw": []}
     for idx, rec in enumerate(train_records):

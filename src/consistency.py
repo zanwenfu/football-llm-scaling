@@ -16,9 +16,10 @@ depend only on :mod:`parsing` and are fast enough
 from __future__ import annotations
 
 from collections import Counter
+from collections.abc import Iterable
 from dataclasses import asdict, dataclass
 from enum import Enum
-from typing import Any, Iterable, Optional
+from typing import Any
 
 from parsing import Label, parse_output
 
@@ -52,9 +53,9 @@ _REGIME_DESCRIPTIONS: dict[Regime, str] = {
 
 
 def classify(
-    text_label: Optional[Label],
-    score_label: Optional[Label],
-    gt_label: Optional[Label],
+    text_label: Label | None,
+    score_label: Label | None,
+    gt_label: Label | None,
 ) -> Regime:
     """Assign a sample to one of the regimes above."""
     if text_label is None or score_label is None or gt_label is None:

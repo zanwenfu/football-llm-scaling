@@ -17,10 +17,11 @@ from __future__ import annotations
 
 import math
 from collections import Counter
+from collections.abc import Iterable
 from dataclasses import asdict, dataclass
-from typing import Any, Iterable, Optional
+from typing import Any
 
-from config import LABELS, WILSON_Z_95
+from config import WILSON_Z_95
 from parsing import (
     Label,
     ParsedOutput,
@@ -102,12 +103,12 @@ class ConditionMetrics:
 # ---------------------------------------------------------------------------
 
 
-def _gt_label(record: dict[str, Any]) -> Optional[Label]:
+def _gt_label(record: dict[str, Any]) -> Label | None:
     gt = record.get("gt") or {}
     return Label.from_str(gt.get("result", "")) if gt else None
 
 
-def _gt_score(record: dict[str, Any]) -> Optional[tuple[int, int]]:
+def _gt_score(record: dict[str, Any]) -> tuple[int, int] | None:
     gt = record.get("gt") or {}
     h, a = gt.get("home_goals"), gt.get("away_goals")
     if h is None or a is None:
@@ -149,7 +150,7 @@ def compute_metrics(records: list[dict[str, Any]]) -> ConditionMetrics:
     mae_total = 0.0
     mae_n = 0
 
-    for rec, p, gt_label, gt_score in zip(records, parsed_list, gt_labels, gt_scores):
+    for p, gt_label, gt_score in zip(parsed_list, gt_labels, gt_scores, strict=True):
         effective = resolve_score_overrides_text(p)
         if effective is not None and effective == gt_label:
             score_correct += 1
@@ -256,13 +257,13 @@ def metrics_to_legacy_schema(m: ConditionMetrics) -> dict[str, Any]:
         "score_exact_match": m.score_exact_match,
         "goal_mae": m.goal_mae,
         "pred_dist": {
-            "home_win": int(round(m.home_pred_rate * m.n)),
-            "away_win": int(round(m.away_pred_rate * m.n)),
-            "draw": int(round(m.draw_pred_rate * m.n)),
+            "home_win": round(m.home_pred_rate * m.n),
+            "away_win": round(m.away_pred_rate * m.n),
+            "draw": round(m.draw_pred_rate * m.n),
             "other": m.n
-            - int(round(m.home_pred_rate * m.n))
-            - int(round(m.away_pred_rate * m.n))
-            - int(round(m.draw_pred_rate * m.n)),
+            - round(m.home_pred_rate * m.n)
+            - round(m.away_pred_rate * m.n)
+            - round(m.draw_pred_rate * m.n),
         },
         "home_pred_rate": m.home_pred_rate,
     }

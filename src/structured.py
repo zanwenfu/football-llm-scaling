@@ -33,9 +33,10 @@ from __future__ import annotations
 import json
 import re
 from collections import Counter
-from dataclasses import dataclass, field as dc_field
+from collections.abc import Callable, Hashable, Iterable
+from dataclasses import dataclass
 from enum import Enum
-from typing import Any, Callable, Hashable, Iterable, Optional, TypeVar
+from typing import Any, TypeVar
 
 # ---------------------------------------------------------------------------
 # Extractor interface
@@ -241,7 +242,7 @@ def structured_consistency_table(
 _JSON_BLOCK_RE = re.compile(r"\{.*\}", re.DOTALL)
 
 
-def extract_json_block(raw: str) -> Optional[dict]:
+def extract_json_block(raw: str) -> dict | None:
     """Find the first balanced JSON object in ``raw`` and parse it.
 
     Tries a strict greedy match first, then falls back to progressive
@@ -287,7 +288,7 @@ def extract_json_path(raw: str, path: str, default: Any = None) -> Any:
     return cur
 
 
-def extract_function_name(raw: str) -> Optional[str]:
+def extract_function_name(raw: str) -> str | None:
     """Get ``function.name`` from an OpenAI-style function-call block."""
     # Common shapes: {"function": {"name": "foo", "arguments": "..."}}
     # or {"tool_calls": [{"function": {"name": "foo", ...}}]}

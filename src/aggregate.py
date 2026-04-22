@@ -16,8 +16,9 @@ per metric) and runs in milliseconds.
 from __future__ import annotations
 
 import random
+from collections.abc import Callable
 from dataclasses import asdict, dataclass
-from typing import Any, Callable
+from typing import Any
 
 from metrics import ConditionMetrics, compute_metrics
 

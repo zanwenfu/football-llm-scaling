@@ -16,7 +16,8 @@ Figures reproduced (see :file:`results/figures/` for the paper versions):
 
 from __future__ import annotations
 
-from typing import Any, Mapping
+from collections.abc import Mapping
+from typing import Any
 
 from config import BASELINE_HOME_WIN_RATE
 from consistency import regime_counts
@@ -44,7 +45,7 @@ def plot_scaling_curve(
     or a list-of-lists (one per seed). In the multi-seed case we plot the
     mean across seeds with a bootstrap 95% error bar.
     """
-    import matplotlib.pyplot as plt  # noqa: PLC0415
+    import matplotlib.pyplot as plt
 
     budgets = sorted(scaling_records)
     means: list[float] = []
@@ -55,7 +56,7 @@ def plot_scaling_curve(
         v = scaling_records[n]
         if _is_list_of_lists(v):
             multi_seed = True
-            from aggregate import aggregate_across_seeds  # noqa: PLC0415
+            from aggregate import aggregate_across_seeds
             agg = aggregate_across_seeds(v).score_acc
             means.append(agg.mean)
             low_err.append(agg.mean - agg.ci95_low)
@@ -117,8 +118,8 @@ def plot_distribution_curve(
     scaling_records: Mapping[int, list[dict[str, Any]]],
 ):
     """Stacked-bar view of home / away / draw prediction rates across budgets."""
-    import matplotlib.pyplot as plt  # noqa: PLC0415
-    import numpy as np  # noqa: PLC0415
+    import matplotlib.pyplot as plt
+    import numpy as np
 
     budgets = sorted(scaling_records)
     home = np.array([compute_metrics(scaling_records[n]).home_pred_rate for n in budgets])
@@ -148,8 +149,8 @@ def plot_distribution_curve(
 
 def plot_confusion_matrices(conditions: Mapping[str, list[dict[str, Any]]]):
     """3×3 confusion matrix per condition. Column collapse = class collapse."""
-    import matplotlib.pyplot as plt  # noqa: PLC0415
-    import numpy as np  # noqa: PLC0415
+    import matplotlib.pyplot as plt
+    import numpy as np
 
     labels = [Label.HOME_WIN, Label.AWAY_WIN, Label.DRAW]
     label_names = ["home_win", "away_win", "draw"]
@@ -197,7 +198,7 @@ def plot_confusion_matrices(conditions: Mapping[str, list[dict[str, Any]]]):
 
 def plot_consistency_curve(conditions: Mapping[str, list[dict[str, Any]]]):
     """Score-acc vs. text-acc, with text/score agreement on a secondary axis."""
-    import matplotlib.pyplot as plt  # noqa: PLC0415
+    import matplotlib.pyplot as plt
 
     names = list(conditions)
     score_acc = [compute_metrics(conditions[n]).score_acc for n in names]
@@ -238,8 +239,8 @@ def plot_consistency_curve(conditions: Mapping[str, list[dict[str, Any]]]):
 
 def plot_consistency_by_split(conditions: Mapping[str, list[dict[str, Any]]]):
     """Text/score agreement split by named vs. anonymized eval halves."""
-    import matplotlib.pyplot as plt  # noqa: PLC0415
-    import numpy as np  # noqa: PLC0415
+    import matplotlib.pyplot as plt
+    import numpy as np
 
     names = list(conditions)
     named_agree, anon_agree = [], []
@@ -271,8 +272,8 @@ def plot_consistency_by_split(conditions: Mapping[str, list[dict[str, Any]]]):
 
 def plot_regime_stack(conditions: Mapping[str, list[dict[str, Any]]]):
     """Stacked-bar view of regime counts per condition (A / B / C / C_inv / D / U)."""
-    import matplotlib.pyplot as plt  # noqa: PLC0415
-    import numpy as np  # noqa: PLC0415
+    import matplotlib.pyplot as plt
+    import numpy as np
 
     names = list(conditions)
     labels = ["A: coherent ✓", "B: self-consistent ✗", "C: parser-rescued",

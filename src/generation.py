@@ -7,7 +7,8 @@ pulling in 3+ GB of ML dependencies.
 
 from __future__ import annotations
 
-from typing import TYPE_CHECKING, Any, Iterable, Optional
+from collections.abc import Iterable
+from typing import TYPE_CHECKING, Any
 
 from config import (
     BASE_MODEL_ID,
@@ -32,8 +33,8 @@ def load_base_model(
     device_map: str = "auto",
 ):
     """Load the 4-bit-quantized base model and its tokenizer."""
-    import torch  # noqa: PLC0415
-    from transformers import (  # noqa: PLC0415
+    import torch
+    from transformers import (
         AutoModelForCausalLM,
         AutoTokenizer,
         BitsAndBytesConfig,
@@ -63,7 +64,7 @@ def load_base_model(
 
 def attach_adapter(base_model, adapter_id_or_path: str):
     """Wrap ``base_model`` with a PEFT adapter loaded from the Hub or disk."""
-    from peft import PeftModel  # noqa: PLC0415
+    from peft import PeftModel
 
     return PeftModel.from_pretrained(base_model, adapter_id_or_path)
 
@@ -80,7 +81,7 @@ def generate(
     cfg: GenerationConfig = DEFAULT_GEN,
 ) -> str:
     """Apply the chat template and generate a response string."""
-    import torch  # noqa: PLC0415
+    import torch
 
     prompt = tokenizer.apply_chat_template(
         messages, tokenize=False, add_generation_prompt=True
@@ -130,8 +131,7 @@ def run_eval_loop(
     score-overrides-text resolution, matching the shape in
     ``results/raw/*.json``.
     """
-    from parsing import (  # noqa: PLC0415
-        Label,
+    from parsing import (
         parse_output,
         resolve_score_overrides_text,
     )

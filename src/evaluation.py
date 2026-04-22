@@ -13,8 +13,9 @@ to branch on which method produced a prediction dump.
 
 from __future__ import annotations
 
+from collections.abc import Iterable
 from pathlib import Path
-from typing import Any, Iterable, Literal, Optional
+from typing import Any, Literal
 
 from config import (
     BASE_MODEL_ID,
@@ -32,12 +33,12 @@ Condition = Literal["qlora", "icl", "cot"]
 def evaluate_condition(
     condition: Condition,
     eval_samples: list[dict[str, Any]],
-    train_samples: Optional[list[dict[str, Any]]] = None,
-    adapter_id_or_path: Optional[str] = None,
-    gen_cfg: Optional[GenerationConfig] = None,
+    train_samples: list[dict[str, Any]] | None = None,
+    adapter_id_or_path: str | None = None,
+    gen_cfg: GenerationConfig | None = None,
     icl_cfg: ICLConfig = DEFAULT_ICL,
     model_id: str = BASE_MODEL_ID,
-    save_to: Optional[str | Path] = None,
+    save_to: str | Path | None = None,
 ) -> list[dict[str, Any]]:
     """Run one eval condition end-to-end and optionally persist predictions.
 
@@ -57,12 +58,12 @@ def evaluate_condition(
     save_to
         If given, write the result list to this JSON path.
     """
-    from generation import (  # noqa: PLC0415
+    from generation import (
         attach_adapter,
         load_base_model,
         run_eval_loop,
     )
-    from prompts import (  # noqa: PLC0415
+    from prompts import (
         build_cot_messages,
         build_icl_messages,
         build_qlora_messages,

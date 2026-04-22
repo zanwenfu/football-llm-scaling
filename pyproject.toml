@@ -99,7 +99,19 @@ select = [
 ignore = [
     "PLR0913",  # too-many-arguments (config dataclasses)
     "PLR2004",  # magic-value-comparison (numbers appear in tests for a reason)
+    "PLR0915",  # too-many-statements (CLI glue scripts accumulate)
     "E501",     # line-length enforced by formatter
+    # Lazy imports inside functions are a deliberate design choice: the heavy ML
+    # dependencies (torch, transformers, peft, bitsandbytes, trl) are only
+    # imported when generation.py / training.py actually run, and matplotlib is
+    # imported only inside plotting functions. This keeps analysis-only imports
+    # CPU-clean. See docs/METHODS.md §"Analysis vs. training split".
+    "PLC0415",
+    # Ambiguous unicode: our docstrings and a few test fixtures deliberately use
+    # en-dashes (–), multiplication signs (×) and minus signs (−). These mirror
+    # the paper's typesetting and, in the parser tests, exercise input variety.
+    "RUF001",
+    "RUF002",
 ]
 
 [tool.ruff.lint.per-file-ignores]
