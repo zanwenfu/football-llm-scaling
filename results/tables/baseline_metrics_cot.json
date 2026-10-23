@@ -1,0 +1,28 @@
+{
+  "cot": {
+    "overall": {
+      "total": 128,
+      "parsed": 128,
+      "parse_rate": 1.0,
+      "result_accuracy": 0.4453125,
+      "score_exact_match": 0.0859375,
+      "goal_mae": 1.08984375
+    },
+    "named": {
+      "total": 64,
+      "parsed": 64,
+      "parse_rate": 1.0,
+      "result_accuracy": 0.4375,
+      "score_exact_match": 0.0625,
+      "goal_mae": 1.1015625
+    },
+    "anon": {
+      "total": 64,
+      "parsed": 64,
+      "parse_rate": 1.0,
+      "result_accuracy": 0.453125,
+      "score_exact_match": 0.109375,
+      "goal_mae": 1.078125
+    }
+  }
+}

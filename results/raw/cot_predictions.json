@@ -1,0 +1,2306 @@
+[
+  {
+    "sample_idx": 0,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Qatar has scored 199 goals while Ecuador has scored 130 goals, indicating a significant difference of 69 goals.\n\nStep 2: Qatar's top scorer has 53 goals compared to Ecuador's 39 goals, showing that Qatar has a more prolific attacking force.\n\nStep 3: In terms of defense, both teams have similar yellow card counts but Ecuador has slightly fewer red cards. However, Ecuador's tackles per 90 minutes are significantly higher than Qatar's, suggesting they may be more aggressive defensively.\n\nStep 4: Considering the conflicting signals, Qatar's strong attack and Ecuador's high tackling rate could lead to an open game with potential scoring opportunities for both sides.\n\nStep 5: Based on the analysis, I expect Qatar's potent offense to outshine Ecuador's defense, leading to a home win.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Qatar's strong attack and Ecuador's high tackling rate create an environment conducive to a narrow home victory.",
+    "output_len": 996
+  },
+  {
+    "sample_idx": 1,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored 199 goals with an average of 0.18/90, while Team B has scored 130 goals at 0.16/90. This indicates that Team A has a slightly higher goal output, with a difference of 69 goals.\n\nStep 2: Team A's top scorer has 53 goals, whereas Team B's top scorer has 39 goals. This suggests that Team A has a more prolific attacking player.\n\nStep 3: Both teams have similar defensive statistics, but Team B has a higher tackles/90 rate (1.21 vs 0.30), indicating better defensive pressure. However, Team A has a slightly higher duel success rate (60% vs 54%).\n\nStep 4: The high tackles/90 rate from Team B could be a concern for Team A, but their lower goal output and less potent striker might not be enough to overcome Team A's stronger attack.\n\nStep 5: Considering the slight edge in goal output and attacking prowess, I predict Team A will win.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Team A's stronger attack and slightly better defense should give them the upper hand against Team B.",
+    "output_len": 1004
+  },
+  {
+    "sample_idx": 2,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 6,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: England has scored more goals with an average of 0.20/90 compared to Iran's 2.43/90, indicating a significant difference in attacking prowess.\n\nStep 2: England's top scorer has 109 goals, while Iran's top scorer has 77 goals, suggesting a slight edge in goal-scoring ability for England.\n\nStep 3: Both teams have similar duel percentages but England's defense has been slightly more disciplined with fewer yellow cards. However, Iran has a higher tackles/90 rate, which could be beneficial in counter-attacking situations.\n\nStep 4: The main conflict lies in the vast difference in attack vs. defense; England's high-scoring offense might outshine their relatively weaker defense against Iran's strong tackling and passing game.\n\nStep 5: Considering the above factors, I expect England's potent offense to overcome Iran's solid defense, leading to a narrow win.\n\nPrediction: home_win\nScore: 2-1\nReasoning: England's superior attacking firepower will likely prevail over Iran's robust defense.",
+    "output_len": 999
+  },
+  {
+    "sample_idx": 3,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 6,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored 308 goals with an average of 0.20/90 minutes, while Team B has scored 139 goals at 2.43/90 minutes. This suggests that Team B has been significantly more prolific in terms of goal output.\n\nStep 2: Team A's top scorer has 109 goals, which is higher than Team B's top scorer with 77 goals. However, the gap is not extremely large, indicating that both teams have strong attacking threats.\n\nStep 3: Team B has a slightly better defensive record, with fewer yellow cards and more tackles per 90 minutes compared to Team A. Additionally, their passing accuracy is higher at 72% compared to Team A's 64%.\n\nStep 4: Considering the conflicting signals, Team B's superior goal output and defense might outweigh Team A's stronger attack. However, Team A's experience and consistency could also play a role.\n\nStep 5: Taking into account the overall performance, I predict that Team A will win due to their consistent form and strong attacking threat.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Team A's consistent form and strong attacking threat overcome Team B's superior goal output and defense.",
+    "output_len": 1114
+  },
+  {
+    "sample_idx": 4,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Senegal has scored 117 goals while Netherlands has scored 214 goals, indicating that Netherlands has a significant advantage with a difference of 97 goals.\n\nStep 2: The quality of each team's top scorer is also an important factor; Senegal's top scorer has 31 goals, whereas Netherlands' top scorer has 59 goals, showing a substantial gap in goal-scoring prowess.\n\nStep 3: In terms of defense, both teams have similar numbers of yellow cards but slightly different tackle rates, with Senegal having a slight edge at 1.18 tackles/90 compared to Netherlands' 1.00 tackles/90. However, their duel success rate is almost identical at 56% and 58%.\n\nStep 4: Considering the conflicting signals, the significant disparity in goal output and top scorers suggests that Netherlands might be the stronger side, despite Senegal's slight edge in tackling.\n\nStep 5: Taking into account the overall statistics, it seems likely that Netherlands will take advantage of their superior attacking capabilities and outscore Senegal.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Netherlands' superior attacking form and goal-scoring prowess should give them the upper hand against Senegal.",
+    "output_len": 1218
+  },
+  {
+    "sample_idx": 5,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored 117 goals with an average of 0.12/90 minutes, while Team B has scored 214 goals at 0.20/90 minutes. This indicates that Team B has a significantly higher goal output, with a difference of 97 goals.\n\nStep 2: Team A's top scorer has 31 goals, whereas Team B's top scorer has 59 goals, showing a substantial gap in scoring prowess between the two teams.\n\nStep 3: Both teams have similar defensive ratings, but Team B has slightly better tackles per 90 minutes (1.00 vs 1.18), indicating a more aggressive defense. However, both teams have relatively high yellow cards, suggesting they might be prone to committing fouls.\n\nStep 4: The main conflict here is the significant difference in goal output between the two teams. While Team B's offense seems stronger, their defense also appears more vulnerable due to the higher number of yellow cards.\n\nStep 5: Considering the strong offense of Team B and their ability to create chances, it's likely that they will take advantage of Team A's relatively weaker defense. \n\nPrediction: away_win\nScore: 3-1\nReasoning: Team B's superior attacking prowess and goal-scoring record should give them the edge over Team A.",
+    "output_len": 1179
+  },
+  {
+    "sample_idx": 6,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, both USA and Wales have similar attacking prowess with 109 and 110 goals respectively, indicating a close contest.\n\nStep 2: The quality of each team's top scorer is also comparable, with the USA's top scorer having 32 goals to Wales' 29, but the difference isn't significant enough to sway the prediction.\n\nStep 3: In terms of defense, Wales has slightly better defensive statistics, including more tackles and a higher duel percentage, suggesting they might be able to contain the USA attack.\n\nStep 4: Considering the conflicting signals, the slight edge in defense for Wales seems to outweigh the similarities in attacking output, making it a tough but potentially favorable matchup for the visitors.\n\nStep 5: Taking into account the overall balance of the teams, I lean towards a narrow victory for Wales due to their stronger defensive performance.\n\nPrediction: away_win\nScore: 1-0\nReasoning: Wales' solid defense and slightly better defensive statistics give them an edge over the USA in this closely contested match.",
+    "output_len": 1074
+  },
+  {
+    "sample_idx": 7,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: \nBoth teams have similar attacking prowess with Team A scoring 109 goals and Team B scoring 110 goals. However, Team B has more assists, indicating better teamwork and passing efficiency.\n\nStep 2: \nTeam A's top scorer has 32 goals compared to Team B's 29 goals, suggesting an edge in individual goal-scoring ability.\n\nStep 3: \nTeam B has slightly better defensive statistics, including more tackles and a higher duel percentage, but both teams have relatively high yellow cards and red cards.\n\nStep 4: \nThe slight edge in defense and teamwork for Team B might be offset by Team A's stronger individual goal-scoring threat.\n\nStep 5: \nConsidering the close matchup, I will lean towards Team B due to their slightly better overall defensive performance and cohesive playmaking.\n\nPrediction: away_win\nScore: 1-0\nReasoning: Team B's solid defense and effective teamwork may prove decisive against Team A's strong individual attacker.",
+    "output_len": 936
+  },
+  {
+    "sample_idx": 8,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Argentina has a significantly higher squad goal output with 273 goals compared to Saudi Arabia's 92 goals, a difference of 181 goals.\n\nStep 2: Argentina's top scorer has 90 goals, while Saudi Arabia's top scorer has 34 goals, indicating a substantial gap in attacking prowess.\n\nStep 3: Both teams have similar defensive ratings, but Argentina has slightly more yellow cards and tackles per 90 minutes, suggesting a more aggressive approach from both sides.\n\nStep 4: The data suggests that Argentina's superior attack and relatively strong defense should give them an edge over Saudi Arabia, despite some concerns about their defensive discipline.\n\nStep 5: Considering the overall statistics, I expect Argentina to dominate the game and secure a comfortable win.\n\nPrediction: home_win\nScore: 3-0\nReasoning: Argentina's superior attacking firepower and relatively solid defense should lead to a convincing victory against Saudi Arabia.",
+    "output_len": 941
+  },
+  {
+    "sample_idx": 9,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored more goals with an average of 0.21/90 compared to Team B's 0.19/90, indicating a slight advantage in attacking prowess.\n\nStep 2: Team A's top scorer has significantly outperformed Team B's top scorer, scoring 90 goals compared to 34 goals, suggesting a substantial difference in goal-scoring capability.\n\nStep 3: Both teams have similar defensive ratings, but Team A has slightly better tackles per 90 minutes (1.21 vs 1.19), which could indicate a stronger defensive presence.\n\nStep 4: The differences in attack and defense seem to favor Team A, while Team B's lower number of starters might be a concern. However, their recent form suggests they can still pose a threat.\n\nStep 5: Considering the overall statistics, I believe Team A's superior attacking power and relatively strong defense will give them the edge needed to secure a win.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Team A's potent offense and solid defense should prove too much for Team B.",
+    "output_len": 985
+  },
+  {
+    "sample_idx": 10,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Denmark has scored more goals with 134 compared to Tunisia's 83, a difference of 51 goals.\n\nStep 2: Both teams have strong top scorers, but Denmark's top scorer has 32 goals, which is slightly higher than Tunisia's 26 goals.\n\nStep 3: Denmark has fewer yellow cards and red cards, indicating better discipline, while both teams have similar tackling and duel statistics. However, Denmark's passing accuracy is slightly lower at 64%.\n\nStep 4: The data suggests that Denmark might have an edge due to their stronger attack, but Tunisia's defense could potentially hold them back. \n\nStep 5: Considering the overall stats, I predict Denmark will win, as their attacking prowess should be too much for Tunisia's defense to handle.\n\n\nPrediction: home_win\nScore: 2-0\nReasoning: Denmark's strong attack and slight edge over Tunisia's defense lead me to expect a convincing home victory.",
+    "output_len": 885
+  },
+  {
+    "sample_idx": 11,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored more goals with 134 compared to Team B's 83, a difference of 51 goals. This suggests that Team A might be the stronger attacking side.\n\nStep 2: Team A's top scorer has 32 goals, while Team B's top scorer has 26 goals, indicating a slight edge for Team A in terms of goal-scoring prowess.\n\nStep 3: Both teams have similar defensive ratings, but Team B has slightly more yellow cards and one red card, which could indicate some discipline issues. However, both teams have relatively high passing accuracy at 64%.\n\nStep 4: The main conflict here is that Team B has a slightly better attack on paper, but Team A has a significant advantage in goal scoring. Weighing these factors, it seems that Team A's overall strength in scoring might give them an edge.\n\nStep 5: Considering the above points, I predict that Team A will win the game due to their superior goal-scoring record and slight edge in key statistics.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Team A's strong goal-scoring record and slight edge in key statistics give them an advantage over Team B.",
+    "output_len": 1084
+  },
+  {
+    "sample_idx": 12,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Mexico has scored fewer goals (139) compared to Poland (273), with a difference of 134 goals. This suggests that Poland might be more potent in attack.\n\nStep 2: Poland's top scorer has significantly more goals (168) than Mexico's top scorer (39). This indicates that Poland may have an advantage in terms of goal-scoring potential.\n\nStep 3: Both teams have similar tackles per 90 minutes (1.23), but Poland has slightly better duel statistics (53% vs 55%). However, Mexico has fewer yellow cards and red cards, indicating a relatively cleaner defense.\n\nStep 4: The conflicting signal here is Mexico's stronger overall form (avg rating 7.0) versus Poland's poor recent performance (two consecutive losses).\n\nStep 5: Considering the points above, I lean towards Poland's attacking prowess and strong goal-scoring record as decisive factors. Despite their inconsistent form, they seem capable of outscoring Mexico.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Poland's potent offense and strong goal-scoring record give them the edge over Mexico despite their inconsistent form.",
+    "output_len": 1082
+  },
+  {
+    "sample_idx": 13,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored 139 goals with an average of 0.15/90 minutes, while Team B has scored 273 goals at 0.21/90 minutes. Team B's attack is significantly stronger, scoring about 40% more goals per game.\n\nStep 2: Team A's top scorer has 39 goals, whereas Team B's top scorer has 168 goals, indicating a substantial difference in attacking prowess.\n\nStep 3: Both teams have similar tackles per 90 minutes but differ slightly in duels won percentage, with Team A having a slight edge. However, their defensive ratings and yellow/red cards suggest that both teams have had issues with discipline.\n\nStep 4: The data suggests that Team B's superior offense and stronger top scorer outweigh the slight advantages Team A holds in defense and discipline. This might lead to a convincing win for Team B.\n\nStep 5: Considering the overall statistics, it seems likely that Team B will take advantage of its potent offense and secure a victory.\n\nPrediction: away_win\nScore: 3-1\nReasoning: Team B's superior attacking firepower and strong top scorer should give them the upper hand against Team A.",
+    "output_len": 1087
+  },
+  {
+    "sample_idx": 14,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, France has significantly more goals with 280 compared to Australia's 100, a difference of 180 goals.\n\nStep 2: France's top scorer has 126 goals, which is substantially higher than Australia's top scorer with 25 goals.\n\nStep 3: Both teams have an average rating of 7.0, but France has better defensive statistics, including fewer yellow cards and tackles/90. However, Australia has slightly better passing accuracy at 68% compared to France's 71%.\n\nStep 4: The main conflict here is that while France dominates in attacking and some defensive metrics, their passing accuracy is only marginally better than Australia's. This might suggest a slight imbalance in France's performance.\n\nStep 5: Considering the overall strength of both teams, particularly France's superior attack and decent defense, it seems likely they will win comfortably.\n\nPrediction: home_win\nScore: 3-0\nReasoning: France's strong offense and decent defense should lead to a convincing victory over Australia.",
+    "output_len": 1029
+  },
+  {
+    "sample_idx": 15,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has significantly outperformed Team B in terms of squad goal output, with 280 goals to Team B's 100 goals, a difference of 180 goals.\n\nStep 2: Team A's top scorer has scored 126 goals, while Team B's top scorer has scored 25 goals, indicating a substantial gap in attacking prowess.\n\nStep 3: Both teams have similar defensive ratings, but Team A has slightly better tackles per 90 minutes (1.35 vs 1.27). However, Team B has a slight edge in duels won percentage (58% vs 55%).\n\nStep 4: The main conflict lies in the vastly different attacking performances of the two teams, which heavily outweighs their relatively balanced defensive statistics.\n\nStep 5: Considering the significant disparity in attack and the relatively even defensive metrics, it seems likely that Team A will dominate the game.\n\nPrediction: home_win\nScore: 3-0\nReasoning: Team A's superior attacking form and vast goal-scoring advantage over Team B should lead to a convincing win.",
+    "output_len": 966
+  },
+  {
+    "sample_idx": 16,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Morocco has scored more goals with an average of 0.19/90 compared to Croatia's 0.14/90, indicating a slight advantage in attacking prowess.\n\nStep 2: Both teams have strong top scorers, but Morocco's top scorer has 47 goals, which is only one more than Croatia's top scorer, suggesting a close competition in terms of goal-scoring ability.\n\nStep 3: Morocco has slightly better defensive statistics, including fewer yellow cards and a higher tackles/90 rate, while Croatia has a lower passing accuracy, indicating potential vulnerability in their defense.\n\nStep 4: The conflicting signal comes from the fact that both teams have similar average ratings and formations, making it difficult to definitively choose a winner based solely on these factors.\n\nStep 5: Considering the overall statistics, I lean towards Morocco due to their stronger attack and slightly better defense, but Croatia's recent win over a tough opponent suggests they could cause an upset.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Morocco's superior attacking form and slightly better defense give them the edge in this closely contested match.",
+    "output_len": 1124
+  },
+  {
+    "sample_idx": 17,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored more goals with 192 compared to Team B's 174, a difference of 18 goals.\n\nStep 2: Both teams have strong top scorers with 47 and 48 goals respectively, indicating a close competition in terms of attacking prowess.\n\nStep 3: Team A has slightly better defensive statistics, including fewer yellow cards and tackles per 90 minutes, but both teams have similar duel success rates and passing accuracy.\n\nStep 4: The slight edge in defense and stronger attack for Team A could be offset by Team B's recent form, which includes a win.\n\nStep 5: Considering the close competition and recent form, I lean towards an away win due to Team B's ability to capitalize on their momentum.\n\nPrediction: away_win\nScore: 1-0\nReasoning: Team B's recent form and slight edge in attack give them the upper hand against a solid but slightly vulnerable Team A defense.",
+    "output_len": 868
+  },
+  {
+    "sample_idx": 18,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Germany has significantly higher squad goal output with 257 goals compared to Japan's 141 goals, a difference of 116 goals.\n\nStep 2: Germany's top scorer has 61 goals, while Japan's top scorer has 40 goals, indicating a stronger attacking force for Germany.\n\nStep 3: Both teams have similar defensive ratings but Germany has slightly better tackles per 90 minutes (1.37 vs 1.23). However, Japan has a slight edge in passing accuracy (71% vs 69%).\n\nStep 4: The main conflict here is that Japan's defense is more error-prone with more yellow cards, which could be an issue against a strong German attack. However, their passing accuracy suggests they can control possession and limit Germany's scoring opportunities.\n\nStep 5: Considering the overall strength of both teams, I expect Germany's superior attacking power to prevail despite Japan's solid defensive record.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Germany's potent offense and strong squad goal output should overwhelm Japan's defense.",
+    "output_len": 1006
+  },
+  {
+    "sample_idx": 19,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has significantly outperformed Team B in terms of squad goal output, with 116 more goals scored throughout their careers.\n\nStep 2: Team A's top scorer has nearly 50% more goals than Team B's top scorer, indicating a substantial difference in attacking prowess.\n\nStep 3: Both teams have similar defensive ratings but Team A has slightly better tackles per game and a higher duel success rate, suggesting an edge in defensive solidity.\n\nStep 4: The data suggests that Team A's superior attack and defense could outweigh Team B's slight advantages in passing accuracy and fewer yellow cards.\n\nStep 5: Considering the overall statistics, I believe Team A will take advantage of its stronger offense to secure a win.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Team A's potent offense and solid defense should prove too much for Team B.",
+    "output_len": 846
+  },
+  {
+    "sample_idx": 20,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 7,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Spain has a significantly higher squad goal output with 172 goals compared to Costa Rica's 82 goals, a difference of 90 goals.\n\nStep 2: Spain's top scorer has 50 goals, while Costa Rica's top scorer has 38 goals, indicating a slight advantage for Spain in terms of attacking prowess.\n\nStep 3: Both teams have relatively strong defensive records, but Spain's tackles per 90 minutes (1.23) are higher than Costa Rica's (0.84), suggesting better defensive pressure from Spain. However, Costa Rica's passing accuracy (71%) is slightly higher than Spain's (68%), which could indicate some defensive vulnerabilities for Spain.\n\nStep 4: The main conflict here is that while Spain has an edge in both attack and defense, their passing accuracy is lower than Costa Rica's, which might make it harder for them to control possession and create scoring opportunities. However, considering Spain's overall strength and recent form, this might not be enough to offset their advantages.\n\nStep 5: Taking into account the above factors, I expect Spain's superior attacking power and defensive capabilities to give them the upper hand against Costa Rica.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Spain's strong attacking record and defensive solidity should see them secure a comfortable win over Costa Rica.",
+    "output_len": 1301
+  },
+  {
+    "sample_idx": 21,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 7,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has significantly outscored Team B with 172 goals to 82, a difference of 90 goals. This suggests that Team A has a substantial advantage in attacking prowess.\n\nStep 2: Team A's top scorer has scored 50 goals compared to Team B's 38, indicating a more potent offense for Team A. However, the gap isn't as large as the overall goal tally might suggest.\n\nStep 3: Team A has committed fewer yellow cards but more red cards than Team B, while also having a slightly lower tackles-per-game rate. Their duel success rate is comparable to Team B's. These defensive statistics don't strongly favor either side.\n\nStep 4: The discrepancies between the squads' goal outputs and top scorers lean towards Team A, but their defensive ratings and card counts show some inconsistencies. Weighing these factors, it seems that Team A's superior attack could be too much for Team B to handle.\n\nStep 5: Considering all the points, I believe Team A will likely take the win due to their stronger attacking form and overall goal output.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Team A's potent offense and strong goal output should give them an edge over Team B.",
+    "output_len": 1157
+  },
+  {
+    "sample_idx": 22,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Belgium has scored more goals with an average of 0.18/90 compared to Canada's 0.14/90, indicating a slight advantage in attacking prowess.\n\nStep 2: Both teams have strong top scorers, but Belgium's top scorer has 50 goals, which is significantly higher than Canada's 62 goals. However, considering the lower number of appearances for Canada's top scorer, it might not be entirely representative.\n\nStep 3: Canada has slightly better defensive tackles at 1.44/90 compared to Belgium's 1.20/90, suggesting they may be more aggressive in defense. Additionally, both teams have similar duel percentages and passing accuracy.\n\nStep 4: The difference in attack and defense is relatively small, making this a closely contested match. However, Belgium's stronger offense and overall squad rating give them a slight edge.\n\nStep 5: Considering the above factors, I believe Belgium will take advantage of their superior attacking power and win the match.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Belgium's strong offense and overall squad rating give them an edge over Canada in this closely contested match.",
+    "output_len": 1107
+  },
+  {
+    "sample_idx": 23,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored more goals with an average of 0.18 goals per game compared to Team B's 0.14 goals per game, resulting in a difference of 0.04 goals per game.\n\nStep 2: Team A's top scorer has 50 goals, while Team B's top scorer has 62 goals, indicating that Team B might have a slight edge in attacking prowess.\n\nStep 3: Both teams have similar defensive ratings but Team B makes slightly more tackles per game (1.44 vs 1.20). However, Team A wins more duels (55% vs 54%).\n\nStep 4: The conflicting signals suggest that both teams have strengths and weaknesses. Team B's better tackling rate could be offset by Team A's stronger attack and duel-winning ability.\n\nStep 5: Considering the overall statistics, I lean towards Team A's consistent form and strong attack as decisive factors.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Team A's potent offense and duel-winning ability give them an edge over Team B despite their slightly weaker defense.",
+    "output_len": 955
+  },
+  {
+    "sample_idx": 24,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Switzerland has scored fewer goals than Cameroon, with an average of 104 goals to Cameroon's 127, a difference of 23 goals.\n\nStep 2: Both teams have strong top scorers, but Cameroon's top scorer has significantly more goals with 46 compared to Switzerland's 29.\n\nStep 3: Switzerland has slightly better defensive statistics, including tackles per 90 minutes and duel percentage, while both teams have similar yellow cards and passing accuracy.\n\nStep 4: The high-scoring potential of Cameroon's offense and their stronger top scorer outweigh the slight edge in defense for Switzerland.\n\nStep 5: Considering the attacking prowess of Cameroon, I predict they will win.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Cameroon's potent offense and strong top scorer give them the edge over Switzerland.",
+    "output_len": 802
+  },
+  {
+    "sample_idx": 25,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored 104 goals with an average of 0.11/90 minutes, while Team B has scored 127 goals at 0.16/90 minutes. This indicates that Team B has a significantly stronger attack, scoring about 45% more goals per game.\n\nStep 2: Team A's top scorer has 29 goals, whereas Team B's top scorer has 46 goals, which suggests that Team B has a more potent attacking force.\n\nStep 3: Both teams have similar defensive ratings, but Team B makes slightly fewer tackles per 90 minutes (1.09 vs 1.25). However, both teams have high duel percentages, indicating strong physicality.\n\nStep 4: The main conflict lies in the difference in attacking prowess, which heavily favors Team B. Despite this, Team A has shown resilience in their recent World Cup form, particularly in drawing against a stronger opponent.\n\nStep 5: Considering the significant disparity in attacking power, I lean towards Team B taking advantage of their superior offense.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Team B's potent attack proves too much for Team A to handle, despite their solid defense.",
+    "output_len": 1072
+  },
+  {
+    "sample_idx": 26,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, South Korea has scored more goals with 184 compared to Uruguay's 164, a difference of 20 goals.\n\nStep 2: Both teams have strong top scorers, but South Korea's top scorer has slightly fewer goals than Uruguay's top scorer, who leads their team in scoring.\n\nStep 3: Uruguay has a slight edge in defense, with fewer yellow cards and a higher tackles/90 rate compared to South Korea.\n\nStep 4: The conflicting signal here is that while Uruguay has a stronger defense, South Korea has a higher attacking output. However, considering Uruguay's recent form and overall squad average rating, it seems they might be able to contain South Korea's attack.\n\nStep 5: Considering all factors, I believe Uruguay will win due to their solid defense and recent form.\n\nPrediction: home_win\nScore: 1-0\nReasoning: Uruguay's strong defense and recent form give them an edge over South Korea.",
+    "output_len": 921
+  },
+  {
+    "sample_idx": 27,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored 164 goals with an average of 0.17/90 minutes, while Team B has scored 184 goals at 0.21/90 minutes. This indicates that Team B has a slightly stronger attack.\n\nStep 2: Both teams have a strong top scorer, but Team B's top scorer has 72 goals compared to Team A's 71 goals. However, the difference is minimal.\n\nStep 3: Team A has more yellow cards (176 vs 117), indicating they may be more aggressive or prone to mistakes. They also have fewer tackles per 90 minutes (1.32 vs 0.86). Their defense seems less solid than Team B's.\n\nStep 4: The passing accuracy of both teams is relatively close (66% vs 71%), which doesn't give us a clear indication of who will dominate possession. However, considering their attacking prowess and defensive solidity, we should lean towards Team B as the favorite.\n\nStep 5: Despite some concerns about Team A's discipline and defense, their attacking power and recent form suggest they can cause problems for Team B. But given the slight edge in attack and defense, I'll favor Team B.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Team B's superior attacking and defensive solidity gives them the edge over Team A, despite their own struggles in the group stage.",
+    "output_len": 1217
+  },
+  {
+    "sample_idx": 28,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Portugal has scored 334 goals while Ghana has scored 125 goals, with a difference of 209 goals. This suggests that Portugal has a significant advantage in terms of attacking prowess.\n\nStep 2: Portugal's top scorer has 115 goals, which is more than double Ghana's top scorer who has 56 goals. This indicates that Portugal has a more potent attack.\n\nStep 3: Both teams have similar defensive ratings, but Ghana has slightly better tackles per 90 minutes (1.45 vs 1.29). However, Portugal has a slight edge in duels won percentage (56% vs 57%). \n\nStep 4: The main conflict here is that Ghana's defense seems to be more robust, but their offense is significantly weaker compared to Portugal. Portugal's attacking power might outweigh Ghana's defensive solidity.\n\nStep 5: Considering all factors, I believe Portugal's strong attacking lineup will likely prevail over Ghana's solid defense.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Portugal's superior attacking firepower and stronger top scorer should lead to a convincing win against Ghana.",
+    "output_len": 1091
+  },
+  {
+    "sample_idx": 29,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored more goals with 334 compared to Team B's 125, a difference of 209 goals.\n\nStep 2: Team A's top scorer has 115 goals, while Team B's top scorer has 56 goals, indicating a significant gap in attacking prowess.\n\nStep 3: Both teams have similar defensive ratings but Team B commits slightly more fouls (149 vs 238), which could be a concern. However, their tackles/90 rate is higher than Team A's, suggesting they might press harder.\n\nStep 4: The high number of yellow cards for both teams indicates a physical game, but Team A's passing accuracy is lower than Team B's, which might affect their possession control.\n\nStep 5: Considering the significant difference in attacking power and relatively balanced defensive statistics, I lean towards Team A winning due to their stronger offense.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Team A's superior attack and recent form give them an edge over Team B.",
+    "output_len": 927
+  },
+  {
+    "sample_idx": 30,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Brazil has scored 242 goals while Serbia has scored 248 goals, with Serbia having a slight edge of 6 goals.\n\nStep 2: Both teams have impressive top scorers, but Serbia's top scorer has significantly more goals with 94 compared to Brazil's 54.\n\nStep 3: In terms of defense, both teams have similar yellow cards, but Serbia has slightly more red cards. Brazil also has a higher tackles/90 rate and duel percentage, indicating better defensive performance.\n\nStep 4: The conflicting signal here is that Brazil's attacking prowess is matched by their defensive solidity, whereas Serbia's attack is strong but their defense is relatively weaker.\n\nStep 5: Considering these factors, I predict that Brazil will take advantage of their stronger attack and solid defense to secure a win.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Brazil's potent offense and robust defense should give them an edge over Serbia.",
+    "output_len": 954
+  },
+  {
+    "sample_idx": 31,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: \nTeam A has scored more goals with 242 compared to Team B's 248, but Team B's average goals per game is slightly lower at 0.18 vs 0.21.\n\nStep 2: \nTeam A's top scorer has 54 goals, while Team B's top scorer has 94 goals, indicating a significant difference in scoring prowess.\n\nStep 3: \nBoth teams have similar yellow cards, but Team B has more red cards. In terms of tackles per 90 minutes, Team A leads with 1.40 compared to Team B's 1.00. Additionally, Team A has a higher duel success rate at 56%.\n\nStep 4: \nThe high-scoring ability of Team B's top player and their overall attacking statistics suggest they could be competitive despite some defensive concerns. However, Team A's strong defense and midfield control might give them an edge.\n\nStep 5: \nConsidering the factors mentioned above, I expect Team A to take advantage of their home-field advantage and superior defensive capabilities to secure a narrow win.\n\nPrediction: home_win\nScore: 1-0\nReasoning: Team A's strong defense and midfield control will likely prove decisive against a potent but defensively vulnerable opponent.",
+    "output_len": 1096
+  },
+  {
+    "sample_idx": 32,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Wales has scored fewer goals (138) compared to Iran (216), with a difference of 78 goals. This suggests that Iran might be more potent in attack.\n\nStep 2: Iran's top scorer has 77 goals, significantly more than Wales' top scorer at 45 goals. This indicates a potential advantage for Iran in terms of goal-scoring prowess.\n\nStep 3: Both teams have similar average ratings (6.9) but slightly different defensive statistics. Wales commits more yellow cards (133 vs 134) and has a slightly better tackle rate (1.13 vs 1.05). However, Iran has a slightly higher passing accuracy (69% vs 65%).\n\nStep 4: The main conflict lies in the attacking statistics, where Iran outperforms Wales significantly. However, Wales' defense seems relatively solid, which could potentially counterbalance their weaker attack.\n\nStep 5: Considering the overall statistics, I lean towards Iran's stronger offense and slightly better passing accuracy as decisive factors. They should take the win.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Iran's potent offense and slightly better passing accuracy give them an edge over Wales.",
+    "output_len": 1109
+  },
+  {
+    "sample_idx": 33,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored 138 goals with an average of 0.14/90 minutes, while Team B has scored 216 goals at 0.28/90 minutes. This indicates that Team B has significantly outperformed Team A in terms of goal output, with a difference of 78 goals.\n\nStep 2: Team A's top scorer has 45 goals, whereas Team B's top scorer has 77 goals, showing a substantial gap in attacking prowess between the two teams.\n\nStep 3: Both teams have similar defensive ratings, but Team B has slightly better tackles per 90 minutes (1.05 vs 1.13). However, Team A has a slight edge in duels won percentage (58% vs 57%).\n\nStep 4: The main conflict here is the significant disparity in goal output between the two teams, which suggests that Team B should be favored to win. However, Team A's strong defensive performance and high duel-winning rate could potentially limit Team B's scoring opportunities.\n\nStep 5: Considering the overall statistics, it seems likely that Team B will take advantage of their superior attacking form and exploit Team A's relatively weaker defense.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Team B's superior goal output and attacking prowess outweigh Team A's solid defensive performance.",
+    "output_len": 1194
+  },
+  {
+    "sample_idx": 34,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Qatar has scored 180 goals while Senegal has scored 144 goals, with Qatar scoring 36 more goals.\n\nStep 2: Both teams have an average rating of 6.9, but their top scorers differ significantly, with Qatar's top scorer having 53 goals compared to Senegal's 39 goals, indicating a stronger attacking force for Qatar.\n\nStep 3: In terms of defense, both teams have similar yellow cards, but Senegal has a slightly better tackle rate at 1.19 tackles/90 compared to Qatar's 0.35 tackles/90, suggesting that Senegal might be more aggressive defensively. However, Qatar has a slight edge in duels won percentage at 57%.\n\nStep 4: Considering the conflicting signals, Qatar's strong attack and slightly weaker defense seem to outweigh Senegal's defensive prowess. \n\nStep 5: Based on the analysis, I expect Qatar to take advantage of its superior attacking force and win the game.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Qatar's potent offense and slightly weaker defense will likely give them the upper hand against Senegal.",
+    "output_len": 1068
+  },
+  {
+    "sample_idx": 35,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Team A has scored 180 goals while Team B has scored 144 goals, with a difference of 36 goals.\n\nStep 2: Both teams have an average rating of 6.9, but their top scorers differ significantly, with Team A's top scorer having 53 goals compared to Team B's 39 goals.\n\nStep 3: In terms of defense, both teams have similar yellow cards, but Team B has a slightly better tackle rate at 1.19 tackles/90 compared to Team A's 0.35 tackles/90. However, Team A has a slight edge in duels won percentage at 57%.\n\nStep 4: Considering the attacking prowess of Team A and its strong duels performance, it seems like they might take advantage of Team B's relatively weaker defense. On the other hand, Team B's high passing accuracy could help them control possession and limit Team A's scoring opportunities.\n\nStep 5: Taking into account the conflicting signals, I lean towards Team A's attacking strength and ability to win duels as key factors in this game.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Team A's superior attacking firepower and strong duels performance give them an edge over Team B, who relies heavily on possession and may struggle to contain Team A's potent offense.",
+    "output_len": 1220
+  },
+  {
+    "sample_idx": 36,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: The Netherlands has a significantly higher squad goal output with 211 goals compared to Ecuador's 120 goals, a difference of 91 goals.\n\nStep 2: The Netherlands' top scorer has 50 goals, while Ecuador's top scorer has 39 goals, indicating a slight advantage in attacking prowess for the home team.\n\nStep 3: Both teams have similar defensive ratings, but the Netherlands has slightly better tackles per 90 minutes and a higher duel success rate, suggesting a stronger defense.\n\nStep 4: Considering the conflicting signals, the Netherlands' superior attack and defense seem to outweigh Ecuador's relatively weaker offense.\n\nStep 5: Based on the analysis, I expect the Netherlands to take advantage of their strong squad and secure a win.\n\nPrediction: home_win\nScore: 2-0\nReasoning: The Netherlands' potent attack and solid defense should prove too much for Ecuador.",
+    "output_len": 870
+  },
+  {
+    "sample_idx": 37,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored more goals with 211 compared to Team B's 120, a difference of 91 goals. This suggests that Team A might be the stronger attacking side.\n\nStep 2: Team A's top scorer has 50 goals, while Team B's top scorer has 39 goals, indicating a slight edge in goal-scoring prowess for Team A.\n\nStep 3: Both teams have similar tackles per 90 minutes (1.14), but Team A has a slightly better duel success rate at 58%. However, Team B has had fewer yellow cards, which could indicate a more disciplined defense.\n\nStep 4: The passing accuracy difference between the two teams is relatively small, with Team B having a slight advantage. However, considering the overall attacking and defensive statistics, it seems like Team A's offense might outweigh their potential defensive vulnerabilities.\n\nStep 5: Considering the points from the previous steps, I believe Team A's strong attack and slightly better duel success rate will give them an edge over Team B.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Team A's potent offense and slightly better duel success rate should help them secure a narrow victory against Team B.",
+    "output_len": 1129
+  },
+  {
+    "sample_idx": 38,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, England has significantly more goals with 308 compared to USA's 119, a difference of 189 goals.\n\nStep 2: England's top scorer has 109 goals, while USA's top scorer has 32 goals, indicating a substantial gap in attacking prowess.\n\nStep 3: Both teams have similar defensive statistics, but England has slightly better tackles per 90 minutes (1.24 vs 1.11). However, both teams have relatively high yellow cards, which could indicate some disciplinary issues.\n\nStep 4: The main conflict here is that England's strong attack might be countered by their somewhat leaky defense, as shown by their recent losses. Meanwhile, USA's defense seems solid, but their attack lacks potency.\n\nStep 5: Considering these factors, I expect England's superior attacking power to prevail over USA's defensive solidity, but not without some concessions from the English side.\n\nPrediction: home_win\nScore: 2-0\nReasoning: England's potent offense should overwhelm USA's defense despite some defensive vulnerabilities.",
+    "output_len": 1045
+  },
+  {
+    "sample_idx": 39,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has significantly higher squad goal output with 308 goals compared to Team B's 119 goals, a difference of 189 goals.\n\nStep 2: Team A's top scorer has 109 goals, which is more than three times that of Team B's top scorer with 32 goals.\n\nStep 3: Both teams have similar defensive ratings but Team A commits fewer yellow cards and has better passing accuracy.\n\nStep 4: The high goal differential and strong attacking performance from Team A outweigh their slightly weaker defense, while Team B's poor attacking form and lower goal output make it difficult for them to compete.\n\nStep 5: Considering the overall statistics, Team A appears to be the stronger side.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Team A's superior attacking prowess and strong goal output give them an edge over Team B.",
+    "output_len": 807
+  },
+  {
+    "sample_idx": 40,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Tunisia has scored more goals (103 vs 101), with a slightly higher goal rate (0.17/90 vs 0.13/90).\n\nStep 2: Tunisia's top scorer has 6 more goals than Australia's top scorer, indicating a significant difference in attacking prowess.\n\nStep 3: Both teams have similar defensive statistics, but Tunisia has had fewer yellow cards and one less red card. However, Australia has made more tackles per game.\n\nStep 4: The slight edge in goal scoring and top scorer performance outweighs the relatively even defensive statistics.\n\nStep 5: Considering these factors, I expect Tunisia to win due to their stronger attack.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Tunisia's potent offense and strong top scorer will likely secure a narrow victory over Australia.",
+    "output_len": 761
+  },
+  {
+    "sample_idx": 41,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored more goals with 103 compared to Team B's 101, a difference of 2 goals.\n\nStep 2: Team A's top scorer has 31 goals, while Team B's top scorer has 25 goals, indicating a slight advantage in attacking prowess for Team A.\n\nStep 3: Both teams have similar defensive ratings but Team B has slightly better tackles/90 and passing accuracy, suggesting they might be more organized defensively.\n\nStep 4: The slight edge in attack and comparable defense suggest that Team A may have an upper hand, but Team B's solid organization could limit their scoring opportunities.\n\nStep 5: Considering the overall statistics, I expect Team A to win due to their stronger attacking record and slight edge in key defensive metrics.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Team A's superior attacking record and slight edge in defensive solidity give them the edge over Team B.",
+    "output_len": 883
+  },
+  {
+    "sample_idx": 42,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Poland has scored significantly more goals than Saudi Arabia, with an average of 307 goals to 109 goals, a difference of 198 goals.\n\nStep 2: Poland's top scorer has 168 goals, while Saudi Arabia's top scorer has 34 goals, indicating a substantial gap in attacking prowess.\n\nStep 3: Both teams have similar defensive ratings, but Poland has slightly better tackles per 90 minutes and duels won percentage.\n\nStep 4: The main conflict is that Saudi Arabia's defense seems less robust due to fewer yellow cards and red cards compared to Poland, which could be a concern for Poland's attack. However, Poland's superior attacking form might outweigh this weakness.\n\nStep 5: Considering the significant disparity in attacking power and relatively balanced defensive statistics, I expect Poland to dominate the game.\n\nPrediction: home_win\nScore: 3-0\nReasoning: Poland's strong attacking form and superior squad goal output should lead to a convincing win against Saudi Arabia.",
+    "output_len": 976
+  },
+  {
+    "sample_idx": 43,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has significantly outperformed Team B in terms of squad goal output, with 307 goals to Team B's 109 goals, a difference of 198 goals.\n\nStep 2: Team A's top scorer has more than 5 times the number of goals as Team B's top scorer, indicating a substantial gap in attacking prowess.\n\nStep 3: Both teams have similar defensive ratings, but Team A has slightly better tackles per 90 minutes and a higher duel success rate, suggesting an edge in defensive solidity.\n\nStep 4: The data suggests that Team A's superior attack and defense should give them an advantage over Team B, despite some inconsistencies in their World Cup form.\n\nStep 5: Considering the overall statistics, it seems likely that Team A will take the win.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Team A's strong offense and solid defense should lead to a convincing victory against a weaker opponent.",
+    "output_len": 881
+  },
+  {
+    "sample_idx": 44,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, France has significantly more goals with 307 compared to Denmark's 145, a difference of 162 goals.\n\nStep 2: France's top scorer has 126 goals, while Denmark's top scorer has 32 goals, indicating a substantial gap in attacking prowess.\n\nStep 3: Both teams have similar defensive ratings, but France has slightly better tackles per 90 minutes (1.26 vs 1.11). However, Denmark has a slight edge in duels won percentage (58% vs 55%).\n\nStep 4: The main conflict lies in the fact that despite having an advantage in most areas, France's high-scoring record might be inflated due to their strong WC form, which includes some blowout wins. Meanwhile, Denmark's draws against stronger opponents suggest they can hold their own.\n\nStep 5: Considering the overall statistics, I believe France's superior attacking power will ultimately prevail, but Denmark's solid defense might limit the margin of victory.\n\nPrediction: home_win\nScore: 2-0\nReasoning: France's dominant attacking record and superior goal output will likely lead to a convincing win over Denmark.",
+    "output_len": 1102
+  },
+  {
+    "sample_idx": 45,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has significantly outperformed Team B in terms of squad goal output, with 307 goals to Team B's 145, a difference of 162 goals.\n\nStep 2: Team A's top scorer has more than four times as many goals as Team B's top scorer, indicating a substantial gap in attacking prowess.\n\nStep 3: Both teams have similar defensive ratings, but Team A has slightly better tackling numbers and a higher duel success rate, suggesting an edge in defensive solidity.\n\nStep 4: The data suggests that Team A's superior attack and defense should give them an advantage over Team B, despite some similarities between the two teams.\n\nStep 5: Considering the overall statistics, it seems likely that Team A will win comfortably.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Team A's strong offense and solid defense should secure a convincing victory against a weaker opponent.",
+    "output_len": 863
+  },
+  {
+    "sample_idx": 46,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Argentina has significantly more goals with 258 compared to Mexico's 97, a difference of 161 goals.\n\nStep 2: Argentina's top scorer has 90 goals, while Mexico's top scorer has 32 goals, indicating a substantial gap in attacking prowess.\n\nStep 3: Both teams have similar defensive ratings but Argentina commits slightly more fouls (261 vs 181), which could be a concern. However, their tackles/90 rate is higher than Mexico's.\n\nStep 4: The main conflict here is that despite having better attacking statistics, Argentina struggled against stronger opponents in their previous matches, resulting in losses. Meanwhile, Mexico showed resilience in their last game, winning 2-1.\n\nStep 5: Considering these factors, I believe Argentina's superior attack should give them an edge, but they might struggle to maintain consistency due to their recent form.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Argentina's potent attack should secure a narrow win over Mexico, who will likely put up a strong defensive effort.",
+    "output_len": 1059
+  },
+  {
+    "sample_idx": 47,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has significantly outperformed Team B in terms of squad goal output, with 258 goals to Team B's 97 goals, a difference of 161 goals.\n\nStep 2: Team A's top scorer has more than twice as many goals as Team B's top scorer, indicating a significant advantage in attacking prowess.\n\nStep 3: Both teams have similar defensive ratings, but Team A has slightly better tackling statistics and a higher duel success rate, suggesting an edge in defensive solidity.\n\nStep 4: The data suggests that Team A's superior attack and defense should give them an upper hand, despite some inconsistencies in their World Cup form.\n\nStep 5: Considering the overall statistics, it seems likely that Team A will take advantage of their attacking superiority and secure a win.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Team A's strong attacking performance and solid defense should lead to a convincing victory over Team B.",
+    "output_len": 914
+  },
+  {
+    "sample_idx": 48,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Japan has scored more goals (129 vs 109), with a slight difference of 20 goals.\n\nStep 2: Costa Rica's top scorer has 38 goals compared to Japan's 33 goals, indicating a stronger attacking threat from Costa Rica.\n\nStep 3: Both teams have similar passing accuracy but Japan has a slightly better defense in terms of tackles per 90 minutes (1.01 vs 0.80). However, Costa Rica has a higher number of yellow cards, which could indicate a more aggressive approach.\n\nStep 4: The conflicting signals suggest that both teams have strengths and weaknesses. Japan's superior goal-scoring record and strong defense might counterbalance Costa Rica's potent attack.\n\nStep 5: Considering the overall statistics, I expect Costa Rica's attacking prowess to prevail over Japan's solid defense.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Costa Rica's strong offense will outshine Japan's defense despite their solid tackling and goal-scoring record.",
+    "output_len": 939
+  },
+  {
+    "sample_idx": 49,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored more goals with 129 compared to Team B's 109, a difference of 20 goals.\n\nStep 2: Both teams have strong top scorers, but Team B's top scorer has 5 more goals than Team A's top scorer.\n\nStep 3: Team A has fewer yellow cards and slightly better tackles per 90 minutes, while Team B has a stronger defense with a higher percentage of duels won.\n\nStep 4: The conflicting signals suggest that both teams have strengths and weaknesses. However, considering the slight edge in top scoring and tackling, I lean towards Team A having an advantage.\n\nStep 5: Despite Team B's strong defense, I expect Team A's offense to prevail.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Team A's potent attack and slight edge in key statistics will help them secure a narrow victory over Team B.",
+    "output_len": 797
+  },
+  {
+    "sample_idx": 50,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Belgium has scored 149 goals with an average of 0.17/90, while Morocco has scored 191 goals at 0.19/90, indicating that Morocco has a slightly stronger attack.\n\nStep 2: Both teams have strong top scorers, but Morocco's top scorer has 47 goals compared to Belgium's 50 goals, suggesting a slight edge for Belgium.\n\nStep 3: Morocco leads in tackles/90 (1.44 vs 1.21), indicating better defensive pressure, but both teams have similar passing accuracy and defensive discipline metrics.\n\nStep 4: The conflicting signal here is that Morocco's offense is stronger than Belgium's, but their defense is not significantly weaker. However, considering the overall strength of both teams, it seems like a close game.\n\nStep 5: Considering the slight edge in attack and defense, I predict a narrow win for Morocco.\n\nPrediction: away_win\nScore: 1-0\nReasoning: Morocco's stronger attack and solid defense will secure a narrow victory over Belgium.",
+    "output_len": 940
+  },
+  {
+    "sample_idx": 51,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored 149 goals with an average of 0.17/90 minutes, while Team B has scored 191 goals at 0.19/90 minutes. Team B's attack is slightly stronger.\n\nStep 2: Both teams have strong top scorers, but Team B's top scorer has 47 goals compared to Team A's 50 goals. However, the difference is relatively small.\n\nStep 3: Team B makes more tackles per 90 minutes (1.44 vs 1.21), indicating a slight edge in defense. Additionally, both teams have similar passing accuracy.\n\nStep 4: The slight advantage in defense and offense for Team B outweighs the close gap in top scorers. However, considering their recent form, Team A has shown resilience in winning games despite conceding late goals.\n\nStep 5: Considering all factors, I expect Team B's attacking prowess and slight defensive edge to give them the upper hand.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Team B's superior attack and defense will secure a narrow victory over Team A.",
+    "output_len": 947
+  },
+  {
+    "sample_idx": 52,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Croatia has scored 198 goals while Canada has scored 172 goals, with Croatia having a slight advantage of 26 goals.\n\nStep 2: Both teams have impressive top scorers, but Croatia's top scorer has 61 goals compared to Canada's 62 goals, which suggests a very close competition at the individual level.\n\nStep 3: In terms of defense, Croatia has more yellow cards (199 vs 151), indicating they might be slightly more prone to disciplinary issues. However, Canada has a higher tackles/90 rate (1.36 vs 1.02), suggesting their defense could be more aggressive. \n\nStep 4: The passing accuracy difference between the two teams is minimal (65% vs 62%), which doesn't give us a clear indication of who will dominate possession. Considering all factors, it seems like a closely contested game.\n\nStep 5: Taking into account the slight edge in goal scoring and the high tackles/90 rate from Canada, I predict that Croatia will win narrowly.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Croatia's slight edge in goal-scoring ability and Canada's aggressive defense make it likely for Croatia to take the win.",
+    "output_len": 1144
+  },
+  {
+    "sample_idx": 53,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Team A has scored 198 goals while Team B has scored 172 goals, with Team A having a slight edge of 26 goals.\n\nStep 2: Both teams have impressive top scorers with 61 goals each, indicating a strong attacking presence from both sides.\n\nStep 3: In terms of defense, Team A has slightly more yellow cards (199 vs 151), but also has fewer red cards (2 vs 5). However, Team B makes up for it with a higher tackles/90 rate (1.36 vs 1.02).\n\nStep 4: The passing accuracy difference between the two teams is minimal (65% vs 62%), which doesn't significantly sway the balance.\n\nStep 5: Considering the close numbers across various categories, I will lean towards Team A due to their slight advantage in goal output and better defensive record.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Team A's slight edge in goal output and defensive solidity give them an edge over Team B.",
+    "output_len": 918
+  },
+  {
+    "sample_idx": 54,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Spain has scored 164 goals while Germany has scored 228 goals, indicating that Germany has a significant advantage with 64 more goals.\n\nStep 2: Both teams have strong top scorers, but Germany's top scorer has 11 more goals than Spain's top scorer, which suggests an edge for Germany in attacking prowess.\n\nStep 3: In terms of defense, both teams have relatively similar yellow cards, but Germany has fewer tackles per 90 minutes and slightly lower duel success rate compared to Spain. However, their passing accuracy is also slightly better.\n\nStep 4: Considering the conflicting signals, Germany's stronger attack and slightly better passing accuracy outweigh the slight defensive advantages of Spain.\n\nStep 5: Based on the analysis, I expect Germany to take advantage of their attacking superiority and win the game.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Germany's potent offense and slightly better passing accuracy will prove decisive against Spain.",
+    "output_len": 1010
+  },
+  {
+    "sample_idx": 55,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored fewer goals than Team B, with an average of 164 goals to Team B's 228 goals. The difference is 64 goals.\n\nStep 2: Both teams have strong top scorers, but Team B's top scorer has more goals with 61 compared to Team A's 50.\n\nStep 3: Team B has better defensive statistics, including fewer yellow cards and higher tackles per 90 minutes. However, both teams have similar duel percentages and passing accuracy.\n\nStep 4: Considering the stronger offense of Team B and their slightly better defense, it seems like they have an edge over Team A. However, Team A's consistent form in the World Cup might give them an advantage.\n\nStep 5: Despite Team A's good form, Team B's superior attacking prowess and slightly better defensive record make them a likely winner.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Team B's stronger attack and slightly better defense give them an edge over Team A, who relies heavily on their consistent form.",
+    "output_len": 955
+  },
+  {
+    "sample_idx": 56,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 3,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: \nComparing Cameroon's attack (130 goals) to Serbia's attack (263 goals), Serbia has a significantly higher goal output, with a difference of 133 goals.\n\nStep 2: \nSerbia's top scorer has 94 goals, while Cameroon's top scorer has 46 goals, indicating a substantial gap in attacking prowess.\n\nStep 3: \nBoth teams have similar defensive duels percentages but Serbia has more yellow cards and red cards than Cameroon, suggesting that they might be more prone to disciplinary issues. However, their passing accuracy is slightly better than Cameroon's.\n\nStep 4: \nThe signals conflict as both teams have strong and weak aspects. However, considering Serbia's superior attacking record and relatively high average rating, it seems like they have an edge over Cameroon.\n\nStep 5: \nGiven the analysis, I predict that Serbia will win the game due to their stronger attacking capabilities and overall performance.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Serbia's superior attacking record and higher average rating give them an edge over Cameroon.",
+    "output_len": 1045
+  },
+  {
+    "sample_idx": 57,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 3,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored 130 goals with an average of 0.16/90 minutes, while Team B has scored 263 goals at 0.19/90 minutes. This indicates that Team B has a slightly higher goal output, but not significantly so.\n\nStep 2: Team A's top scorer has 46 goals, whereas Team B's top scorer has 94 goals, indicating a significant difference in attacking prowess.\n\nStep 3: Both teams have similar defensive ratings, with Team A having fewer yellow cards but more red cards than Team B. However, Team B has a slight edge in tackles per 90 minutes.\n\nStep 4: The conflicting signals suggest that Team B's superior attacking power might be offset by their slightly weaker defense, while Team A's defense seems to be more disciplined. However, considering the overall statistics, Team B's attacking strength appears to give them an advantage.\n\nStep 5: Considering the analysis, I predict that Team B will win due to their stronger attack.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Team B's superior attacking power and slightly better midfield control should allow them to outscore Team A despite their relatively weak defense.",
+    "output_len": 1117
+  },
+  {
+    "sample_idx": 58,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: South Korea has scored 143 goals with an average of 0.19/90 minutes, while Ghana has scored 142 goals at 0.37/90 minutes. Ghana's attack appears stronger, outscoring South Korea by 19 goals despite playing fewer matches.\n\nStep 2: South Korea's top scorer has 72 goals, significantly more than Ghana's top scorer with 56 goals. This suggests that South Korea may have a slight advantage in attacking prowess.\n\nStep 3: Both teams have similar passing accuracy but Ghana excels in tackles per 90 minutes with 1.36 compared to South Korea's 0.82. Additionally, Ghana's defense has fewer yellow cards and no red cards, indicating better discipline.\n\nStep 4: The signals conflict as both teams have strong and weak points. However, considering Ghana's superior tackling ability and slightly stronger attack, it seems they might gain an edge over South Korea.\n\nStep 5: Despite South Korea's top scorer, Ghana's overall performance in tackling and scoring rate gives them an upper hand.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Ghana's strong tackling and slightly better attack give them an edge over South Korea.",
+    "output_len": 1117
+  },
+  {
+    "sample_idx": 59,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: \nTeam A has scored 143 goals with an average of 0.19 goals per game, while Team B has scored 142 goals at 0.37 goals per game. This indicates that Team B has a slightly stronger attack, scoring about 0.18 more goals per game than Team A.\n\nStep 2: \nTeam A's top scorer has 72 goals, which is significantly higher than Team B's top scorer with 56 goals. This suggests that Team A may have an advantage in terms of goal-scoring potential.\n\nStep 3: \nBoth teams have similar passing accuracy but differ in defensive statistics. Team B makes more tackles per game (1.36 vs 0.82), indicating they might be more aggressive defensively. However, both teams have relatively high duel percentages (55% and 54%), suggesting neither side dominates aerial duels decisively.\n\nStep 4: \nConsidering the slight edge in attacking prowess from Team A and their strong top scorer, it seems to outweigh the marginal advantages in defense from Team B. The difference in tackling rates could indicate a more intense match, potentially favoring the home team if they can capitalize on their scoring opportunities.\n\nStep 5: \nGiven the analysis, I expect Team A to take advantage of their superior goal-scoring record and possibly win the match.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Team A's strong attacking record and top scorer give them an edge over Team B, who relies on a slightly more aggressive defense.",
+    "output_len": 1399
+  },
+  {
+    "sample_idx": 60,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Brazil has scored significantly more goals with 194 compared to Switzerland's 100, a difference of 94 goals.\n\nStep 2: Brazil's top scorer has 48 goals, while Switzerland's top scorer has 29 goals, indicating a substantial gap in attacking prowess.\n\nStep 3: Both teams have similar defensive statistics, but Brazil has slightly better tackles per 90 minutes (1.58 vs 1.39) and a higher duel success rate (57% vs 54%). However, Switzerland has a slightly lower yellow card count.\n\nStep 4: The data suggests that Brazil's superior attack and defense should give them an edge over Switzerland. Despite some similarities in defensive statistics, Brazil's overall performance metrics indicate they are the stronger side.\n\nStep 5: Considering the analysis, it's likely that Brazil will win comfortably against Switzerland.\n\nPrediction: home_win\nScore: 3-0\nReasoning: Brazil's strong offense and slight defensive advantage should lead to a convincing victory.",
+    "output_len": 1003
+  },
+  {
+    "sample_idx": 61,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored significantly more goals (194 vs 100), with an average of 0.16 goals per game compared to Team B's 0.10 goals per game, indicating a substantial difference in attacking prowess.\n\nStep 2: Team A's top scorer has 19 more goals than Team B's top scorer, suggesting a clear advantage in firepower.\n\nStep 3: Both teams have similar defensive statistics, but Team A has slightly better tackles per 90 minutes (1.58 vs 1.39) and a higher duel success rate (57% vs 54%). However, Team B has fewer yellow cards, which could indicate a more disciplined approach.\n\nStep 4: The differences in attack and defense seem to outweigh the similarities, with Team A's stronger offense and slightly better defense giving them an edge.\n\nStep 5: Considering the overall statistics, I believe Team A will take advantage of their superior attacking capabilities and secure a win.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Team A's strong offense and slightly better defense give them an edge over Team B.",
+    "output_len": 1008
+  },
+  {
+    "sample_idx": 62,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Portugal has significantly more goals with 298 compared to Uruguay's 143, a difference of 155 goals.\n\nStep 2: Portugal's top scorer has 115 goals, while Uruguay's top scorer has 71 goals, indicating a stronger attacking force for Portugal.\n\nStep 3: Uruguay has slightly better defensive tackles per game (1.42 vs 1.23), but both teams have similar duel percentages (56% vs 57%). However, Portugal has fewer yellow cards issued to their players.\n\nStep 4: The main conflict here is that Uruguay's defense seems relatively strong, but their attack lacks potency compared to Portugal's. This might make it difficult for Uruguay to capitalize on potential scoring opportunities.\n\nStep 5: Considering the overall strength of Portugal's attack and the slight edge in defense, I predict a home win for Portugal.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Portugal's potent offense and slightly stronger defense will likely secure a convincing victory over Uruguay.",
+    "output_len": 1009
+  },
+  {
+    "sample_idx": 63,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored significantly more goals (298 vs 143), with an average rate of 0.20/90 compared to 0.16/90 for Team B, indicating a substantial difference in attacking prowess.\n\nStep 2: Team A's top scorer has outperformed Team B's top scorer by 44 goals, suggesting a notable gap in individual attacking talent.\n\nStep 3: Both teams have similar defensive statistics, including yellow cards, tackles per 90 minutes, and duels won percentage. However, Team A has slightly better passing accuracy at 66% compared to Team B's 63%.\n\nStep 4: The data suggests that Team A has a significant advantage in both overall attack and individual scoring power. While Team B has shown some resilience in defense, their lower attacking output and weaker top scorer may hinder their chances against a stronger opponent like Team A.\n\nStep 5: Considering the above factors, it seems likely that Team A will take advantage of their superior attacking capabilities and secure a win.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Team A's strong attacking form and individual scoring power should prove too much for Team B.",
+    "output_len": 1110
+  },
+  {
+    "sample_idx": 64,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: The Netherlands has a slightly higher squad goal output with 229 goals compared to Qatar's 196 goals, a difference of 33 goals.\n\nStep 2: The Netherlands' top scorer has 72 goals, while Qatar's top scorer has 53 goals, indicating a stronger attacking force for the Netherlands.\n\nStep 3: Both teams have similar passing accuracy but the Netherlands has more tackles per 90 minutes, suggesting better defensive pressure. However, Qatar has fewer yellow cards, which could indicate less fatigue.\n\nStep 4: These signals suggest that the Netherlands might have an edge due to their stronger attack and better defense, but Qatar's disciplined approach could counterbalance some of those advantages.\n\nStep 5: Considering the overall statistics, I expect the Netherlands to win, as their offense seems more potent and their defense more effective than Qatar's.\n\nPrediction: home_win\nScore: 2-0\nReasoning: The Netherlands' strong attack and solid defense should give them an advantage over Qatar.",
+    "output_len": 994
+  },
+  {
+    "sample_idx": 65,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored more goals with 229 compared to Team B's 196, a difference of 33 goals.\n\nStep 2: Team A's top scorer has 72 goals, while Team B's top scorer has 53 goals, indicating a significant advantage in attacking prowess for Team A.\n\nStep 3: Both teams have similar passing accuracy but Team A excels in tackles per 90 minutes with 1.16 compared to Team B's 0.35, suggesting better defensive capabilities for Team A. However, Team B has more defenders on the field which could counterbalance this.\n\nStep 4: The high number of yellow cards for both teams indicates that discipline might be an issue, but it doesn't directly impact the game's outcome. Weighing all factors, Team A's stronger attack and defense seem to give them an edge.\n\nStep 5: Considering the overall statistics, I believe Team A will likely win the match.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Team A's superior attacking and defensive capabilities should lead to a convincing victory over Team B.",
+    "output_len": 988
+  },
+  {
+    "sample_idx": 66,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Ecuador has scored 124 goals at an average rate of 0.15/90, while Senegal has scored 101 goals at an average rate of 0.11/90. This suggests that Ecuador has a slightly stronger attack.\n\nStep 2: Both teams have strong top scorers with Ecuador's top scorer having 39 goals compared to Senegal's 31 goals. However, the difference isn't significant enough to sway the prediction heavily towards one side.\n\nStep 3: In terms of defense, both teams have similar yellow card counts but Ecuador has fewer red cards. Senegal has a higher tackles/90 ratio, indicating a more aggressive defensive approach. Additionally, Senegal's passing accuracy is slightly better than Ecuador's.\n\nStep 4: Considering all factors, the slight edge in attacking prowess and similar defensive statistics make it a close call. However, Senegal's more aggressive defensive style might give them an advantage in this match.\n\nStep 5: Taking into account the conflicting signals, I lean towards a narrow win for Senegal due to their more potent defense and slightly better passing accuracy.\n\nPrediction: away_win\nScore: 1-0\nReasoning: Senegal's aggressive defense and slightly better passing accuracy give them a narrow victory over Ecuador.",
+    "output_len": 1259
+  },
+  {
+    "sample_idx": 67,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored more goals with 124 compared to Team B's 101, a difference of 23 goals.\n\nStep 2: Team A's top scorer has 39 goals, while Team B's top scorer has 31 goals, indicating a slight edge for Team A in attacking prowess.\n\nStep 3: Team B has a slightly better defensive record with fewer yellow cards but also more red cards. However, their tackles per 90 minutes are significantly higher than Team A's, suggesting they might be more aggressive defensively.\n\nStep 4: The conflicting signals suggest that both teams have similar overall ratings and formations, making it difficult to call a clear favorite. However, considering Team B's stronger defense and higher tackling rate, I lean towards them having an advantage.\n\nStep 5: Considering the points above, I predict Team B will win due to their strong defense and high tackling rate.\n\nPrediction: away_win\nScore: 1-0\nReasoning: Team B's solid defense and high tackling rate give them an edge over Team A.",
+    "output_len": 974
+  },
+  {
+    "sample_idx": 68,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Iran has scored more goals with an average of 0.28/90 compared to USA's 0.12/90, indicating a significant difference of 0.16/90.\n\nStep 2: Iran's top scorer has significantly outperformed USA's top scorer with 77 goals vs 32 goals, suggesting a substantial attacking advantage.\n\nStep 3: Both teams have similar defensive statistics, including yellow cards, tackles per 90 minutes, and duels won percentage. However, Iran has slightly better passing accuracy at 72% compared to USA's 69%.\n\nStep 4: The signals suggest that Iran's strong attack and better passing accuracy could outweigh their relatively equal defensive performance against USA's weaker offense.\n\nStep 5: Considering the overall analysis, I predict Iran will take advantage of their superior attacking prowess and win the game.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Iran's potent offense and better passing accuracy should lead to a convincing victory over the United States.",
+    "output_len": 953
+  },
+  {
+    "sample_idx": 69,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored significantly more goals (216 vs 106), with an average rate of 0.28/90 compared to Team B's 0.12/90, indicating a substantial difference in attacking prowess.\n\nStep 2: Team A's top scorer has 45 more goals than Team B's top scorer, suggesting a clear advantage in firepower.\n\nStep 3: Both teams have similar defensive statistics, including yellow cards, tackles per 90 minutes, and duels won percentage. However, Team A has slightly better passing accuracy at 72%.\n\nStep 4: The differences in attack and scoring suggest that Team A should dominate possession and create more scoring opportunities. While both defenses appear evenly matched, Team A's superior offense might be too much for Team B to handle.\n\nStep 5: Considering the overall statistics, it seems likely that Team A will take advantage of their attacking superiority and secure a win.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Team A's significant attacking edge and superior firepower should lead to a convincing victory over Team B.",
+    "output_len": 1026
+  },
+  {
+    "sample_idx": 70,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Wales has scored fewer goals (121) compared to England (275), with a difference of 154 goals. This suggests that England has a significant advantage in attacking prowess.\n\nStep 2: England's top scorer has 109 goals, while Wales' top scorer has 45 goals, indicating a substantial gap in goal-scoring ability between the two teams.\n\nStep 3: Both teams have relatively similar defensive ratings, but England has slightly more yellow cards and red cards than Wales. However, England also has a lower tackles/90 rate, which could be a concern.\n\nStep 4: The main conflict here is between Wales' strong defense and England's potent attack. While Wales has a solid defense, their offense is not as effective as England's.\n\nStep 5: Considering the significant differences in attacking power and goal-scoring ability, I predict that England will take advantage of Wales' weaker offense and secure a win.\n\nPrediction: away_win\nScore: 2-0\nReasoning: England's superior attacking firepower and goal-scoring ability will prove too much for Wales to handle.",
+    "output_len": 1050
+  },
+  {
+    "sample_idx": 71,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored 121 goals with an average of 0.13 goals per game, while Team B has scored 275 goals at 0.19 goals per game. This indicates that Team B has a significantly stronger attack, scoring about 46% more goals per game.\n\nStep 2: Team A's top scorer has 45 goals, whereas Team B's top scorer has 109 goals, which suggests a substantial difference in attacking prowess between the two teams.\n\nStep 3: Both teams have similar passing accuracy but differ in defensive statistics; Team A commits fewer yellow cards and tackles less frequently than Team B. However, Team B has conceded more yellow cards and has a slightly lower duel success rate.\n\nStep 4: The strong attacking form of Team B and their superior goal-scoring record outweigh the slight edge in defense and discipline shown by Team A. \n\nStep 5: Considering the overall performance indicators, it seems likely that Team B will dominate the match.\n\nPrediction: away_win\nScore: 3-1\nReasoning: Team B's superior attacking form and goal-scoring record suggest they will secure a convincing win over Team A.",
+    "output_len": 1077
+  },
+  {
+    "sample_idx": 72,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: \nAustralia has scored 98 goals with an average of 0.13/90 minutes, while Denmark has scored 144 goals at 0.17/90 minutes. Denmark's attack is stronger by approximately 0.04 goals per game.\n\nStep 2: Both teams have a top scorer with 25 goals, indicating that their attacking prowess is evenly matched.\n\nStep 3: In terms of defense, both teams have similar yellow cards but slightly different tackle rates; however, neither team excels in duels won percentage. Denmark's passing accuracy is lower than Australia's, which might indicate some defensive vulnerabilities.\n\nStep 4: The signals conflict as both teams have strong attacks but also show defensive weaknesses. However, considering Denmark's slight edge in goal-scoring rate and Australia's relatively poor World Cup form, I lean towards Denmark.\n\nStep 5: Considering the analysis, I predict Denmark will win due to their superior attacking statistics and Australia's inconsistent performance in the World Cup.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Denmark's stronger attack and Australia's poor World Cup form give Denmark the edge in this matchup.",
+    "output_len": 1118
+  },
+  {
+    "sample_idx": 73,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored 98 goals with an average of 0.13/90 minutes, while Team B has scored 144 goals at 0.17/90 minutes. This indicates that Team B has a significantly stronger attack, scoring about 28% more goals per game.\n\nStep 2: Both teams have a top scorer with 25 goals, indicating a tie in terms of individual attacking prowess.\n\nStep 3: In defense, both teams have similar numbers of yellow cards but slightly different tackle rates, with Team A having a slight edge in tackles per 90 minutes. However, Team B has a lower duel success rate, which could be a concern.\n\nStep 4: The strong attacking form of Team B outweighs their slightly weaker defensive performance, and their overall squad rating matches that of Team A. \n\nStep 5: Considering the data, I expect Team B to take advantage of their superior attacking capabilities and secure a win.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Team B's potent offense and relatively even defensive metrics give them the edge over Team A.",
+    "output_len": 996
+  },
+  {
+    "sample_idx": 74,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Tunisia has scored more goals (115 vs 113), with a slightly better goal rate (0.16/90 vs 0.11/90).\n\nStep 2: Tunisia's top scorer has 30 goals compared to France's 26, indicating a slight edge in attacking prowess.\n\nStep 3: France excels defensively, with more tackles per game (1.54 vs 1.08) and a higher duel success rate (57% vs 51%). However, Tunisia has fewer yellow cards and reds.\n\nStep 4: The conflicting signals suggest that while Tunisia might outscore France, their defense could be vulnerable to France's strong counterattacks.\n\nStep 5: Considering the overall balance, I expect Tunisia's offense to prevail over France's defense, but not without conceding some goals.\n\nPrediction: away_win\nScore: 2-3\nReasoning: Tunisia's potent attack will likely outscore France, despite their defensive vulnerabilities.",
+    "output_len": 825
+  },
+  {
+    "sample_idx": 75,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored more goals with 115 compared to Team B's 113, a difference of 2 goals per 90 minutes.\n\nStep 2: Team A's top scorer has 30 goals, while Team B's top scorer has 26 goals, indicating a slight advantage in attacking prowess for Team A.\n\nStep 3: Team B has a slightly better defense, with fewer yellow cards and a higher tackles/90 rate, but both teams have similar duel percentages. However, Team B's passing accuracy is also higher than Team A's.\n\nStep 4: The conflicting signals suggest that both teams have strengths and weaknesses. Team A excels in scoring, but their defense might be vulnerable. Team B has a solid defense but lacks in scoring.\n\nStep 5: Considering the overall balance, I predict that Team A will take advantage of their superior attack and win the game.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Team A's potent offense and slight edge in key statistics should help them secure a narrow victory over Team B.",
+    "output_len": 954
+  },
+  {
+    "sample_idx": 76,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Saudi Arabia has scored more goals with 104 compared to Mexico's 148, but the difference is relatively small (44 goals). \n\nStep 2: Both teams have strong top scorers, but Mexico's top scorer has more goals with 39 compared to Saudi Arabia's 34.\n\nStep 3: Defensive-wise, both teams have similar tackles per 90 minutes and duels won percentage, but Mexico has slightly better passing accuracy at 73%. However, Saudi Arabia has fewer yellow cards and red cards.\n\nStep 4: Considering the conflicting signals, Saudi Arabia's stronger attack might be offset by their weaker defense, while Mexico's solid defense could limit Saudi Arabia's scoring opportunities.\n\nStep 5: Taking into account the overall performance, I predict that Mexico's balanced team will edge out Saudi Arabia due to their slightly better defense and midfield control.\n\nPrediction: away_win\nScore: 1-0\nReasoning: Mexico's solid defense and midfield control will secure a narrow victory over Saudi Arabia.",
+    "output_len": 1021
+  },
+  {
+    "sample_idx": 77,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored more goals with 104 compared to Team B's 148, but Team B has a slightly better goal conversion rate at 0.16/90 vs 0.18/90.\n\nStep 2: Both teams have strong top scorers, but Team B's top scorer has 5 more goals than Team A's top scorer.\n\nStep 3: The defensive records show both teams having similar yellow cards, but Team B has significantly more red cards. In terms of tackles and duels won, both teams are evenly matched.\n\nStep 4: Considering the attacking prowess of Team B and their slightly better passing accuracy, it seems like they might be able to outmaneuver Team A's defense. However, Team A's high goal-scoring record suggests they could capitalize on mistakes made by Team B.\n\nStep 5: Taking into account the conflicting signals, I lean towards Team B's overall strength and consistency in the World Cup, despite some defensive concerns.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Team B's superior attacking firepower and passing accuracy will ultimately lead to a narrow victory over Team A.",
+    "output_len": 1031
+  },
+  {
+    "sample_idx": 78,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Poland has scored more goals (295 vs 212), with an average of 0.23/90 compared to Argentina's 0.18/90, indicating a slight advantage in attack.\n\nStep 2: Poland's top scorer has significantly more goals (168 vs 90), suggesting a stronger attacking force.\n\nStep 3: Both teams have similar defensive ratings, but Poland makes fewer tackles per game (1.12 vs 1.34). However, Poland also concedes more yellow cards, which might indicate some defensive issues.\n\nStep 4: The conflicting signals suggest that while Poland has an edge in attack, their defense may be vulnerable. Argentina's strong midfield presence could exploit this weakness.\n\nStep 5: Considering the overall balance, I expect Argentina's solid defense and midfield control to counterbalance Poland's attacking prowess.\n\nPrediction: away_win\nScore: 1-0\nReasoning: Argentina's well-rounded performance and Poland's defensive vulnerabilities give them the edge in a closely contested match.",
+    "output_len": 956
+  },
+  {
+    "sample_idx": 79,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored more goals with 295 compared to Team B's 212, a difference of 83 goals. This suggests that Team A might have an advantage in attack.\n\nStep 2: Team A's top scorer has 168 goals, while Team B's top scorer has 90 goals, indicating a significant gap in attacking prowess between the two teams.\n\nStep 3: Both teams have similar defensive statistics, including yellow cards, tackles per 90 minutes, and duels won percentage. However, Team B has slightly better passing accuracy at 63% compared to Team A's 64%.\n\nStep 4: Considering the conflicting signals, Team A's superior goal-scoring record outweighs their slightly lower passing accuracy. Additionally, their top scorer's impressive performance gives them an edge.\n\nStep 5: Taking into account the overall statistics, I predict that Team A will win the game due to their stronger attacking capabilities.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Team A's superior goal-scoring record and strong top scorer give them an edge over Team B.",
+    "output_len": 1013
+  },
+  {
+    "sample_idx": 80,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Croatia has scored 198 goals while Belgium has scored 183 goals, with Croatia leading by 15 goals.\n\nStep 2: Both teams have strong top scorers, but Croatia's top scorer has 61 goals compared to Belgium's 50 goals, indicating a slight edge for Croatia.\n\nStep 3: In terms of defense, both teams have similar yellow cards, but Croatia has slightly more tackles per game (1.02 vs 1.25), suggesting they might be more aggressive. However, Belgium has a better duel percentage (54% vs 55%).\n\nStep 4: The passing accuracy is identical at 65%, which doesn't provide a clear advantage for either side. Considering the overall stats, Croatia seems to have a slight edge due to their stronger offense and slightly better defensive performance.\n\nStep 5: Taking into account the slight edge in offense and defense, I predict Croatia will win the match.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Croatia's stronger offense and slightly better defensive performance give them an edge over Belgium.",
+    "output_len": 1036
+  },
+  {
+    "sample_idx": 81,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored more goals with 198 compared to Team B's 183, a difference of 15 goals.\n\nStep 2: Team A's top scorer has 61 goals, while Team B's top scorer has 50 goals, indicating a slight edge in attacking prowess for Team A.\n\nStep 3: Both teams have similar defensive ratings but Team B makes slightly more tackles per game (1.25 vs 1.02), suggesting they might be more aggressive in defense. However, both teams have relatively high duel percentages, which could indicate strong defensive performances from both sides.\n\nStep 4: The slight differences in attack and defense don't seem to conflict significantly, as both teams have comparable defensive ratings and passing accuracies. \n\nStep 5: Considering the overall statistics, I lean towards Team A having an advantage due to their stronger attack and similar defensive capabilities.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Team A's superior attacking form and balanced squad give them an edge over Team B.",
+    "output_len": 977
+  },
+  {
+    "sample_idx": 82,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Canada has scored 129 goals at an average rate of 0.14/90, while Morocco has scored 181 goals at an average rate of 0.19/90. This suggests that Morocco has a significant advantage in terms of attacking prowess, with a 52-goal difference.\n\nStep 2: Both teams have strong top scorers, but Morocco's top scorer has 47 goals compared to Canada's 46 goals. However, this difference may not be substantial enough to sway the overall outcome.\n\nStep 3: In terms of defense, both teams have similar yellow card counts, but Morocco has slightly better tackling numbers (1.51 vs 1.34 tackles/90). Additionally, their passing accuracy is also marginally higher (68% vs 65%).\n\nStep 4: Considering the attacking disparity and slight defensive edge, it seems that Morocco's overall quality might give them an edge over Canada.\n\nStep 5: Despite Canada's respectable form, Morocco's superior attacking and defensive capabilities make them a more likely winner.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Morocco's stronger attack and slight defensive improvement give them the upper hand against Canada.",
+    "output_len": 1095
+  },
+  {
+    "sample_idx": 83,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored 129 goals with an average of 0.14/90 minutes, while Team B has scored 181 goals at 0.19/90 minutes. This indicates that Team B has a significantly higher goal output, with a difference of 52 goals.\n\nStep 2: Both teams have a strong top scorer with 46 and 47 goals respectively, indicating a close competition in terms of individual attacking prowess.\n\nStep 3: Team B has slightly better defensive statistics, including more tackles per 90 minutes (1.51 vs 1.34) and similar duel success rates (55%). However, both teams have relatively high yellow card counts and similar red cards.\n\nStep 4: The conflicting signal here is the significant difference in goal output, which suggests Team B should be favored, but the close top scorers and similar defensive ratings suggest it might not be as one-sided as expected.\n\nStep 5: Considering all factors, I expect Team B to take advantage of their stronger attack and potentially exploit Team A's defense.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Team B's superior goal output and slightly better defensive statistics give them the edge over Team A.",
+    "output_len": 1120
+  },
+  {
+    "sample_idx": 84,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Japan has scored 139 goals with an average of 0.11/90 minutes, while Spain has scored 157 goals at 0.13/90 minutes. This indicates that Spain has a slightly stronger attack.\n\nStep 2: Japan's top scorer has 40 goals, whereas Spain's top scorer has 56 goals, showing a significant difference in attacking prowess.\n\nStep 3: Both teams have similar defensive ratings but Spain commits more fouls (179 yellows, 4 reds), which could be a concern. However, their tackles/90 rate is higher than Japan's.\n\nStep 4: The conflicting signal here is Japan's strong attacking form vs. Spain's slight edge in defense and midfield control. Weighing both, Spain's overall strength seems to outweigh Japan's attacking threat.\n\nStep 5: Considering the analysis, I predict that Spain will win due to their superior attacking power and slightly better defensive record.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Spain's potent offense and slight edge in defensive solidity give them the upper hand against Japan.",
+    "output_len": 1000
+  },
+  {
+    "sample_idx": 85,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored 139 goals with an average of 0.11/90 minutes, while Team B has scored 157 goals at 0.13/90 minutes. This indicates that Team B has a slightly higher goal output.\n\nStep 2: Team B's top scorer has 56 goals compared to Team A's top scorer with 40 goals, showing a significant difference in attacking prowess.\n\nStep 3: Both teams have similar defensive ratings but Team B commits more yellow cards and reds, indicating a slightly weaker defense. However, they also make more tackles per 90 minutes.\n\nStep 4: The conflicting signals suggest that both teams have strong and weak aspects. Team B's superior attack and tackling rate might outweigh their defensive issues, while Team A's solid passing accuracy could help balance out their lower scoring rate.\n\nStep 5: Considering the points above, I predict that Team B will win due to their stronger offense and ability to create chances.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Team B's potent offense and high tackle rate give them an edge over Team A, who relies heavily on passing accuracy.",
+    "output_len": 1067
+  },
+  {
+    "sample_idx": 86,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 4,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Costa Rica has scored 118 goals while Germany has scored 259 goals, with a difference of 141 goals. This suggests that Germany has a significant advantage in terms of attacking prowess.\n\nStep 2: Both teams have strong top scorers, but Germany's top scorer has 61 goals compared to Costa Rica's 67 goals. However, Costa Rica's top scorer has a slight edge.\n\nStep 3: In terms of defense, both teams have relatively high numbers of yellow cards, but Germany has fewer tackles per 90 minutes and lower duel success rate compared to Costa Rica. This indicates that Costa Rica might be more aggressive in their defensive approach.\n\nStep 4: Considering the conflicting signals, Costa Rica's stronger top scorer and more aggressive defense could counterbalance Germany's superior attacking statistics. However, Germany's overall squad average rating and passing accuracy suggest they may still have an edge.\n\nStep 5: Taking into account the above factors, I predict that Germany will win due to their overall strength and consistency throughout the game.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Germany's superior attacking statistics and overall squad rating outweigh Costa Rica's defensive strengths.",
+    "output_len": 1250
+  },
+  {
+    "sample_idx": 87,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 4,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored 118 goals with an average of 0.15/90 minutes, while Team B has scored 259 goals at 0.24/90 minutes. This indicates that Team B has a significantly higher goal output, with a difference of 141 goals.\n\nStep 2: Both teams have strong top scorers, but Team B's top scorer has 61 goals compared to Team A's 67 goals. However, the difference is relatively small, suggesting both teams have potent attacking forces.\n\nStep 3: Team B has better defensive statistics, including fewer yellow cards and more tackles per 90 minutes. Their duels won percentage is also slightly lower than Team A's, indicating they might struggle in physical battles.\n\nStep 4: The high goal output of Team B and their stronger defense suggest they should dominate possession and create scoring opportunities. However, Team A's strong top scorer and decent passing accuracy could lead to some counter-attacking chances.\n\nStep 5: Considering the overall statistics, I expect Team B's superior offense and defense to give them an edge over Team A.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Team B's strong offense and defense will likely prove too much for Team A, despite their potent attack.",
+    "output_len": 1187
+  },
+  {
+    "sample_idx": 88,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Portugal has scored significantly more goals with 242 compared to South Korea's 159, a difference of 83 goals.\n\nStep 2: Portugal's top scorer has 115 goals, which is substantially higher than South Korea's top scorer with 72 goals.\n\nStep 3: In terms of defense, both teams have similar passing accuracy but Portugal makes more tackles per game (1.19 vs 0.83). However, South Korea wins more duels (55% vs 57%).\n\nStep 4: The high-scoring offense of Portugal seems to be a significant advantage, but South Korea's strong duel-winning rate could potentially limit Portugal's scoring opportunities. This conflict suggests that the game might not be as one-sided as expected.\n\nStep 5: Considering the overall statistics, I expect Portugal's attacking prowess to prevail, but South Korea's solid defense might prevent a large margin of victory.\n\nPrediction: away_win\nScore: 2-0\nReasoning: Portugal's superior attack and goal-scoring record should give them an edge over South Korea, who may struggle to contain their opponents despite their strong defensive performance.",
+    "output_len": 1116
+  },
+  {
+    "sample_idx": 89,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored 159 goals with an average of 0.15/90, while Team B has scored 242 goals at 0.18/90. This suggests that Team B has a slightly stronger attack.\n\nStep 2: Team A's top scorer has 72 goals, whereas Team B's top scorer has 115 goals, indicating a significant difference in attacking prowess.\n\nStep 3: Team B has more tackles per 90 minutes (1.19 vs 0.83), but both teams have similar passing accuracy (70%). However, Team B's defense has been cautioned more often (174 yellows vs 118).\n\nStep 4: The conflicting signals suggest that Team B's strong offense might be balanced by their defensive issues, while Team A's defense seems relatively solid. However, Team B's superior attacking power could still prevail.\n\nStep 5: Considering the overall statistics, I predict that Team B will win due to their potent offense.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Team B's superior attacking firepower and slight edge in midfield control should give them the upper hand against Team A.",
+    "output_len": 1002
+  },
+  {
+    "sample_idx": 90,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Uruguay has scored significantly more goals with 204 compared to Ghana's 140, a difference of 64 goals.\n\nStep 2: Uruguay's top scorer has 71 goals, while Ghana's top scorer has 56 goals, indicating a slight edge in attacking prowess for Uruguay.\n\nStep 3: Both teams have similar defensive ratings, but Uruguay has slightly fewer yellow cards and red cards than Ghana. However, Uruguay's tackles per 90 minutes are lower than Ghana's, suggesting a potentially weaker defense for Uruguay.\n\nStep 4: The conflicting signals suggest that Uruguay's strong attack could outweigh their relatively weaker defense, while Ghana's solid midfield and defense might not be enough to contain Uruguay's offense.\n\nStep 5: Considering the overall statistics, I predict that Uruguay's superior attacking power will lead to a win.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Uruguay's potent offense and Ghana's inability to contain it will secure a narrow victory for the visitors.",
+    "output_len": 1014
+  },
+  {
+    "sample_idx": 91,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored 140 goals with an average of 0.37 goals per game, while Team B has scored 204 goals at 0.18 goals per game. This indicates that Team B has a significantly lower goal output than Team A, with a difference of 64 goals.\n\nStep 2: Team A's top scorer has 56 goals, whereas Team B's top scorer has 71 goals. This suggests that Team B has a more potent attacking force.\n\nStep 3: Both teams have similar defensive ratings, but Team B has slightly fewer yellow cards and red cards. However, Team A has a higher tackles-per-game rate, indicating better defensive pressure.\n\nStep 4: The conflicting signals suggest that Team B's strong attack might be balanced by their relatively weaker defense, while Team A's defense seems to be holding up well despite some disciplinary issues. Weighing these factors, I lean towards Team B's attacking prowess giving them an edge.\n\nConclusion:\n\nPrediction: away_win\nScore: 2-1\nReasoning: Team B's superior attacking force and slightly stronger midfield presence give them the upper hand against Team A's solid but not spectacular defense.",
+    "output_len": 1091
+  },
+  {
+    "sample_idx": 92,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Serbia has significantly more goals with 330 compared to Switzerland's 102, a difference of 228 goals.\n\nStep 2: Serbia's top scorer has 94 goals, while Switzerland's top scorer has 29 goals, indicating a substantial gap in attacking prowess.\n\nStep 3: In terms of defense, both teams have similar yellow cards but Serbia has fewer red cards. However, Switzerland has slightly better tackles per 90 minutes and a higher duel success rate.\n\nStep 4: The data suggests that Serbia's offense is stronger than their defense, which might be a concern. Meanwhile, Switzerland's defense seems relatively solid, but their attack lacks potency.\n\nStep 5: Considering the overall statistics, I predict Serbia will win due to their superior attacking capabilities, despite potential defensive vulnerabilities.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Serbia's potent offense should overwhelm Switzerland's underpowered attack.",
+    "output_len": 966
+  },
+  {
+    "sample_idx": 93,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has significantly outperformed Team B in terms of squad goal output, with 330 goals to Team B's 102 goals, a difference of 228 goals.\n\nStep 2: Team A's top scorer has scored 94 goals, while Team B's top scorer has scored 29 goals, indicating a substantial gap in attacking prowess.\n\nStep 3: Both teams have similar defensive statistics, but Team A has slightly better tackles per 90 minutes (1.00 vs 1.21), which could be an advantage.\n\nStep 4: The data suggests that Team A has a significant edge in both attack and defense, making it likely they will win comfortably.\n\nStep 5: Considering the overall statistics, I expect Team A to dominate the game.\n\nPrediction: home_win\nScore: 3-0\nReasoning: Team A's superior attacking and defensive capabilities make it likely they'll secure a convincing victory over Team B.",
+    "output_len": 830
+  },
+  {
+    "sample_idx": 94,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Brazil has significantly more goals with 205 compared to Cameroon's 138, a difference of 67 goals.\n\nStep 2: Brazil's top scorer has 57 goals, while Cameroon's top scorer has 39 goals, indicating a stronger attacking force for Brazil.\n\nStep 3: Brazil's defense has more yellow cards (189 vs 111), but both teams have similar tackle rates (1.54 vs 1.26). However, Brazil's passing accuracy is slightly better at 71% compared to Cameroon's 67%.\n\nStep 4: The main conflict here is that despite having fewer goals, Cameroon's attack seems relatively efficient, but their defense might be vulnerable to Brazil's strong offense. Brazil's superior passing accuracy could also give them an edge.\n\nStep 5: Considering these factors, I expect Brazil's strong offense and passing ability to outperform Cameroon's defense.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Brazil's potent offense and superior passing accuracy will likely prove too much for Cameroon's defense.",
+    "output_len": 1010
+  },
+  {
+    "sample_idx": 95,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored 138 goals with an average of 0.25 goals per game, while Team B has scored 205 goals at 0.18 goals per game. This suggests that Team B has been more prolific in terms of goal output, but not significantly so.\n\nStep 2: Team A's top scorer has 39 goals, whereas Team B's top scorer has 57 goals. This indicates that Team B has a more potent attacking force.\n\nStep 3: Team B has a slightly better defense, with fewer yellow cards and a higher tackles per 90 rate. However, both teams have similar duel percentages.\n\nStep 4: The conflicting signal here is the difference in goal output, which favors Team B, but Team A's top scorer has a significant advantage. Weighing these factors, we consider Team B's overall strength in attack and defense as the decisive factor.\n\nStep 5: Considering the above points, it seems likely that Team B will take the win.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Team B's stronger attack and defense prove too much for Team A to handle.",
+    "output_len": 993
+  },
+  {
+    "sample_idx": 96,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: The Netherlands has a significantly higher squad goal output with 229 goals compared to USA's 108 goals, a difference of 121 goals.\n\nStep 2: The Netherlands' top scorer has 72 goals, while the USA's top scorer has 32 goals, indicating a substantial gap in attacking prowess.\n\nStep 3: Both teams have similar defensive statistics, with the Netherlands having slightly more yellow cards but fewer red cards than the USA. However, the Netherlands' midfielders have a slight edge in tackles per 90 minutes.\n\nStep 4: Despite some similarities in defense, the Netherlands' superior attack and midfield control give them an advantage. The USA's lower scoring rate and fewer assists also suggest they might struggle to keep up.\n\nStep 5: Considering these factors, I expect the Netherlands to dominate the game and secure a convincing win.\n\nPrediction: home_win\nScore: 3-0\nReasoning: The Netherlands' strong attack and midfield control should prove too much for the USA to handle.",
+    "output_len": 979
+  },
+  {
+    "sample_idx": 97,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has a significantly higher squad goal output with 229 goals compared to Team B's 108 goals, a difference of 121 goals.\n\nStep 2: Team A's top scorer has more than twice as many goals as Team B's top scorer, indicating a substantial advantage in attacking prowess.\n\nStep 3: Both teams have similar defensive ratings, but Team A has slightly better tackles per 90 minutes and a higher duel success rate, suggesting a slight edge in defense.\n\nStep 4: The high goal differential and strong attacking performance from Team A outweigh the relatively stronger passing accuracy of Team B, which doesn't seem to translate into significant goal-scoring advantages.\n\nStep 5: Considering the overall statistics, Team A appears to be the stronger side, likely to dominate the game.\n\nPrediction: home_win\nScore: 3-0\nReasoning: Team A's superior attacking form and strong defensive solidity should lead to a convincing victory over Team B.",
+    "output_len": 938
+  },
+  {
+    "sample_idx": 98,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Argentina has significantly outperformed Australia in terms of squad goal output, with 213 goals to Australia's 76, a difference of 137 goals.\n\nStep 2: Argentina's top scorer has an impressive 90 goals, while Australia's top scorer has only 24 goals, indicating a substantial gap in attacking prowess.\n\nStep 3: Both teams have similar defensive ratings, but Argentina has slightly more yellow cards and fewer red cards than Australia. However, Argentina's tackles per 90 minutes are higher than Australia's, suggesting better defensive pressure.\n\nStep 4: The main conflict lies in the significant disparity in attacking output between the two teams, which heavily favors Argentina. This suggests that Argentina should dominate possession and create scoring opportunities.\n\nStep 5: Considering the vast difference in attacking power and relatively balanced defensive statistics, I expect Argentina to win comfortably.\n\nPrediction: home_win\nScore: 3-0\nReasoning: Argentina's superior attacking form and significant goal-scoring advantage over Australia will likely lead to a convincing victory.",
+    "output_len": 1100
+  },
+  {
+    "sample_idx": 99,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has significantly outperformed Team B in terms of squad goal output, with 213 goals to Team B's 76, a difference of 137 goals.\n\nStep 2: Team A's top scorer has more than 3 times as many goals as Team B's top scorer, indicating a substantial gap in attacking prowess.\n\nStep 3: Both teams have similar defensive ratings, but Team A has slightly better tackles per 90 minutes and a slight edge in duels won percentage. However, Team B has a slightly higher passing accuracy.\n\nStep 4: The data suggests that Team A's superior attacking capabilities and relatively strong defense should give them an advantage over Team B, despite some minor defensive concerns.\n\nStep 5: Considering the overall statistics, it seems likely that Team A will win comfortably.\n\nPrediction: home_win\nScore: 3-0\nReasoning: Team A's superior attacking form and strong defense should lead to a convincing victory against a weaker opponent.",
+    "output_len": 925
+  },
+  {
+    "sample_idx": 100,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: France has scored more goals (307 vs 285), with an average of 0.25/90 compared to Poland's 0.22/90, indicating a slight advantage in attacking prowess.\n\nStep 2: Both teams have strong top scorers, but France's top scorer has slightly more goals (126 vs 168). However, Poland's top scorer has a relatively better conversion rate given their team's overall scoring record.\n\nStep 3: France has fewer yellow cards and red cards than Poland, suggesting a more disciplined defense. Additionally, they have a higher tackles/90 ratio and duel success rate, implying a stronger defensive unit.\n\nStep 4: The main conflict lies in Poland's ability to hold onto leads, as seen from their inconsistent WC form. They can be vulnerable when trailing.\n\nStep 5: Considering the above factors, I expect France's superior attacking and defensive capabilities to give them an edge over Poland.\n\nPrediction: home_win\nScore: 2-1\nReasoning: France's balanced performance and strong squad will likely secure a narrow victory against Poland.",
+    "output_len": 1024
+  },
+  {
+    "sample_idx": 101,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored more goals with an average of 307 compared to Team B's 285, a difference of 22 goals.\n\nStep 2: Both teams have strong top scorers, but Team A's top scorer has slightly more goals with 126 compared to Team B's 168. However, the gap is not significant enough to be considered a decisive factor.\n\nStep 3: Team A has fewer yellow cards and red cards than Team B, indicating better discipline. Additionally, they have a slight edge in tackles per 90 minutes and duels won percentage. Their defense also seems more solid with a higher passing accuracy.\n\nStep 4: The main conflict lies in the fact that Team B has a stronger top scorer, which could potentially disrupt Team A's defense. However, considering their overall performance and consistency throughout the World Cup, I weigh it against Team A's superior attacking prowess and defensive solidity.\n\nStep 5: Considering all factors, I believe Team A will likely win due to their consistent form and stronger attack.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Team A's superior attacking power and defensive solidity give them the edge over Team B.",
+    "output_len": 1123
+  },
+  {
+    "sample_idx": 102,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: England has a significantly higher squad goal output with 251 goals compared to Senegal's 109 goals, a difference of 142 goals.\n\nStep 2: England's top scorer has 109 goals, while Senegal's top scorer has 31 goals, indicating a substantial gap in attacking prowess.\n\nStep 3: Senegal has a slightly better defensive record with more tackles per 90 minutes but also more yellow cards and red cards. England's passing accuracy is lower than Senegal's.\n\nStep 4: The data suggests that England's superior attack and potentially stronger midfield could outweigh Senegal's defensive strengths. However, Senegal's high tackle rate might limit England's scoring opportunities.\n\nStep 5: Considering the overall statistics, I expect England's offense to prevail over Senegal's defense.\n\nPrediction: home_win\nScore: 2-0\nReasoning: England's strong attack and superior goal output should lead to a convincing win against Senegal.",
+    "output_len": 923
+  },
+  {
+    "sample_idx": 103,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored significantly more goals (251 vs 109), with an average of 0.17 goals per game compared to Team B's 0.13 goals per game, indicating a substantial difference in attacking prowess.\n\nStep 2: Team A's top scorer has scored 109 goals, which is nearly three times as many as Team B's top scorer who has scored 31 goals, suggesting a significant disparity in goal-scoring ability.\n\nStep 3: Team B has a slightly better defensive record, with fewer yellow cards and a higher tackles-per-game rate, but both teams have had their fair share of red cards. However, Team A's defense has been breached less frequently, with a slightly higher duel-winning percentage.\n\nStep 4: The signals suggest that Team A should dominate possession and create scoring opportunities due to its superior attack and midfield control. However, Team B's solid defense might limit the damage, making it a closely contested match.\n\nConclusion:\n\nPrediction: home_win\nScore: 2-0\nReasoning: Team A's superior attacking firepower and midfield control should ultimately prevail over Team B's resilient defense.",
+    "output_len": 1096
+  },
+  {
+    "sample_idx": 104,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Japan has scored fewer goals (145) compared to Croatia (182), with a difference of 37 goals. This suggests that Croatia might be more potent in attack.\n\nStep 2: Both teams have strong top scorers, but Croatia's top scorer has 8 more goals than Japan's. However, Japan's overall attacking performance is slightly better due to their higher number of assists.\n\nStep 3: Croatia has a slight edge in defense, with more tackles per game and a higher duel success rate. Japan has been shown to be more disciplined, with fewer yellow cards.\n\nStep 4: The conflicting signals suggest that Croatia's offense could overpower Japan's defense, but Japan's discipline and organization might limit Croatia's scoring opportunities.\n\nStep 5: Considering the above factors, I expect Croatia's attacking prowess to ultimately prevail over Japan's defensive solidity.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Croatia's potent offense will outscore Japan despite their solid defense.",
+    "output_len": 973
+  },
+  {
+    "sample_idx": 105,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored 145 goals with an average of 0.12/90, while Team B has scored 182 goals at 0.16/90. This indicates that Team B has a stronger attack, scoring about 33% more goals per game than Team A.\n\nStep 2: Both teams have strong top scorers, but Team B's top scorer has 8 more goals than Team A's top scorer. However, the difference is relatively small considering their overall attacking prowess.\n\nStep 3: Team B has slightly better defensive statistics, including more tackles per 90 minutes and a higher duel percentage. They also have fewer yellow cards, indicating less disciplinary issues.\n\nStep 4: Despite some favorable defensive signs from Team B, their attacking superiority and strong form give them an edge. The slight differences in defense and midfield control might not be enough to counterbalance Team B's attacking advantage.\n\nConclusion:\n\nPrediction: away_win\nScore: 2-1\nReasoning: Team B's superior attacking firepower and slightly better defensive statistics will likely secure a narrow victory over Team A.",
+    "output_len": 1041
+  },
+  {
+    "sample_idx": 106,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Brazil has scored more goals (241 vs 175), with an average of 0.21/90 compared to South Korea's 0.21/90, but the difference is not significant.\n\nStep 2: Both teams have strong top scorers, but Brazil's top scorer has more goals (54 vs 72). However, South Korea's top scorer has a slightly better conversion rate.\n\nStep 3: Brazil has a stronger defense, with fewer yellow cards and a higher tackles/90 ratio. They also have a slight edge in duels won percentage.\n\nStep 4: The conflicting signal is that both teams have similar attacking statistics, which could lead to a close game. However, Brazil's overall squad rating and defensive solidity give them an edge.\n\nStep 5: Considering the above factors, I predict Brazil will win due to their superior squad rating and defensive prowess.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Brazil's solid defense and overall squad rating give them an advantage over South Korea.",
+    "output_len": 927
+  },
+  {
+    "sample_idx": 107,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored more goals with 241 compared to Team B's 175, a difference of 66 goals.\n\nStep 2: Both teams have strong top scorers, but Team A's top scorer has 54 goals, which is slightly higher than Team B's 72 goals, but considering the number of games played might be different, we should consider other factors.\n\nStep 3: Team A has better defensive ratings, with fewer yellow cards (227 vs 120), fewer red cards (4 vs 6), and higher tackles per 90 minutes (1.41 vs 0.90). They also win a higher percentage of duels (57% vs 55%).\n\nStep 4: The slight edge in top scoring and defense for Team A outweighs the relatively close passing accuracy and slightly lower average rating for Team A.\n\nStep 5: Considering all factors, I believe Team A will likely take advantage of their stronger offense and defense to secure a home victory.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Team A's superior defense and offense give them an edge over Team B.",
+    "output_len": 955
+  },
+  {
+    "sample_idx": 108,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Morocco has scored 192 goals with an average of 0.19/90, while Spain has scored 181 goals at 0.18/90. Morocco leads by 11 goals, but the difference is relatively small.\n\nStep 2: Both teams have strong top scorers, with Morocco's top scorer having 47 goals and Spain's top scorer having 50 goals. However, Spain's top scorer has a slight edge.\n\nStep 3: In terms of defense, both teams have similar duels percentages, but Morocco has slightly more tackles per 90 minutes. Spain has more yellow cards, which could be a concern.\n\nStep 4: Considering the conflicting signals, Morocco's stronger goal output and better tackling defense might counterbalance Spain's slight advantage in top scoring.\n\nStep 5: Taking all factors into account, I predict that Morocco will win due to their stronger goal output and better tackling defense.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Morocco's strong goal output and better tackling defense give them an edge over Spain in this World Cup matchup.",
+    "output_len": 1037
+  },
+  {
+    "sample_idx": 109,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored more goals with 192 compared to Team B's 181, a difference of 11 goals.\n\nStep 2: Both teams have strong top scorers, but Team B's top scorer has 3 more goals than Team A's top scorer.\n\nStep 3: Team A has fewer yellow cards and red cards, indicating better discipline, while Team B makes slightly more tackles per game but at a lower rate than Team A. However, both teams have similar duel success rates and passing accuracy.\n\nStep 4: The slight edge in goal scoring and better discipline might favor Team A, but the stronger top scorer for Team B could be a decisive factor.\n\nStep 5: Considering the close matchup, I will lean towards Team A due to their slight advantage in goal scoring and overall discipline.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Team A's slight edge in goal scoring and discipline may prove crucial against a closely matched opponent.",
+    "output_len": 887
+  },
+  {
+    "sample_idx": 110,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 6,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Portugal has significantly outperformed Switzerland in terms of squad goal output, with 246 goals to Switzerland's 93, a difference of 153 goals.\n\nStep 2: Portugal's top scorer has scored 73 goals, while Switzerland's top scorer has scored 29 goals, indicating a substantial gap in attacking prowess.\n\nStep 3: Both teams have similar defensive ratings, but Portugal has slightly better tackles per 90 minutes (1.14 vs 1.19), and their duel success rate is also higher (55% vs 51%). However, Switzerland has more yellow cards, which could indicate some discipline issues.\n\nStep 4: The main conflict here is that Portugal's high-scoring offense might be balanced by Switzerland's strong defense, but overall, Portugal's superior attack and midfield control should give them an edge.\n\nStep 5: Considering the above factors, I expect Portugal to win comfortably.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Portugal's potent offense and solid midfield control will likely prove too much for Switzerland's defense.",
+    "output_len": 1017
+  },
+  {
+    "sample_idx": 111,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 6,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has significantly more goals scored than Team B, with an average of 0.21 goals per game compared to Team B's 0.11 goals per game, resulting in a difference of 0.10 goals per game.\n\nStep 2: Team A's top scorer has nearly twice as many goals as Team B's top scorer, indicating a significant advantage in attacking prowess.\n\nStep 3: Both teams have similar defensive ratings, but Team A has slightly better tackles per 90 minutes and a higher duel success rate, suggesting they may be more effective at winning the ball back.\n\nStep 4: The main conflict is that Team B's defense has been more disciplined, with fewer yellow cards and a higher passing accuracy, which could help them counter Team A's attack.\n\nStep 5: Considering the overall statistics, Team A's superior attacking power and defensive capabilities make it likely they will win the match.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Team A's strong attacking form and defensive solidity give them the edge over a less potent Team B offense.",
+    "output_len": 1016
+  },
+  {
+    "sample_idx": 112,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Brazil has scored significantly more goals with 241 compared to Croatia's 175, a difference of 66 goals.\n\nStep 2: Brazil's top scorer has 54 goals, while Croatia's top scorer has 48 goals, indicating that Brazil has a slight edge in attacking prowess.\n\nStep 3: Brazil's defense has slightly better tackles per game (1.41 vs 1.13), but both teams have similar duel percentages (57% vs 54%). However, Brazil has had fewer yellow cards and the same number of red cards as Croatia.\n\nStep 4: The data suggests that Brazil's overall performance is stronger, particularly in attack and defense. Their passing accuracy is also higher than Croatia's.\n\nStep 5: Considering these factors, it seems likely that Brazil will take advantage of their superior attacking capabilities and win the match.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Brazil's strong offense and solid defense should give them an edge over Croatia.",
+    "output_len": 962
+  },
+  {
+    "sample_idx": 113,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team B has a higher squad goal output with 241 goals compared to Team A's 175 goals, a difference of 66 goals.\n\nStep 2: Team B's top scorer has 54 goals, while Team A's top scorer has 48 goals, indicating a slight advantage for Team B in terms of attacking prowess.\n\nStep 3: Team B has better defensive statistics, including more tackles per 90 minutes (1.41 vs 1.13) and a slightly higher duel percentage (57% vs 54%). However, both teams have similar yellow card counts.\n\nStep 4: The conflicting signal here is that Team A has a slightly lower average rating despite having fewer goals scored. This could indicate some defensive issues or inconsistent performances from Team A.\n\nStep 5: Considering the overall statistics, Team B's stronger attack and defense give them an edge over Team A. Their recent form also suggests they're peaking at the right time.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Team B's superior attacking and defensive capabilities, combined with their strong recent form, make them favorites to win against Team A.",
+    "output_len": 1050
+  },
+  {
+    "sample_idx": 114,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 2,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Netherlands has scored 207 goals while Argentina has scored 195 goals, with a difference of 12 goals.\n\nStep 2: Both teams have impressive top scorers, but Argentina's top scorer has more goals with 90 compared to Netherlands' 72.\n\nStep 3: Argentina has a slightly better defense with more tackles per 90 minutes (1.37 vs 1.06), but both teams have similar duel percentages (56% vs 58%). However, Argentina has had more yellow cards and red cards throughout their World Cup campaign.\n\nStep 4: The conflicting signal here is that despite having fewer goals, Netherlands has a stronger attack with a higher average rating and more assists. This could be due to their formation and playing style.\n\nStep 5: Considering all factors, I believe Argentina's strong defense and midfield control might give them an edge in this match. However, Netherlands' potent attack could still cause problems if they can find a way to break through Argentina's defense.\n\nPrediction: away_win\nScore: 1-0\nReasoning: Argentina's solid defense and midfield control will likely secure a narrow victory over Netherlands.",
+    "output_len": 1144
+  },
+  {
+    "sample_idx": 115,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 2,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Team A has scored 207 goals while Team B has scored 195 goals, with Team A having a slight advantage of 12 goals.\n\nStep 2: Both teams have impressive top scorers, but Team A's top scorer has 72 goals compared to Team B's 90 goals, indicating that Team B might have an edge in attacking prowess.\n\nStep 3: Team B has more yellow cards and red cards than Team A, suggesting they may be more aggressive or prone to mistakes defensively. However, Team B also makes more tackles per game, which could indicate better defensive pressure.\n\nStep 4: The conflicting signals suggest that both teams have strengths and weaknesses. Team A's slightly higher goal output and stronger top scorer are countered by Team B's superior tackling ability. \n\nStep 5: Considering all factors, I predict that Team B's strong defense and high-scoring striker will give them an edge over Team A's offense.\n\nPrediction: away_win\nScore: 1-0\nReasoning: Team B's strong defense and potent attack will secure a narrow victory.",
+    "output_len": 1045
+  },
+  {
+    "sample_idx": 116,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Portugal has scored significantly more goals with 254 compared to Morocco's 183, a difference of 71 goals.\n\nStep 2: Portugal's top scorer has 73 goals, while Morocco's top scorer has 47 goals, indicating a stronger attacking force for Portugal.\n\nStep 3: Both teams have similar defensive ratings, but Portugal has slightly better tackles per 90 minutes (1.22 vs 1.27), which could be an advantage. However, both teams have relatively high duel percentages, suggesting they're evenly matched in terms of physicality.\n\nStep 4: The main conflict here is that despite having fewer goals, Morocco has been consistent in their WC form, drawing one game and losing closely in the other two. Meanwhile, Portugal has shown inconsistency, winning one game and losing another closely.\n\nStep 5: Considering these factors, I believe Portugal's superior attacking force and slight edge in defensive statistics will give them the upper hand, but Morocco's consistency might prevent a heavy defeat.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Portugal's strong attack and slight defensive edge should secure a narrow victory over Morocco.",
+    "output_len": 1174
+  },
+  {
+    "sample_idx": 117,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored 183 goals with an average of 0.19/90, while Team B has scored 254 goals at 0.22/90. This indicates that Team B has a slightly stronger attack.\n\nStep 2: Team A's top scorer has 47 goals, whereas Team B's top scorer has 73 goals, showing a significant difference in attacking prowess.\n\nStep 3: Both teams have similar defensive ratings but Team B has fewer yellow cards and no red card compared to Team A. However, Team A has a slight edge in tackles per 90 minutes.\n\nStep 4: The data suggests that Team B has a more potent offense and better defense, which could outweigh Team A's slight advantages in tackling and passing accuracy.\n\nStep 5: Considering the overall statistics, it seems likely that Team B will take advantage of their superior attacking power and win the game.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Team B's potent offense and strong defense should give them the upper hand against Team A.",
+    "output_len": 937
+  },
+  {
+    "sample_idx": 118,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: England has scored 251 goals with an average of 0.17/90 minutes, while France has scored 307 goals at 0.25/90 minutes. This indicates that France has a significant advantage in terms of goal output, with a difference of 56 goals.\n\nStep 2: Both teams have strong top scorers, but France's top scorer has 126 goals compared to England's 109 goals. However, this difference may not be as significant given the overall attacking prowess of both teams.\n\nStep 3: In terms of defense, both teams have similar yellow cards, but France has more red cards. England makes slightly fewer tackles per 90 minutes (1.16 vs 1.26), but their duel success rate is also lower (58% vs 58%). France's passing accuracy is higher (69% vs 65%).\n\nStep 4: The main conflict here is between the goal output and defensive ratings. While France excels in scoring, they also have a slightly weaker defense. England's defense is relatively solid, but their attack is less potent than France's.\n\nStep 5: Considering the overall strength of both teams, I predict that France will win due to their superior goal output and consistent performance throughout the tournament.\n\nPrediction: away_win\nScore: 2-1\nReasoning: France's stronger offense and consistent form give them the edge over England.",
+    "output_len": 1269
+  },
+  {
+    "sample_idx": 119,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team B has a higher squad goal output with 307 goals compared to Team A's 251 goals, a difference of 56 goals.\n\nStep 2: Both teams have strong top scorers, but Team B's top scorer has 126 goals compared to Team A's 109 goals, indicating a slight edge in attacking prowess.\n\nStep 3: Team B has slightly better defensive stats, including more tackles per 90 minutes and similar duel success rate, while also having fewer yellow cards.\n\nStep 4: The slight edge in attack and defense for Team B outweighs the relatively balanced performance of both teams, suggesting a possible away win.\n\nStep 5: Considering the overall balance of the teams, I predict that Team B will take advantage of their stronger offense and potentially exploit Team A's vulnerabilities.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Team B's superior attacking firepower and slightly better defensive organization should give them an edge over a well-rounded but less potent opponent.",
+    "output_len": 960
+  },
+  {
+    "sample_idx": 120,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Argentina has scored 200 goals with an average of 0.17/90, while Croatia has scored 175 goals at 0.16/90. This suggests that Argentina has a slight edge in terms of attacking prowess.\n\nStep 2: Argentina's top scorer has 90 goals, significantly more than Croatia's top scorer with 48 goals. This indicates that Argentina has a more potent attack.\n\nStep 3: Both teams have similar defensive statistics, but Argentina has slightly better tackles/90 (1.38 vs 1.13). However, Croatia has a slightly higher passing accuracy (67% vs 62%). \n\nStep 4: Considering the points from previous steps, Argentina's stronger offense and slightly better defense might give them an advantage. However, Croatia's high passing accuracy could help them counterattack effectively.\n\nStep 5: Taking into account the overall performance, I predict that Argentina will win due to their superior attacking power and slightly better defensive capabilities.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Argentina's strong offense and slightly better defense should secure a narrow victory over Croatia.",
+    "output_len": 1122
+  },
+  {
+    "sample_idx": 121,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored 200 goals with an average of 0.17/90, while Team B has scored 175 goals at 0.16/90. This indicates that Team A has a slight edge in terms of goal output, with a difference of 25 goals.\n\nStep 2: Team A's top scorer has 90 goals, which is significantly more than Team B's top scorer with 48 goals. This suggests that Team A has a clear advantage in attacking prowess.\n\nStep 3: Both teams have similar defensive statistics, with Team A having slightly fewer yellow cards but more red cards. However, their tackles per 90 minutes are relatively close, with Team A having a slight edge. \n\nStep 4: Considering the points from previous steps, the main conflict is the relatively low passing accuracy of Team A compared to Team B. However, given the significant difference in goal output and attacking power, it seems to outweigh this minor discrepancy.\n\nStep 5: Taking into account the overall analysis, I predict that Team A will win due to its superior attacking capabilities and slight defensive advantages.\n\nPrediction: home_win\nScore: 2-1\nReasoning: Team A's strong attacking form and slight defensive edge give them the upper hand against Team B.",
+    "output_len": 1171
+  },
+  {
+    "sample_idx": 122,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: France has scored significantly more goals (303 vs 167), with a higher average rate (0.25/90 vs 0.16/90).\n\nStep 2: France's top scorer has outperformed Morocco's top scorer by a large margin (126 goals vs 47 goals). This suggests that France has a more potent attacking force.\n\nStep 3: Both teams have similar defensive ratings, but Morocco makes slightly more tackles per game (1.31 vs 1.18). However, France has a slight edge in duels won percentage (58% vs 57%).\n\nStep 4: The main conflict is between France's strong attack and Morocco's solid defense. However, considering France's overall squad strength and WC form, it seems likely they will prevail.\n\nStep 5: Given the analysis, I expect France to win comfortably.\n\nPrediction: home_win\nScore: 2-0\nReasoning: France's superior attacking prowess and recent form should be too much for Morocco to handle.",
+    "output_len": 867
+  },
+  {
+    "sample_idx": 123,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored significantly more goals (303 vs 167), with an average of 0.25 goals per game compared to Team B's 0.16. This suggests that Team A has a substantial advantage in attacking prowess.\n\nStep 2: Team A's top scorer has outperformed Team B's top scorer by a large margin (126 goals vs 47). This indicates that Team A has a more potent attacking threat.\n\nStep 3: Both teams have similar defensive statistics, including yellow cards, red cards, tackles per 90 minutes, and duels won percentage. However, Team A has slightly better passing accuracy (68% vs 69%). \n\nStep 4: The data points towards Team A having an edge in both attack and defense. Their superior goal-scoring record and potent top scorer outweigh their slight disadvantage in defensive solidity.\n\nStep 5: Considering the overall statistics, I predict that Team A will win the match.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Team A's superior attacking record and potent top scorer give them an edge over Team B, who struggles to find the back of the net.",
+    "output_len": 1040
+  },
+  {
+    "sample_idx": 124,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Croatia has a significantly higher squad goal output with 267 goals compared to Morocco's 162 goals, a difference of 105 goals.\n\nStep 2: While both teams have an average rating of 7.0, Croatia's top scorer has 15 more goals than Morocco's top scorer, indicating a stronger attacking threat.\n\nStep 3: Morocco has a slightly better defensive record with fewer yellow cards and a higher tackles/90 rate, but Croatia has a cleaner sheet in their last WC game.\n\nStep 4: The data suggests that Croatia's attacking prowess and strong defense give them an edge over Morocco, despite Morocco's solid defensive performance.\n\nStep 5: Considering the overall statistics, I predict Croatia will win the match due to their superior attacking power and recent form.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Croatia's strong attack and solid defense give them an advantage over Morocco.",
+    "output_len": 881
+  },
+  {
+    "sample_idx": 125,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored significantly more goals (267 vs 162), with an average rate of 0.23/90 compared to Team B's 0.17/90, indicating a substantial difference in attacking prowess.\n\nStep 2: Team A's top scorer has outperformed Team B's top scorer by 15 goals, suggesting a clear advantage in goal-scoring ability.\n\nStep 3: Both teams have similar defensive ratings, but Team B has slightly better tackles/90 and duels percentage, while Team A has fewer yellow cards and reds. However, these differences may not be significant enough to sway the overall assessment.\n\nStep 4: The data suggests that Team A's superior attack and scoring record outweigh their defensive concerns, making it difficult to justify a draw or away win.\n\nStep 5: Considering the points above, I expect Team A to capitalize on their attacking strength and secure a home victory.\n\nPrediction: home_win\nScore: 2-0\nReasoning: Team A's superior attacking record and goal-scoring ability should give them the edge over Team B.",
+    "output_len": 997
+  },
+  {
+    "sample_idx": 126,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 3,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Comparing the two teams' squad goal output, Argentina has scored 218 goals while France has scored 307 goals, indicating that France has a significant advantage with 89 more goals.\n\nStep 2: Both teams have strong top scorers, but France's top scorer has significantly more goals (126 vs 90), suggesting an edge in attacking prowess.\n\nStep 3: In terms of defense, both teams have similar yellow cards and red cards, but France has slightly better tackles per 90 minutes (1.26 vs 1.33). However, Argentina has a slight edge in duels won percentage (55% vs 58%).\n\nStep 4: The passing accuracy difference between the two teams (63% vs 69%) suggests that France might be more effective in maintaining possession and creating scoring opportunities.\n\nStep 5: Considering all factors, despite some advantages for Argentina, France's superior goal output, stronger top scorer, and better passing accuracy give them an edge in this World Cup final.\n\nPrediction: away_win\nScore: 2-1\nReasoning: France's superior attacking firepower and possession control will ultimately lead to a narrow victory over Argentina.",
+    "output_len": 1108
+  },
+  {
+    "sample_idx": 127,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 3,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Step 1: Team A has scored 218 goals with an average of 0.19/90, while Team B has scored 307 goals at 0.25/90. This indicates that Team B has a significantly stronger attack, scoring about 32% more goals per game.\n\nStep 2: Team A's top scorer has 90 goals, whereas Team B's top scorer has 126 goals, which suggests a substantial difference in attacking prowess between the two teams.\n\nStep 3: Both teams have similar defensive statistics, including yellow cards, red cards, tackles per 90 minutes, and duels won percentage. However, Team B has a slightly better passing accuracy, indicating some advantage in possession control.\n\nStep 4: The overall squad ratings and WC form also favor Team B, who has been performing well in the tournament with consecutive wins.\n\nStep 5: Considering the strong attacking performance of Team B and their recent form, it seems likely they will take the win.\n\nPrediction: away_win\nScore: 2-1\nReasoning: Team B's superior attacking strength and recent form give them the edge over Argentina.",
+    "output_len": 1022
+  }
+]

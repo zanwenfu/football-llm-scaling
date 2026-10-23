@@ -1,0 +1,2178 @@
+[
+  {
+    "sample_idx": 0,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_draw\nScore: 1-1\nReasoning: Qatar's passing accuracy is lower than Ecuador's (63% vs 67%). However, Qatar's defense is slightly better in terms of yellow cards received (169 vs 158), but Ecuador's midfield presence could provide an advantage. Both teams have similar goal outputs (199 vs 130). Considering these factors, a draw seems like a plausible outcome."
+  },
+  {
+    "sample_idx": 1,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Team A's squad has slightly higher goal output (199 vs 130). Team A's passing accuracy is lower than Team B's but tackles per 90 minutes is lower for Team A which could be an indicator of defensive solidity."
+  },
+  {
+    "sample_idx": 2,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 6,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: England's squad has higher goal output (308 vs 139), more assists (186 vs 58), and a stronger defense with fewer yellow cards (192 vs 94)."
+  },
+  {
+    "sample_idx": 3,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 6,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Despite Team B's high scoring rate in this World Cup, their overall attacking performance is not as consistent as Team A's. Team A has a stronger squad with a higher average rating (7.1 vs 6.9) and more assists (186 vs 58). Additionally, Team A's top scorer is more prolific (109 vs 77 goals)."
+  },
+  {
+    "sample_idx": 4,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Netherlands's squad has higher goal output (214 vs 117), more assists (150 vs 42), and a slightly better passing accuracy (68% vs 67%)."
+  },
+  {
+    "sample_idx": 5,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Team B's squad has higher goal output (214 vs 117). Team B's top scorer is more prolific (59 vs 31 goals)."
+  },
+  {
+    "sample_idx": 6,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: draw\nScore: 1-1\nReasoning: Both teams have similar attacking styles with low goal outputs (109 vs 110), but also similar defensive records. The passing accuracy is almost identical for both teams. This suggests that it could be a closely contested match with a possible draw as an outcome."
+  },
+  {
+    "sample_idx": 7,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: draw\nScore: 1-1\nReasoning: Both teams have similar goal outputs (109 vs 110), assist numbers (53 vs 102), and passing accuracies (68% vs 67%). The difference in defense (117 yellows vs 134 yellows) and tackles per 90 minutes (1.14 vs 1.16) is minimal. This suggests a closely contested match with a likely draw as an outcome."
+  },
+  {
+    "sample_idx": 8,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 5,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 5-0\nReasoning: Argentina's squad has significantly higher goal output (273 vs 92), assists (187 vs 64), and top scorer (90 vs 34 goals). Additionally, Argentina's defense has fewer yellow cards compared to Saudi Arabia. This suggests that Argentina should dominate the game and secure an easy win."
+  },
+  {
+    "sample_idx": 9,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 3-1\nReasoning: Team A's squad has higher goal output (273 vs 92). Team A's top scorer is more prolific (90 vs 34 goals). Team A also has a slightly better passing accuracy (65% vs 64%)."
+  },
+  {
+    "sample_idx": 10,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Denmark's squad has slightly better average rating (6.9 vs 6.8), and they have been drawing in their previous two matches, indicating some consistency. Additionally, Denmark's passing accuracy is slightly higher than Tunisia's."
+  },
+  {
+    "sample_idx": 11,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_draw\nScore: 1-1\nReasoning: Both teams have similar goal outputs (134 vs 83). They also have similar passing accuracy (64%). The teams have comparable defensive records in terms of yellow cards (122 vs 148), but Team A has fewer red cards (2 vs 1). Considering their World Cup forms, both teams have been inconsistent, with one win and two draws for Team B and three draws for Team A. This suggests that this match could be a closely contested draw."
+  },
+  {
+    "sample_idx": 12,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 2,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_draw\nScore: 2-2\nReasoning: Poland's squad has higher goal output (273 vs 139), but Mexico's defense is slightly better in terms of yellow cards. However, Poland's attacking prowess might be too much for Mexico to handle, resulting in an entertaining draw."
+  },
+  {
+    "sample_idx": 13,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Team B's squad has significantly higher goal output (273 vs 139). Despite having fewer yellow cards, Team B's defense is comparable to Team A's in terms of tackles per 90 minutes (1.23). However, Team B's passing accuracy is slightly lower than Team A's. Considering these factors, Team B's attacking prowess might be too much for Team A to handle."
+  },
+  {
+    "sample_idx": 14,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 4-1\nReasoning: France's squad has significantly higher goal output (280 vs 100), assists (145 vs 61), and top scorer (126 vs 25 goals). Additionally, France has a strong World Cup form with three consecutive wins."
+  },
+  {
+    "sample_idx": 15,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 3-0\nReasoning: Team A has a strong recent form in the World Cup with three consecutive wins. They have a significant advantage in goal output (280 vs 100), assists (145 vs 61), and top scorer (126 vs 25 goals). Their defensive record is also slightly better than Team B's."
+  },
+  {
+    "sample_idx": 16,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: draw\nScore: 1-1\nReasoning: Both teams have similar goal outputs (192 vs 174), and both have strong defensive records with high tackle rates and duel percentages. Their passing accuracies are also close. This suggests a closely contested match, making a draw a likely outcome."
+  },
+  {
+    "sample_idx": 17,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 2,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "raw_output": "Prediction: draw\nScore: 2-2\nReasoning: Both teams have similar goal outputs (192 vs 174), assist numbers (86 vs 144), and passing accuracies (67% vs 65%). The teams also have similar defensive records in terms of yellow cards (174 vs 170) and red cards (6 vs 2). Considering their recent World Cup form, both teams have had mixed results, making it difficult to predict a clear winner."
+  },
+  {
+    "sample_idx": 18,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Germany's squad has significantly higher goal output (257 vs 141), and their top scorer is more prolific (61 vs 40 goals). Additionally, Germany's passing accuracy is slightly better than Japan's."
+  },
+  {
+    "sample_idx": 19,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Team A's squad has higher goal output (257 vs 141). Team A has better passing accuracy (69% vs 71%)."
+  },
+  {
+    "sample_idx": 20,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 7,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Spain's squad has higher goal output (172 vs 82), more assists (129 vs 13), and better passing accuracy (68% vs 71%). Additionally, Spain's average rating is slightly higher (7.0 vs 6.9)."
+  },
+  {
+    "sample_idx": 21,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 7,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Team A has better form in the World Cup so far (W 1-0, D 2-2, D 1-1) compared to Team B (L 0-1, L 0-2, D 2-2). Team A also has higher goal output (172 vs 82), more assists (129 vs 13), and a slightly higher passing accuracy (68% vs 71%)."
+  },
+  {
+    "sample_idx": 22,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Belgium has better passing accuracy (65% vs 64%) and slightly higher tackles per 90 minutes (1.20 vs 1.44), indicating a slight edge in possession and defensive pressure. Additionally, Belgium has shown consistent form with two wins in their previous matches."
+  },
+  {
+    "sample_idx": 23,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Both teams have similar formations and defensive statistics. However, Team A has slightly better attacking statistics (175 goals vs 145), with a higher number of assists (149 vs 63). Additionally, Team A has a slight edge in passing accuracy (65% vs 64%)."
+  },
+  {
+    "sample_idx": 24,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Switzerland has slightly better passing accuracy (68% vs 65%). Cameroon's attacking output is higher (127 vs 104), but Switzerland's defense has been relatively strong in this World Cup with only one loss."
+  },
+  {
+    "sample_idx": 25,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Team B's squad has higher goal output (127 vs 104). Team B's top scorer is more prolific (46 vs 29 goals)."
+  },
+  {
+    "sample_idx": 26,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: draw\nScore: 1-1\nReasoning: Both teams have similar goal outputs (164 vs 184), and their defensive records are also comparable (176 yellows for Uruguay vs 117 yellows for South Korea). This suggests that the game could be closely contested, resulting in a draw."
+  },
+  {
+    "sample_idx": 27,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Team B's squad has slightly higher goal output (184 vs 164). Team B also has a slight edge in passing accuracy (71% vs 66%)."
+  },
+  {
+    "sample_idx": 28,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Portugal's squad has higher goal output (334 vs 125), more assists (189 vs 43), and a stronger overall form in this World Cup (1 win, 1 draw, 0 loss)."
+  },
+  {
+    "sample_idx": 29,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Team A's squad has higher goal output (334 vs 125). Team A's top scorer is more prolific (115 vs 56 goals). Team A also has a slightly better passing accuracy (67% vs 66%)."
+  },
+  {
+    "sample_idx": 30,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Although both teams have similar goal outputs, Brazil has slightly better passing accuracy (72% vs 62%). Additionally, Brazil's defense has fewer yellow cards compared to Serbia's."
+  },
+  {
+    "sample_idx": 31,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Although both teams have similar goal outputs (242 vs 248), Team A has a slight edge in tackles per game (1.40 vs 1.00). Additionally, Team A has a slightly better passing accuracy (72% vs 62%)."
+  },
+  {
+    "sample_idx": 32,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: draw\nScore: 1-1\nReasoning: Both teams have similar average ratings (6.9), and their defensive records are also comparable (yellows and reds). Iran's attacking prowess (216 goals) might be balanced by Wales' solid defense (tackles and duels)."
+  },
+  {
+    "sample_idx": 33,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 1-2\nReasoning: Team B's squad has significantly higher goal output (216 vs 138). Team B's top scorer is more prolific (77 vs 45 goals)."
+  },
+  {
+    "sample_idx": 34,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: draw\nScore: 1-1\nReasoning: Both teams have similar goal outputs (180 vs 144), and both have strong defensive records with high duel percentages (57% for Qatar and 54% for Senegal). The passing accuracy also suggests that both teams can maintain possession effectively. This could lead to a closely contested game resulting in a draw."
+  },
+  {
+    "sample_idx": 35,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Both teams have similar goal outputs (180 vs 144), but Team A has slightly better passing accuracy (62% vs 67%). Additionally, Team A has a slight edge in tackles per 90 minutes (0.35 vs 1.19)."
+  },
+  {
+    "sample_idx": 36,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Netherlands' squad has higher goal output (211 vs 120), more assists (129 vs 46), and slightly better passing accuracy (68% vs 66%)."
+  },
+  {
+    "sample_idx": 37,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Team A's squad has slightly higher goal output (211 vs 120). Team A has a higher average rating (7.1 vs 6.9)."
+  },
+  {
+    "sample_idx": 38,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: England's squad has significantly higher goal output (308 vs 119), more assists (186 vs 46), and a stronger defense with fewer yellow cards (192 vs 113). Additionally, England's passing accuracy is slightly better (64% vs 65%). These factors suggest that England should have an advantage in this matchup."
+  },
+  {
+    "sample_idx": 39,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Team A's squad has significantly higher goal output (308 vs 119). Team A's top scorer is more prolific (109 vs 32 goals)."
+  },
+  {
+    "sample_idx": 40,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 1-0\nReasoning: Although Tunisia has slightly better passing accuracy, Australia has more assists which indicates better attacking opportunities. Additionally, Tunisia's defensive record in this World Cup is not impressive with two losses."
+  },
+  {
+    "sample_idx": 41,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Although both teams have similar defensive records, Team B has a slightly better attack with more assists (60 vs 41). Team B also has a stronger overall form in the World Cup so far."
+  },
+  {
+    "sample_idx": 42,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Poland's squad has significantly higher goal output (307 vs 109), and their top scorer is much more prolific (168 vs 34 goals). Additionally, Poland's passing accuracy is slightly better than Saudi Arabia's."
+  },
+  {
+    "sample_idx": 43,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 3-1\nReasoning: Team A's squad has higher goal output (307 vs 109). Team A's top scorer is more prolific (168 vs 34 goals)."
+  },
+  {
+    "sample_idx": 44,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: France has shown strong form in the World Cup so far with two convincing wins. They have a significant advantage in both goal output (307 vs 145) and assists (157 vs 93), indicating their attacking prowess. Additionally, they have a slightly better passing accuracy compared to Denmark. This suggests that France should be able to maintain their winning streak against Denmark."
+  },
+  {
+    "sample_idx": 45,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 3-1\nReasoning: Team A has a strong recent form in the World Cup with three consecutive wins. They have a higher goal output (307 vs 145), more assists (157 vs 93), and a more prolific top scorer (126 vs 32 goals). Their passing accuracy is slightly better as well (69% vs 68%)."
+  },
+  {
+    "sample_idx": 46,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Argentina's squad has significantly higher goal output (258 vs 97), and their top scorer is much more prolific (90 vs 32 goals). Additionally, Argentina has a slightly better passing accuracy (64% vs 73%)."
+  },
+  {
+    "sample_idx": 47,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 3-1\nReasoning: Team A's squad has higher goal output (258 vs 97). Team A's top scorer is more prolific (90 vs 32 goals). Team A also has a slightly better passing accuracy (64% vs 73%)."
+  },
+  {
+    "sample_idx": 48,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: draw\nScore: 1-1\nReasoning: Both teams have similar goal outputs (129 vs 109), and their defenses have been relatively strong in this World Cup so far. The passing accuracy for both teams is also similar at 70%. This suggests that it could be a closely contested match with neither team able to gain a significant advantage."
+  },
+  {
+    "sample_idx": 49,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Although both teams have similar attacking statistics, Team A has slightly better defensive record in terms of yellow cards (95 vs 166). Additionally, Team A has more assists which could lead to scoring opportunities."
+  },
+  {
+    "sample_idx": 50,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 2,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "raw_output": "Prediction: draw\nScore: 2-2\nReasoning: Both teams have similar average ratings (7.0), passing accuracy (66%), and defensive discipline (similar yellow cards). Morocco's attacking output (191 goals) is slightly higher than Belgium's (149 goals). This could lead to an exciting draw between two evenly matched teams."
+  },
+  {
+    "sample_idx": 51,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Team B's squad has higher goal output (191 vs 149). Team B also has more assists (83 vs 134), indicating better attacking creativity."
+  },
+  {
+    "sample_idx": 52,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Croatia's squad has slightly better defense (199 yellows vs 151), and they have shown consistency in their World Cup form with two draws and one win. Additionally, Croatia's passing accuracy is lower than Canada's but they have a slight edge in tackles per game."
+  },
+  {
+    "sample_idx": 53,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_draw\nScore: 1-1\nReasoning: Both teams have similar goal outputs (198 vs 172). The squads have comparable attacking performances with both having prolific top scorers (61 vs 62 goals). This suggests a closely contested match, making a draw a likely outcome."
+  },
+  {
+    "sample_idx": 54,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Germany's squad has higher goal output (228 vs 164), more assists (218 vs 129), and slightly better passing accuracy (67% vs 68%)."
+  },
+  {
+    "sample_idx": 55,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Team B's squad has higher goal output (228 vs 164). Team B also has more assists (218 vs 129), indicating better attacking creativity. Despite having a slightly lower average rating, Team B's recent form and overall statistics suggest they have an edge in this matchup."
+  },
+  {
+    "sample_idx": 56,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 3,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Serbia's squad has higher goal output (263 vs 130), more assists (185 vs 54), and a better average rating (7.1 vs 6.9)."
+  },
+  {
+    "sample_idx": 57,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 3,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Team B's squad has significantly higher goal output (263 vs 130). Team B's top scorer is more prolific (94 vs 46 goals). Despite Team A's slightly better defense in terms of yellow cards, Team B's overall attacking prowess gives them an edge."
+  },
+  {
+    "sample_idx": 58,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: draw\nScore: 1-1\nReasoning: Both teams have similar attacking styles with high goal outputs (143 for South Korea and 142 for Ghana), but also strong defenses. The difference in tackles per game (1.36 for Ghana vs 0.82 for South Korea) suggests Ghana might be slightly more aggressive, which could lead to an equalizing opportunity for either side."
+  },
+  {
+    "sample_idx": 59,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Both teams have similar attacking statistics (143 goals for Team A vs 142 goals for Team B), but Team A has slightly better defense (112 yellows vs 139 yellows). Additionally, Team A has a slight edge in passing accuracy (67% vs 67%)."
+  },
+  {
+    "sample_idx": 60,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Brazil's squad has higher goal output (194 vs 100), more assists (108 vs 82), and better passing accuracy (73% vs 64%). Additionally, Brazil has been performing well in their previous matches with two wins."
+  },
+  {
+    "sample_idx": 61,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Team A has better recent World Cup form (W 2-0, W 2-0) compared to Team B (W 2-1, D 2-2, L 0-1). Team A also has a slightly higher average rating (7.1 vs 6.9), and their passing accuracy is higher (73% vs 64%). Additionally, Team A's attack has more assists (108 vs 82) which suggests they have more creative attacking options."
+  },
+  {
+    "sample_idx": 62,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Portugal's squad has higher goal output (298 vs 143), more assists (152 vs 71), and a slightly better passing accuracy (66% vs 63%)."
+  },
+  {
+    "sample_idx": 63,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Team A's squad has higher goal output (298 vs 143). Team A's top scorer is more prolific (115 vs 71 goals)."
+  },
+  {
+    "sample_idx": 64,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Netherlands' squad has slightly better average rating (7.1 vs 6.9), more assists (126 vs 22), and a stronger defense with fewer yellow cards (164 vs 179)."
+  },
+  {
+    "sample_idx": 65,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Team A's squad has slightly higher goal output (229 vs 196). Team A has a higher average rating (7.1 vs 6.9)."
+  },
+  {
+    "sample_idx": 66,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_draw\nScore: 1-1\nReasoning: Ecuador and Senegal have similar average ratings (6.9), but both teams have relatively low goal outputs (124 and 101 respectively). The game may be evenly contested, resulting in a draw."
+  },
+  {
+    "sample_idx": 67,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Both teams have similar average ratings (6.9), but Team A has slightly better attacking performance (124 goals vs 101). Team A also has a slight edge in passing accuracy (69% vs 67%)."
+  },
+  {
+    "sample_idx": 68,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 1-0\nReasoning: Iran's squad has higher goal output (216 vs 106), and their passing accuracy is slightly better (72% vs 69%). Additionally, Iran's defense has fewer yellow cards compared to USA's defense."
+  },
+  {
+    "sample_idx": 69,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Team A's squad has higher goal output (216 vs 106). Team A's top scorer is more prolific (77 vs 32 goals)."
+  },
+  {
+    "sample_idx": 70,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: England's squad has higher goal output (275 vs 121), more assists (165 vs 67), and a better top scorer (109 vs 45 goals)."
+  },
+  {
+    "sample_idx": 71,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Team B's squad has significantly higher goal output (275 vs 121). Team B's top scorer is much more prolific (109 vs 45 goals). Despite having a slightly lower average rating, Team B's overall performance metrics suggest they have an advantage in this matchup."
+  },
+  {
+    "sample_idx": 72,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: draw\nScore: 1-1\nReasoning: Both teams have similar average ratings (6.9), and their defensive records in this World Cup are also comparable. The attacking performances are not significantly different either, with Denmark having slightly better numbers but not enough to guarantee a win."
+  },
+  {
+    "sample_idx": 73,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_draw\nScore: 1-1\nReasoning: Both teams have similar average ratings (6.9), formations, and defensive records. However, Team B has a slight edge in attacking output (144 vs 98 goals) and assists (107 vs 58). Considering their World Cup forms, both teams have been drawing frequently, which suggests that this game might end in a draw."
+  },
+  {
+    "sample_idx": 74,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: France's squad has more assists (91 vs 31), indicating better attacking creativity and potentially more scoring opportunities. Additionally, France has shown stronger form in the World Cup so far with three consecutive wins."
+  },
+  {
+    "sample_idx": 75,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 1-0\nReasoning: Although both teams have similar average ratings and passing accuracy, Team B has significantly more assists (91 vs 31), indicating better attacking creativity and potentially more scoring opportunities. Additionally, Team B has a stronger defensive record with fewer yellow cards and a higher tackles per 90 rate."
+  },
+  {
+    "sample_idx": 76,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Mexico's squad has slightly better passing accuracy (73% vs 62%). Mexico also has more assists (75 vs 62), indicating a more creative attacking approach. Although Saudi Arabia had a recent win, their overall form in this World Cup is not impressive."
+  },
+  {
+    "sample_idx": 77,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Although both teams have similar defensive records, Team B has a slightly better attack with more goals scored (148 vs 104) and assists (75 vs 62). Additionally, Team B's passing accuracy is higher (73% vs 62%)."
+  },
+  {
+    "sample_idx": 78,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Argentina's squad has slightly better average rating (7.2 vs 6.9), more assists (168 vs 100), and a stronger defense in terms of tackles per game (1.34 vs 1.12)."
+  },
+  {
+    "sample_idx": 79,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Although both teams have similar passing accuracy, Team B has a slightly better average rating (7.2 vs 6.9). Team B also has more assists (168 vs 100), indicating stronger attacking play."
+  },
+  {
+    "sample_idx": 80,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: draw\nScore: 1-1\nReasoning: Both teams have similar goal outputs (198 vs 183), and their defensive records are also comparable. This suggests that it could be a closely contested match with both teams cancelling each other out."
+  },
+  {
+    "sample_idx": 81,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: draw\nScore: 1-1\nReasoning: Both teams have similar goal outputs (198 vs 183), assist numbers (138 vs 156), and passing accuracies (65%). Their defensive records also show similarities in yellow cards and red cards. Considering their recent World Cup forms, both teams have shown inconsistent results. Therefore, it's likely that this match will end in a draw."
+  },
+  {
+    "sample_idx": 82,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_draw\nScore: 1-1\nReasoning: Morocco's squad has slightly better passing accuracy (68% vs 65%). Both teams have similar defensive records but Morocco has had some experience in this World Cup with two matches played."
+  },
+  {
+    "sample_idx": 83,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Team B's squad has higher goal output (181 vs 129). Team B also has more assists (86 vs 69), indicating better attacking creativity."
+  },
+  {
+    "sample_idx": 84,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_draw\nScore: 1-1\nReasoning: Both teams have similar average ratings (6.9), but Spain's squad has slightly higher goal output (157 vs 139). However, considering both teams' defensive records in this World Cup, it seems likely that they will cancel each other out, resulting in a draw."
+  },
+  {
+    "sample_idx": 85,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_draw\nScore: 1-1\nReasoning: Both teams have similar average ratings (6.9), and their defensive records in the World Cup are comparable. However, Team B has a slight edge in goal output (157 vs 139) and passing accuracy (64% vs 71%). Considering these factors, a draw seems like a plausible outcome."
+  },
+  {
+    "sample_idx": 86,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 4,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Germany's squad has higher goal output (259 vs 118), more assists (244 vs 12), and better passing accuracy (65% vs 71%)."
+  },
+  {
+    "sample_idx": 87,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 4,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Team B's squad has higher goal output (259 vs 118). Team B also has significantly more assists (244 vs 12), indicating better attacking creativity."
+  },
+  {
+    "sample_idx": 88,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Portugal's squad has higher goal output (242 vs 159), more assists (91 vs 72), and a more prolific top scorer (115 vs 72 goals)."
+  },
+  {
+    "sample_idx": 89,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Team B's squad has higher goal output (242 vs 159). Team B's top scorer is more prolific (115 vs 72 goals)."
+  },
+  {
+    "sample_idx": 90,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Uruguay's squad has higher goal output (204 vs 140), despite having fewer shots on target per game. Additionally, Uruguay has shown strong form in the World Cup so far with two wins."
+  },
+  {
+    "sample_idx": 91,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Team B's squad has higher goal output (204 vs 140). Team B's top scorer is more prolific (71 vs 56 goals). Despite Team A's high attack rate, Team B's overall performance in the World Cup so far suggests they have the edge to win this match."
+  },
+  {
+    "sample_idx": 92,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 1-0\nReasoning: Although Serbia has a higher goal output in total, their recent form is not impressive (L 1-2, L 0-2), while Switzerland has shown some resilience with a win and a draw in their previous matches. Additionally, Switzerland's passing accuracy is slightly better than Serbia's."
+  },
+  {
+    "sample_idx": 93,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Team A's squad has significantly higher goal output (330 vs 102). Team A's top scorer is more prolific (94 vs 29 goals). Despite Team B's better passing accuracy, their overall attacking performance is weaker compared to Team A."
+  },
+  {
+    "sample_idx": 94,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Brazil's squad has higher goal output (205 vs 138), more assists (141 vs 65), and slightly better passing accuracy (71% vs 67%)."
+  },
+  {
+    "sample_idx": 95,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Despite having fewer yellow cards, Team B has a slightly higher average rating (7.1 vs 6.9) and more assists (141 vs 65), indicating better overall performance. Additionally, Team B's top scorer is more prolific (57 vs 39 goals)."
+  },
+  {
+    "sample_idx": 96,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 3-0\nReasoning: Netherlands' squad has significantly higher goal output (229 vs 108), and their top scorer is more prolific (72 vs 32 goals). Additionally, Netherlands have better passing accuracy (65% vs 67%)."
+  },
+  {
+    "sample_idx": 97,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Team A's squad has higher goal output (229 vs 108). Team A's top scorer is more prolific (72 vs 32 goals)."
+  },
+  {
+    "sample_idx": 98,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Argentina's squad has significantly higher goal output (213 vs 76), assists (151 vs 50), and top scorer (90 vs 24 goals). Additionally, Argentina's passing accuracy is slightly better (62% vs 70%)."
+  },
+  {
+    "sample_idx": 99,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Team A's squad has higher goal output (213 vs 76). Team A's top scorer is more prolific (90 vs 24 goals). Team A also has a slightly better passing accuracy (62% vs 70%). Additionally, Team A has a stronger defensive record in terms of yellow cards (206 vs 119), indicating a more disciplined defense."
+  },
+  {
+    "sample_idx": 100,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 3-1\nReasoning: France's squad has slightly higher goal output (307 vs 285), and their passing accuracy is lower by only 4%. However, Poland's defense has been strong in their last two matches, but France's offense has been consistent throughout the tournament."
+  },
+  {
+    "sample_idx": 101,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Both teams have similar goal outputs (307 vs 285), but Team A has a slight edge in tackles per 90 minutes (1.26 vs 1.22). Additionally, Team A has a better defensive record with fewer yellow cards (201 vs 197)."
+  },
+  {
+    "sample_idx": 102,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: England's squad has significantly higher goal output (251 vs 109), more assists (169 vs 44), and a stronger defense with fewer yellow cards (189 vs 139). Additionally, England's passing accuracy is slightly better than Senegal's. These factors suggest that England should have an advantage in this matchup."
+  },
+  {
+    "sample_idx": 103,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Team A's squad has higher goal output (251 vs 109). Team A's top scorer is more prolific (109 vs 31 goals). Team A also has a slightly better passing accuracy (65% vs 68%)."
+  },
+  {
+    "sample_idx": 104,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Croatia's squad has slightly better passing accuracy (63% vs 71%) and similar duel percentage (56% vs 53%). However, Croatia's attacking output is also higher (182 vs 145 goals), which could be decisive in this match."
+  },
+  {
+    "sample_idx": 105,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Team B's squad has higher goal output (182 vs 145). Team B also has more assists (137 vs 99), indicating better attacking creativity."
+  },
+  {
+    "sample_idx": 106,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 4-1\nReasoning: Both teams have similar goal outputs (241 vs 175), but Brazil has slightly better passing accuracy (73% vs 69%). Additionally, Brazil has a slight edge in tackles per game (1.41 vs 0.90). Considering their recent form, Brazil seems to be the stronger team."
+  },
+  {
+    "sample_idx": 107,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Both teams have similar goal outputs (241 vs 175), but Team A has a slight edge in tackles per game (1.41 vs 0.90). Additionally, Team A has a slightly better passing accuracy (73% vs 69%). Considering their recent World Cup form, Team A's consistency and slight advantages might give them an edge over Team B."
+  },
+  {
+    "sample_idx": 108,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Although both teams have similar statistics, Spain's attacking prowess with 134 assists gives them an edge over Morocco's 86 assists. Additionally, Spain's passing accuracy is slightly better than Morocco's."
+  },
+  {
+    "sample_idx": 109,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Both teams have similar statistics in terms of goal output (192 vs 181), tackles per 90 minutes (1.44 vs 1.23), duels percentage (54% for both), and passing accuracy (67% vs 69%). However, considering the knockout stage context, I would slightly favor Team B due to their recent form (W 1-0, D 2-2, D 1-1) compared to Team A's struggles (L 0-1, L 0-1, D 2-2)."
+  },
+  {
+    "sample_idx": 110,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 6,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Portugal's squad has significantly higher goal output (246 vs 93), and their top scorer is more prolific (73 vs 29 goals). Additionally, Portugal has been performing well in the World Cup so far with a win and a draw, while Switzerland has had mixed results."
+  },
+  {
+    "sample_idx": 111,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 6,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Team A's squad has higher goal output (246 vs 93). Team A's top scorer is more prolific (73 vs 29 goals). Team A also has better passing accuracy (63% vs 71%)."
+  },
+  {
+    "sample_idx": 112,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Brazil's squad has higher goal output (241 vs 175), more assists (124 vs 147), and slightly better passing accuracy (73% vs 67%). Additionally, Brazil has been performing well in their World Cup matches so far with two wins."
+  },
+  {
+    "sample_idx": 113,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Team B's squad has higher goal output (241 vs 175). Team B also has better passing accuracy (73% vs 67%). Despite having a slightly lower duel percentage, Team B's overall performance metrics suggest they have an edge in this matchup."
+  },
+  {
+    "sample_idx": 114,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 2,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Argentina's squad has a slightly better average rating (7.2 vs 7.1), and their top scorer is more prolific (90 vs 72 goals). Additionally, Argentina has shown resilience in their previous matches despite conceding some goals, which could be an advantage in this high-stakes game."
+  },
+  {
+    "sample_idx": 115,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 2,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Although both teams have similar goal outputs (207 vs 195), Team B has a slightly better average rating (7.2 vs 7.1). Additionally, Team B's top scorer is more prolific (90 vs 72 goals)."
+  },
+  {
+    "sample_idx": 116,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Portugal's squad has higher goal output (254 vs 183), more assists (162 vs 81), and slightly better passing accuracy (65% vs 71%)."
+  },
+  {
+    "sample_idx": 117,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Team B's squad has higher goal output (254 vs 183). Team B's top scorer is more prolific (73 vs 47 goals). Despite having a slightly lower average rating, Team B's overall performance metrics suggest they have an edge in this matchup."
+  },
+  {
+    "sample_idx": 118,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: France's squad has higher goal output (307 vs 251), more assists (157 vs 169), and slightly better passing accuracy (69% vs 65%)."
+  },
+  {
+    "sample_idx": 119,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Team B's squad has higher goal output (307 vs 251). Team B's top scorer is more prolific (126 vs 109 goals). Despite both teams having similar average ratings and defensive statistics, Team B's stronger offense gives them an edge in this high-stakes match."
+  },
+  {
+    "sample_idx": 120,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Although both teams have similar defensive records, Argentina's attacking prowess with 90 goals from their top scorer gives them an edge. Additionally, Argentina's passing accuracy is slightly lower than Croatia's but still respectable at 62%."
+  },
+  {
+    "sample_idx": 121,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Both teams have similar defensive records in terms of yellow cards and red cards. However, Team A has a slight edge in tackles per 90 minutes (1.38 vs 1.13). Additionally, Team A's top scorer is more prolific (90 vs 48 goals), which could be a deciding factor in this high-stakes match."
+  },
+  {
+    "sample_idx": 122,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: France has been in better form throughout the World Cup with consecutive wins, while Morocco has struggled to find consistency. France also has a stronger attacking unit with more goals scored and assists provided. Additionally, their passing accuracy is slightly higher than Morocco's."
+  },
+  {
+    "sample_idx": 123,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Team A has a significant advantage in goal output (303 vs 167), with their top scorer being much more prolific (126 vs 47 goals). Additionally, Team A has a strong recent form in the World Cup, winning all three matches, while Team B has struggled, losing two and drawing one."
+  },
+  {
+    "sample_idx": 124,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Croatia's squad has higher goal output (267 vs 162), more assists (123 vs 79), and a slightly better passing accuracy (65% vs 71%). Additionally, Croatia's defense has fewer yellow cards (162 vs 150). These factors suggest that Croatia may have an edge in this matchup."
+  },
+  {
+    "sample_idx": 125,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Both teams have similar average ratings (7.0), but Team A has slightly higher goal output (267 vs 162). Team A also has more assists (123 vs 79). Additionally, Team A has shown better form in the World Cup so far with two wins and one draw, while Team B has struggled with two losses and one draw."
+  },
+  {
+    "sample_idx": 126,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 3,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 3-2\nReasoning: Despite both teams having strong overall performances, France's squad has higher goal output (307 vs 218), more assists (157 vs 168), and slightly better passing accuracy (69% vs 63%). Additionally, France has a more balanced midfield with five players in that position compared to three for Argentina."
+  },
+  {
+    "sample_idx": 127,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 3,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-1\nReasoning: Team B's squad has significantly higher goal output (307 vs 218). Team B's top scorer is much more prolific (126 vs 90 goals). Despite Team A's strong form in other aspects, Team B's overall attacking prowess gives them an edge in this high-stakes final."
+  }
+]

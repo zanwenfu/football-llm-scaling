@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "The Parser-Rescue Gap: Why Small-Data Fine-Tuning Inflates Accuracy on Structured Prediction"
+message: "If you use this code or the accompanying analysis, please cite the paper."
+type: software
+authors:
+  - family-names: Fu
+    given-names: Zanwen
+    affiliation: Duke University
+    email: zanwen.fu@duke.edu
+repository-code: "https://github.com/zanwenfu/football-llm-scaling"
+version: 0.1.0
+date-released: "2026-04-21"
+license: MIT
+keywords:
+  - LLM
+  - QLoRA
+  - structured-prediction
+  - evaluation
+  - chain-of-thought
+  - in-context-learning
+preferred-citation:
+  type: article
+  title: "The Parser-Rescue Gap: Why Small-Data Fine-Tuning Inflates Accuracy on Structured Prediction"
+  authors:
+    - family-names: Fu
+      given-names: Zanwen
+  year: 2026
+  institution:
+    name: Duke University

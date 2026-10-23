@@ -1,0 +1,2306 @@
+[
+  {
+    "sample_idx": 0,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Ecuador's squad has higher goal output (190 vs 99). Ecuador's top scorer is more prolific (40 vs 12 goals). Qatar's defense is better in duels (59% vs 55%).",
+    "output_len": 199
+  },
+  {
+    "sample_idx": 1,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-1\nReasoning: Team A's squad has higher goal output (200 vs 131). Team A's top scorer is more prolific (59 goals vs 40). Team B's defense is better at duels (56% vs 51%).",
+    "output_len": 199
+  },
+  {
+    "sample_idx": 2,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 6,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 6,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 6-2\nReasoning: England's squad has higher goal output (309 vs 140). England's top scorer is more prolific (110 vs 78 goals). Iran's defense is better at duels (57% vs 55%).",
+    "output_len": 200
+  },
+  {
+    "sample_idx": 3,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 6,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-1\nReasoning: Team B's squad has higher goal output (140 vs 108). Team B's top scorer is more prolific (79 vs 69 goals). Team B has better passing (73% vs 66%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 4,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-2\nReasoning: Netherlands's squad has higher goal output (213 vs 116). Nederland's top scorer is more prolific (59 vs 32 goals). Netherlands has better passing (69% vs 66%).",
+    "output_len": 202
+  },
+  {
+    "sample_idx": 5,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Team A's squad has higher goal output (217 vs 114). Team B's top scorer is more prolific (69 vs 32 goals). Team A's defense is better in duels (57% vs 55%).",
+    "output_len": 199
+  },
+  {
+    "sample_idx": 6,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 1-2\nReasoning: USA's squad has higher goal output (111 vs 104). Wales has better passing (69% vs 66%). USA's top scorer is more prolific (33 goals vs 27).",
+    "output_len": 182
+  },
+  {
+    "sample_idx": 7,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-1\nReasoning: Team B's squad has higher goal output (111 vs 108). Team B's top scorer is more prolific (30 vs 31 goals). Team B has better passing (69% vs 66%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 8,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Argentina's squad has higher goal output (270 vs 93). Argentina's top scorer is more prolific (91 goals vs 35). Argentina has better passing (66% vs 63%). Argentina's average rating is higher (7.2 vs 6.9).",
+    "output_len": 248
+  },
+  {
+    "sample_idx": 9,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Team A's squad has higher goal output (270 vs 93). Team A's top scorer is more prolific (91 goals vs 35). Team A has better passing (66% vs 63%).",
+    "output_len": 188
+  },
+  {
+    "sample_idx": 10,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-1\nReasoning: Tunisia's squad has higher goal output (84 vs 133). Denmark's top scorer is more prolific (33 vs 24 goals). Denmark has better passing (66% vs 63%). Tunisia has better defense (144 yellows vs 123).",
+    "output_len": 240
+  },
+  {
+    "sample_idx": 11,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-1\nReasoning: Team B's squad has higher goal output (143 vs 135). Team B's top scorer is more prolific (26 vs 12 goals). Team A's defense is better at duels (56% vs 51%).",
+    "output_len": 199
+  },
+  {
+    "sample_idx": 12,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-1\nReasoning: Poland's squad has higher goal output (270 vs 140). Poland's top scorer is more prolific (169 vs 40 goals). Mexico's defense is better in duels (56% vs 54%).",
+    "output_len": 200
+  },
+  {
+    "sample_idx": 13,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 8,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-8\nReasoning: Team B's squad has higher goal output (270 vs 140). Team B's top scorer is more prolific (169 vs 40 goals). Team B has better passing (67% vs 73%).",
+    "output_len": 190
+  },
+  {
+    "sample_idx": 14,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 4-1\nReasoning: France's squad has higher goal output (278 vs 101). France's top scorer is more prolific (128 vs 24 goals). France has better passing (70% vs 67%).",
+    "output_len": 190
+  },
+  {
+    "sample_idx": 15,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 6,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 6-1\nReasoning: Team A's squad has higher goal output (278 vs 102). Team A's top scorer is more prolific (128 vs 24 goals). Team A has better passing (72% vs 69%).",
+    "output_len": 190
+  },
+  {
+    "sample_idx": 16,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 8,
+      "away_goals": 5,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 8-5\nReasoning: Morocco's squad has higher goal output (194 vs 176). Croatia's top scorer is more prolific (49 vs 46 goals).",
+    "output_len": 151
+  },
+  {
+    "sample_idx": 17,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 5,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-5\nReasoning: Team B's squad has higher goal output (194 vs 191). Team B's top scorer is more prolific (49 vs 46 goals). Team A's defense is better in duels (56% vs 53%).",
+    "output_len": 199
+  },
+  {
+    "sample_idx": 18,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Germany's squad has higher goal output (256 vs 142). Germany's top scorer is more prolific (60 vs 39 goals). Japan's defense is better at duels (56% vs 51%).",
+    "output_len": 200
+  },
+  {
+    "sample_idx": 19,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Team A's squad has higher goal output (256 vs 140). Team A's top scorer is more prolific (60 vs 39 goals). Team A has better passing (70% vs 68%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 20,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 7,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 5,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 5-1\nReasoning: Spain's squad has higher goal output (176 vs 83). Spain's top scorer is more prolific (51 vs 39 goals). Spain has better passing (69% vs 70%). Costa Rica's defense is more tighly rated (0.91 TDU/90 vs 1.24).",
+    "output_len": 250
+  },
+  {
+    "sample_idx": 21,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 7,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 5,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 5-1\nReasoning: Team A's squad has higher goal output (170 vs 83). Team A's top scorer is more prolific (49 vs 37 goals). Team A has better passing (69% vs 70%).",
+    "output_len": 188
+  },
+  {
+    "sample_idx": 22,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 5,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 5-1\nReasoning: Belgium's squad has higher goal output (177 vs 144). Belgium's top scorer is more prolific (150 vs 61 goals). Canada's defense is better at duels (56% vs 53%). Belgium has no prior H2H data.",
+    "output_len": 233
+  },
+  {
+    "sample_idx": 23,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 5,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 5-1\nReasoning: Team A's squad has higher goal output (177 vs 144). Team A's top scorer is more prolific (50 vs 62 goals). Team A has better passing (66% vs 59%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 24,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 1-0\nReasoning: Switzerland's squad has higher goal output (204 vs 128). Switzerland's top scorer is more prolific (129 vs 56 goals). Cameroon's passing is better (69% vs 66%).",
+    "output_len": 203
+  },
+  {
+    "sample_idx": 25,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-1\nReasoning: Team B's squad has higher goal output (128 vs 105). Team B's top scorer is more prolific (46 vs 30 goals).",
+    "output_len": 149
+  },
+  {
+    "sample_idx": 26,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 8,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-8\nReasoning: Uruguay's squad has higher goal output (194 vs 178). Uruguay's top scorer is more prolific (91 goals vs 70). Uruguay has better passing (69% vs 68%). Uruguay's defense is more tighly organized (177 yellows vs 111). Uruguay's average rating is higher (6.9 vs 7.0).",
+    "output_len": 306
+  },
+  {
+    "sample_idx": 27,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 8,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-8\nReasoning: Team B's squad has higher goal output (204 vs 166). Team B's top scorer is more prolific (73 vs 70 goals). Team B has better passing (76% vs 67%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 28,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 3-2\nReasoning: Portugal's squad has higher goal output (335 vs 124). Portugal's top scorer is more prolific (116 vs 55 goals). Portugal has better passing (69% vs 64%). Portugal's average rating is higher (7.1 vs 6.8).",
+    "output_len": 246
+  },
+  {
+    "sample_idx": 29,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 1-0\nReasoning: Team A's squad has higher goal output (335 vs 123). Team A's top scorer is more prolific (116 vs 55 goals). Team A has better passing (69% vs 64%).",
+    "output_len": 190
+  },
+  {
+    "sample_idx": 30,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Brazil's squad has higher goal output (240 vs 148). Brazil's top scorer is more prolific (53 vs 93 goals). Brazil's average rating is higher (6.9 vs 6.8). Brazil's passing is more accurate (73% vs 64%). Brazil's defense is better in duels (57% vs 51%).",
+    "output_len": 295
+  },
+  {
+    "sample_idx": 31,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Team A's squad has higher goal output (240 vs 148). Team A's top scorer is more prolific (55 vs 93 goals). Team A has better passing (73% vs 63%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 32,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-2\nReasoning: Iran's squad has higher goal output (216 vs 139). Iran's top scorer is more prolific (77 vs 46 goals). Iran has better passing (69% vs 64%).",
+    "output_len": 183
+  },
+  {
+    "sample_idx": 33,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-1\nReasoning: Team B's squad has higher goal output (217 vs 139). Team B's top scorer is more prolific (77 vs 46 goals). Team B has better passing (70% vs 66%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 34,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 3-1\nReasoning: Qatar's squad has higher goal output (200 vs 143). Qatar's top scorer is more prolific (93 vs 40 goals). Senegal's defense is better (141 yellows, 7 reds vs 174 yellows, 10 reds).",
+    "output_len": 222
+  },
+  {
+    "sample_idx": 35,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 1-0\nReasoning: Team A's squad has higher goal output (240 vs 184). Team B's top scorer is more prolific (93 vs 56 goals). Team A's defense is better in duels (59% vs 55%).",
+    "output_len": 199
+  },
+  {
+    "sample_idx": 36,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Netherlands's squad has higher goal output (210 vs 119). Nederland's top scorer is more prolific (49 vs 38 goals). Ecuador's defense is better at duels (59% vs 56%).",
+    "output_len": 208
+  },
+  {
+    "sample_idx": 37,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 5,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 5-1\nReasoning: Team A's squad has higher goal output (210 vs 119). Team A's top scorer is more prolific (50 vs 38 goals). Team A has better passing (69% vs 67%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 38,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-1\nReasoning: England's squad has higher goal output (309 vs 120). England's top scorer is more prolific (110 vs 33 goals). England has better passing (66% vs 63%).",
+    "output_len": 193
+  },
+  {
+    "sample_idx": 39,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-1\nReasoning: Team A's squad has higher goal output (309 vs 120). Team A's top scorer is more prolific (110 vs 33 goals). Team A has better passing (66% vs 63%).",
+    "output_len": 190
+  },
+  {
+    "sample_idx": 40,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-1\nReasoning: Australia's squad has higher goal output (102 vs 100). Australia's top scorer is more prolific (24 goals vs 32). Tunisia's defense is better-tacked (1.18 vs 1.15).",
+    "output_len": 206
+  },
+  {
+    "sample_idx": 41,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-1\nReasoning: Team B's squad has higher goal output (102 vs 100). Team A's top scorer is more prolific (32 vs 24 goals). Team B has better passing (70% vs 66%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 42,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 8,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-8\nReasoning: Poland's squad has higher goal output (309 vs 110). Poland's top scorer is more prolific (169 vs 35 goals). Saudi Arabia's defense is better at duels (56% vs 53%).",
+    "output_len": 206
+  },
+  {
+    "sample_idx": 43,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 1-0\nReasoning: Team A's squad has higher goal output (309 vs 110). Team A's top scorer is more prolific (169 vs 35 goals). Team A has better passing (68% vs 63%).",
+    "output_len": 190
+  },
+  {
+    "sample_idx": 44,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: France's squad has higher goal output (207 vs 144). France's top scorer is more prolific (124 vs 31 goals). France has better passing (70% vs 67%). Denmark's defense is stronger (143 yellows, 8 reds vs 200 yellows, 6 reds).",
+    "output_len": 266
+  },
+  {
+    "sample_idx": 45,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 4-1\nReasoning: Team A's squad has higher goal output (207 vs 144). Team A's top scorer is more prolific (125 vs 31 goals). Team A has better passing (70% vs 67%).",
+    "output_len": 190
+  },
+  {
+    "sample_idx": 46,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Argentina's squad has higher goal output (259 vs 98). Argentina's top scorer is more prolific (91 goals vs 33). Argentina has better passing (74% vs 72%). Argentina's defense is more tighly rated (0Y/90 vs 1Y/90).",
+    "output_len": 256
+  },
+  {
+    "sample_idx": 47,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 3-0\nReasoning: Team A's squad has higher goal output (259 vs 98). Team A's top scorer is more prolific (91 goals vs 33). Team A has better passing (74% vs 72%).",
+    "output_len": 188
+  },
+  {
+    "sample_idx": 48,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Japan's squad has higher goal output (139 vs 110). Japan's top scorer is more prolific (66 vs 39 goals). Costa Rica's defense is better at duels (64% vs 56%).",
+    "output_len": 201
+  },
+  {
+    "sample_idx": 49,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Team A's squad has higher goal output (139 vs 111). Team A's top scorer is more prolific (39 vs 34 goals). Team B's defense is better in duels (59% vs 55%).",
+    "output_len": 199
+  },
+  {
+    "sample_idx": 50,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Belgium's squad has higher goal output (189 vs 141). Belgium's top scorer is more prolific (150 vs 147 goals). Morocco has better passing (70% vs 64%). Belgium's defense is stronger (143 yellows vs 175).",
+    "output_len": 246
+  },
+  {
+    "sample_idx": 51,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 6,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-6\nReasoning: Team B's squad has higher goal output (190 vs 150). Team B's top scorer is more prolific (46 vs 49 goals). Team B has better passing (67% vs 64%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 52,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 4-1\nReasoning: Croatia's squad has higher goal output (200 vs 174). Canada's top scorer is more prolific (63 vs 60 goals).",
+    "output_len": 150
+  },
+  {
+    "sample_idx": 53,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-1\nReasoning: Team A's squad has higher goal output (200 vs 173). Team A's top scorer is more prolific (60 vs 59 goals). Team A has better passing (66% vs 63%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 54,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 6,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 1-6\nReasoning: Germany's squad has higher goal output (230 vs 166). Germany's top scorer is more prolific (62 vs 51 goals). Spain's defense is better at duels (55% vs 53%).",
+    "output_len": 200
+  },
+  {
+    "sample_idx": 55,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 6,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-6\nReasoning: Team B's squad has higher goal output (230 vs 166). Team B's top scorer is more prolific (62 vs 51 goals). Team B's average rating is higher (7.1 vs 7).",
+    "output_len": 195
+  },
+  {
+    "sample_idx": 56,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 3,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 3-2\nReasoning: Serbia's squad has higher goal output (264 vs 131). Serbia's top scorer is more prolific (95 vs 45 goals). Serbia has better passing (63% vs 66%). Serbia's defense is more yellow-carded (219 vs 133).",
+    "output_len": 242
+  },
+  {
+    "sample_idx": 57,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 3,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 8,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-8\nReasoning: Team B's squad has higher goal output (264 vs 131). Team B's top scorer is more prolific (95 vs 45 goals). Team B has better passing (63% vs 66%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 58,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-3\nReasoning: Ghana's squad has higher goal output (141 vs 133). Ghana's top scorer is more prolific (57 vs 69 goals). South Korea's defense is better-tacked (0.83 vs 1.04/90).",
+    "output_len": 205
+  },
+  {
+    "sample_idx": 59,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-1\nReasoning: Team B's squad has higher goal output (141 vs 144). Team A's top scorer is more prolific (72 vs 56 goals).",
+    "output_len": 149
+  },
+  {
+    "sample_idx": 60,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-3\nReasoning: Brazil's squad has higher goal output (194 vs 102). Brazil's top scorer is more prolific (49 goals vs 30). Brazil has better passing (74% vs 63%). Switzerland's defense is stronger (177 yellows, 12 reds vs 230 yellows, 4 reds).",
+    "output_len": 270
+  },
+  {
+    "sample_idx": 61,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Team A's squad has higher goal output (194 vs 100). Team A's top scorer is more prolific (48 vs 29 goals). Team A has better passing (73% vs 64%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 62,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 0-2\nReasoning: Uruguay's squad has higher goal output (144 vs 98). Uruguay's top scorer is more prolific (70 vs 116 goals). Uruguay has better passing (64% vs 67%). Uruguay's defense is more tighly rated (0TAs/90 vs 1Ta/90). Uruguay's attack is more goal-oriented (0.17/90 vs 0.19/90). Uruguay's squad has higher average rating (7.0 vs 7.1).",
+    "output_len": 369
+  },
+  {
+    "sample_idx": 63,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Team A's squad has higher goal output (299 vs 144). Team A's top scorer is more prolific (116 vs 70 goals). Team A has better passing (67% vs 62%).",
+    "output_len": 190
+  },
+  {
+    "sample_idx": 64,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Netherlands's squad has higher goal output (230 vs 197). Netherlands's top scorer is more prolific (70 vs 54 goals). Netherlands has better passing (66% vs 64%). Qatar's defense is more yellow-carded (180 vs 163).",
+    "output_len": 256
+  },
+  {
+    "sample_idx": 65,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 8,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-8\nReasoning: Team A's squad has higher goal output (230 vs 194). Team A's top scorer is more prolific (73 goals vs 54). Team B's defense is better at duels (60% vs 56%).",
+    "output_len": 199
+  },
+  {
+    "sample_idx": 66,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Ecuador's squad has higher goal output (144 vs 102). Ecuador's top scorer is more prolific (40 vs 32 goals). Senegal's defense is better at duels (57% vs 55%).",
+    "output_len": 202
+  },
+  {
+    "sample_idx": 67,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 1-0\nReasoning: Team A's squad has higher goal output (123 vs 100). Team A's top scorer is more prolific (39 vs 30 goals). Team B's defense is better in duels (57% vs 55%).",
+    "output_len": 199
+  },
+  {
+    "sample_idx": 68,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-1\nReasoning: USA's squad has higher goal output (110 vs 96). USA's top scorer is more prolific (35 vs 79 goals). USA's average rating is higher (7.5 vs 6.9). USA's passing is better (73% vs 71%). USA's defense is more yellow-carded (111 vs 131).",
+    "output_len": 275
+  },
+  {
+    "sample_idx": 69,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 5,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 5-1\nReasoning: Team A's squad has higher goal output (220 vs 105). Team A's top scorer is more prolific (79 vs 31 goals). Team A has better passing (73% vs 68%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 70,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-3\nReasoning: England's squad has higher goal output (276 vs 122). England's top scorer is more prolific (110 vs 46 goals). England has better passing (68% vs 64%).",
+    "output_len": 193
+  },
+  {
+    "sample_idx": 71,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-1\nReasoning: Team B's squad has higher goal output (276 vs 122). Team B's top scorer is more prolific (110 vs 46 goals). Team B has better passing (69% vs 64%).",
+    "output_len": 190
+  },
+  {
+    "sample_idx": 72,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: draw\nScore: 1-1\nReasoning: Denmark's squad has higher goal output (143 vs 99). Denmark's top scorer is more prolific (24 goals vs 23). Denmark's passing is better (66% vs 70%).",
+    "output_len": 188
+  },
+  {
+    "sample_idx": 73,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 5,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-5\nReasoning: Team B's squad has higher goal output (143 vs 99). Team B's top scorer is more prolific (24 goals vs 21). Team B has better passing (69% vs 66%).",
+    "output_len": 188
+  },
+  {
+    "sample_idx": 74,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-1\nReasoning: France's squad has higher goal output (114 vs 116). France's top scorer is more prolific (26 vs 30 goals). France has better passing (67% vs 63%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 75,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-1\nReasoning: Team B's squad has higher goal output (143 vs 116). Team B's top scorer is more prolific (26 vs 10 goals). Team B has better passing (67% vs 63%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 76,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Mexico's squad has higher goal output (149 vs 105). Mexico's top scorer is more prolific (38 vs 33 goals). Saudi Arabia's defense is better at duels (56% vs 54%).",
+    "output_len": 205
+  },
+  {
+    "sample_idx": 77,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 8,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-8\nReasoning: Team B's squad has higher goal output (149 vs 105). Team B's top scorer is more prolific (38 vs 33 goals). Team B has better passing (72% vs 61%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 78,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-2\nReasoning: Argentina's squad has higher goal output (213 vs 195). Argentina's top scorer is more prolific (91 goals vs 166). Poland's defense is better at duels (56% vs 54%). Argentina's passing is more accurate (66% vs 62%).",
+    "output_len": 257
+  },
+  {
+    "sample_idx": 79,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Team A's squad has higher goal output (299 vs 213). Team A's top scorer is more prolific (169 vs 91 goals). Team B's defense is better-tacked (1.14 vs 1.01/90).",
+    "output_len": 203
+  },
+  {
+    "sample_idx": 80,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 6,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-6\nReasoning: Belgium's squad has higher goal output (184 vs 197). Belgium's top scorer is more prolific (51 vs 60 goals). Belgium's average rating is higher (7.0 vs 7.1).",
+    "output_len": 200
+  },
+  {
+    "sample_idx": 81,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 6,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-6\nReasoning: Team B's squad has higher goal output (184 vs 197). Team A's top scorer is more prolific (60 vs 49 goals). Team A has better passing (66% vs 64%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 82,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Morocco's squad has higher goal output (180 vs 130). Canada's top scorer is more prolific (49 vs 45 goals). Morocco's average rating is higher (7.0 vs 6.9).",
+    "output_len": 199
+  },
+  {
+    "sample_idx": 83,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 5,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-5\nReasoning: Team B's squad has higher goal output (180 vs 130). Team B's top scorer is more prolific (47 vs 45 goals). Team B has better passing (67% vs 64%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 84,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Spain's squad has higher goal output (159 vs 141). Spain's top scorer is more prolific (57 vs 39 goals). Spain's passing is better (66% vs 70%). Japan's defense is stronger (102 yellows vs 178).",
+    "output_len": 237
+  },
+  {
+    "sample_idx": 85,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 5,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 5-1\nReasoning: Team A's squad has higher goal output (159 vs 137). Team B's top scorer is more prolific (57 vs 39 goals). Team A has better passing (70% vs 63%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 86,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 4,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 4,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-4\nReasoning: Germany's squad has higher goal output (258 vs 119). Germany's top scorer is more prolific (60 vs 66 goals). Germany's average rating is higher (7.2 vs 6.9).",
+    "output_len": 200
+  },
+  {
+    "sample_idx": 87,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 4,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 8,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-8\nReasoning: Team B's squad has higher goal output (258 vs 119). Team B's top scorer is more prolific (60 vs 66 goals). Team B has better passing (69% vs 70%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 88,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 5,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-5\nReasoning: Portugal's squad has higher goal output (240 vs 160). Portugal's top scorer is more prolific (116 vs 73 goals). Portugal has better passing (71% vs 69%). Portugal's average rating is higher (6.9 vs 7.0).",
+    "output_len": 246
+  },
+  {
+    "sample_idx": 89,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 5,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 5-0\nReasoning: Team A's squad has higher goal output (160 vs 142). Team B's top scorer is more prolific (116 vs 73 goals). Team A's defense is better in duels (56% vs 54%).",
+    "output_len": 200
+  },
+  {
+    "sample_idx": 90,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-2\nReasoning: Uruguay's squad has higher goal output (204 vs 141). Uruguay's top scorer is more prolific (71 vs 59 goals). Uruguay has better passing (62% vs 69%). Uruguay's defense is more taut (177 yellows vs 135). Uruguay's average rating is higher (7.0 vs 6.8).",
+    "output_len": 294
+  },
+  {
+    "sample_idx": 91,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-1\nReasoning: Team B's squad has higher goal output (204 vs 139). Team B's top scorer is more prolific (71 vs 59 goals). Team B has better passing (69% vs 66%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 92,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-3\nReasoning: Serbia's squad has higher goal output (332 vs 103). Serbia's top scorer is more prolific (95 vs 30 goals). Switzerland has better passing (70% vs 59%).",
+    "output_len": 194
+  },
+  {
+    "sample_idx": 93,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 2,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Team A's squad has higher goal output (332 vs 104). Team A's top scorer is more prolific (95 vs 30 goals). Team A has better passing (70% vs 68%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 94,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 4,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 0-4\nReasoning: Brazil's squad has higher goal output (204 vs 139). Brazil's top scorer is more prolific (56 vs 38 goals). Brazil's average rating is higher (7.1 vs 6.9). Brazil's passing is more accurate (70% vs 66%). Brazil's defense is better in duels (55% vs 50%). Brazil's coach has better H2H results (1W vs 0W).",
+    "output_len": 345
+  },
+  {
+    "sample_idx": 95,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 4,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-4\nReasoning: Team B's squad has higher goal output (204 vs 139). Team B's top scorer is more prolific (56 vs 38 goals). Team B has better passing (70% vs 66%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 96,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 5,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 5-1\nReasoning: Netherlands's squad has higher goal output (230 vs 109). Netherlands's top scorer is more prolific (73 goals vs 33). USA's defense is better at duels (60% vs 53%). Netherlands has a higher average rating (7.1 vs 6.9).",
+    "output_len": 260
+  },
+  {
+    "sample_idx": 97,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 5,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 5-1\nReasoning: Team A's squad has higher goal output (230 vs 109). Team A's top scorer is more prolific (73 goals vs 33). Team A has better passing (66% vs 68%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 98,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 4-2\nReasoning: Argentina's squad has higher goal output (193 vs 75). Argentina's top scorer is more prolific (91 goals vs 23). Argentina has better passing (63% vs 69%). Argentina's average rating is higher (7.2 vs 6.9).",
+    "output_len": 248
+  },
+  {
+    "sample_idx": 99,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 3,
+      "away_goals": 5,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 3-5\nReasoning: Team A's squad has higher goal output (193 vs 75). Team A's top scorer is more prolific (91 goals vs 23). Team A has better passing (63% vs 69%).",
+    "output_len": 188
+  },
+  {
+    "sample_idx": 100,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 3-1\nReasoning: France's squad has higher goal output (306 vs 185). Poland's top scorer is more prolific (169 vs 128 goals). France has better passing (70% vs 64%).",
+    "output_len": 191
+  },
+  {
+    "sample_idx": 101,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 3-1\nReasoning: Team A's squad has higher goal output (310 vs 281). Team A's top scorer is more prolific (129 vs 166 goals). Team A has better passing (70% vs 64%).",
+    "output_len": 191
+  },
+  {
+    "sample_idx": 102,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 3-0\nReasoning: England's squad has higher goal output (249 vs 110). England's top scorer is more prolific (108 vs 32 goals). England has better passing (66% vs 69%).",
+    "output_len": 193
+  },
+  {
+    "sample_idx": 103,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 1-0\nReasoning: Team A's squad has higher goal output (249 vs 111). Team A's top scorer is more prolific (110 vs 32 goals). Team A has better passing (66% vs 69%).",
+    "output_len": 190
+  },
+  {
+    "sample_idx": 104,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 5,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 5-1\nReasoning: Japan's squad has higher goal output (180 vs 142). Croatia's top scorer is more prolific (49 vs 39 goals). Japan's defense is better at duels (54% vs 55%).",
+    "output_len": 198
+  },
+  {
+    "sample_idx": 105,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 5,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 5-1\nReasoning: Team A's squad has higher goal output (180 vs 142). Team B's top scorer is more prolific (49 vs 39 goals). Team A's defense is better in duels (57% vs 54%).",
+    "output_len": 199
+  },
+  {
+    "sample_idx": 106,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 4-1\nReasoning: Brazil's squad has higher goal output (240 vs 174). Brazil's top scorer is more prolific (56 vs 71 goals). Brazil has better passing (74% vs 68%). Brazil's average rating is higher (7.1 vs 7).",
+    "output_len": 235
+  },
+  {
+    "sample_idx": 107,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 4,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 4-0\nReasoning: Team A's squad has higher goal output (242 vs 176). Team A's top scorer is more prolific (94 vs 71 goals). Team A has better passing (74% vs 68%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 108,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 0-3\nReasoning: Spain's squad has higher goal output (180 vs 191). Spain's top scorer is more prolific (49 vs 46 goals). Spain has better passing (70% vs 66%). Spain's defense is more tigher (0Y/90 vs 1Y/90).",
+    "output_len": 235
+  },
+  {
+    "sample_idx": 109,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 0,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 5,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-5\nReasoning: Team B's squad has higher goal output (180 vs 191). Team A's top scorer is more prolific (49 vs 46 goals). Team B's defense is better in duels (56% vs 53%).",
+    "output_len": 199
+  },
+  {
+    "sample_idx": 110,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 6,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 6,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 6-1\nReasoning: Portugal's squad has higher goal output (249 vs 94). Portugal's top scorer is more prolific (79 vs 30 goals). Switzerland's defense is better at duels (56% vs 53%). Portugal's passing is more accurate (64% vs 69%).",
+    "output_len": 257
+  },
+  {
+    "sample_idx": 111,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 6,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 1-0\nReasoning: Team A's squad has higher goal output (249 vs 94). Team A's top scorer is more prolific (79 vs 30 goals). Team A has better passing (64% vs 70%).",
+    "output_len": 188
+  },
+  {
+    "sample_idx": 112,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 6,
+      "away_goals": 8,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 6-8\nReasoning: Brazil's squad has higher goal output (240 vs 177). Brazil's top scorer is more prolific (53 vs 49 goals). Brazil's passing is more accurate (74% vs 69%). Brazil's attack is more assist-heavy (123 vs 149). Brazil's defense is better at duels (58% vs 55%). Brazil's average rating is higher (7.1 vs 7.0).",
+    "output_len": 346
+  },
+  {
+    "sample_idx": 113,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 1,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 6,
+      "away_goals": 9,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 6-9\nReasoning: Team B's squad has higher goal output (240 vs 174). Team B's top scorer is more prolific (56 vs 49 goals). Team B has better passing (72% vs 66%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 114,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 2,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 2-0\nReasoning: Argentina's squad has higher goal output (196 vs 205). Argentina's top scorer is more prolific (91 goals vs 73). Argentina's average rating is higher (6.9 vs 7.1). Argentina's passing is better (64% vs 66%). Argentina's defense is more yellow-carded (221 vs 161). Argentina's attack is more assist-heavy (131 vs 127). Argentina's squad has better WC form (79% avg rating).",
+    "output_len": 415
+  },
+  {
+    "sample_idx": 115,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 2,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 0,
+      "away_goals": 6,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 0-6\nReasoning: Team B's squad has higher goal output (196 vs 205). Team A's top scorer is more prolific (70 vs 89 goals). Team B's defense is better in duels (57% vs 59%).",
+    "output_len": 199
+  },
+  {
+    "sample_idx": 116,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 6,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 1-6\nReasoning: Portugal's squad has higher goal output (255 vs 184). Portugal's top scorer is more prolific (74 goals vs 46). Portugal has better passing (66% vs 70%). Portugal's average rating is higher (7.1 vs 7).",
+    "output_len": 243
+  },
+  {
+    "sample_idx": 117,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 1,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 6,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 6-1\nReasoning: Team A's squad has higher goal output (184 vs 154). Team B's top scorer is more prolific (70 vs 46 goals). Team A has better passing (72% vs 64%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 118,
+    "is_anon": false,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 1-2\nReasoning: France's squad has higher goal output (309 vs 249). England's top scorer is more prolific (110 vs 127 goals). France has better passing (70% vs 66%).",
+    "output_len": 192
+  },
+  {
+    "sample_idx": 119,
+    "is_anon": true,
+    "gt": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 1,
+      "away_goals": 2,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 1-2\nReasoning: Team B's squad has higher goal output (309 vs 249). Team B's top scorer is more prolific (128 vs 111 goals). Team B has better passing (70% vs 66%).",
+    "output_len": 191
+  },
+  {
+    "sample_idx": 120,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "away_win",
+      "home_goals": 3,
+      "away_goals": 6,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 3-6\nReasoning: Argentina's squad has higher goal output (200 vs 177). Argentina's top scorer is more prolific (90 vs 49 goals). Argentina has better passing (62% vs 66%). Argentina's average rating is higher (7.1 vs 7.0).",
+    "output_len": 249
+  },
+  {
+    "sample_idx": 121,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 3,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 3-0\nReasoning: Team A's squad has higher goal output (201 vs 174). Team A's top scorer is more prolific (91 goals vs 49). Team A has better passing (69% vs 66%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 122,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: France's squad has higher goal output (300 vs 166). France's top scorer is more prolific (128 vs 46 goals). France has better passing (70% vs 67%).",
+    "output_len": 190
+  },
+  {
+    "sample_idx": 123,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Team A's squad has higher goal output (300 vs 166). Team A's top scorer is more prolific (125 vs 46 goals). Team A has better passing (70% vs 67%).",
+    "output_len": 190
+  },
+  {
+    "sample_idx": 124,
+    "is_anon": false,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-1\nReasoning: Croatia's squad has higher goal output (268 vs 163). Morocco's top scorer is more prolific (67 vs 46 goals).",
+    "output_len": 151
+  },
+  {
+    "sample_idx": 125,
+    "is_anon": true,
+    "gt": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 1,
+      "parsed": true
+    },
+    "pred": {
+      "result": "home_win",
+      "home_goals": 2,
+      "away_goals": 0,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 2-0\nReasoning: Team A's squad has higher goal output (268 vs 163). Team A's top scorer is more prolific (66 vs 46 goals). Team A has better passing (69% vs 70%).",
+    "output_len": 189
+  },
+  {
+    "sample_idx": 126,
+    "is_anon": false,
+    "gt": {
+      "result": "draw",
+      "home_goals": 3,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 3,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "raw_output": "Prediction: away_win\nScore: 3-3\nReasoning: Argentina's squad has higher goal output (219 vs 207). Argentina's top scorer is more prolific (91 goals vs 127). France's defense is better (191 yellows, 8 reds vs 196 yellows, 9 reds). France's passing is more accurate (70% vs 64%).",
+    "output_len": 277
+  },
+  {
+    "sample_idx": 127,
+    "is_anon": true,
+    "gt": {
+      "result": "draw",
+      "home_goals": 3,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "pred": {
+      "result": "draw",
+      "home_goals": 3,
+      "away_goals": 3,
+      "parsed": true
+    },
+    "raw_output": "Prediction: home_win\nScore: 3-3\nReasoning: Team A's squad has higher goal output (219 vs 207). Team B's top scorer is more prolific (123 vs 91 goals). Team A has better passing (70% vs 66%).",
+    "output_len": 190
+  }
+]
