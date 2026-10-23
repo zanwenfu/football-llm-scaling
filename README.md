@@ -1,6 +1,6 @@
 # football-llm-scaling
 
-**The Parser-Rescue Gap: Why Small-Data Fine-Tuning Inflates Accuracy on Structured Prediction**
+**Right Score, Wrong Result: When One Answer Field Overrides Another, Recall Looks Like Skill**
 
 [![tests](https://img.shields.io/badge/tests-87%20passing-brightgreen)](tests/)
 [![python](https://img.shields.io/badge/python-3.10%2B-blue)](pyproject.toml)
@@ -8,12 +8,20 @@
 [![preprint](https://img.shields.io/badge/preprint-coming%20soon-lightgrey)](#citing)
 
 Does fine-tuning beat prompting, or does the grading make it look that way? I
-fine-tuned Llama 3.1 8B with QLoRA on 192 World Cup matches and compared it
-with 5-shot prompting of the same model. Under the usual rule, which takes the
-`Score:` line over the stated result whenever both parse, the fine-tuned model
-wins 61.7% to 49.2% (paired exact McNemar p = 0.036). Credit only answers whose
-stated result, score and the truth all agree, and the gap is gone: 42.2% to
-41.4% (p = 1.0).
+fine-tuned Llama 3.1 8B with QLoRA on World Cup matches and compared it with
+5-shot prompting of the same model on the 64 matches of 2022. Each answer
+states a result and a score. On named matches, if the score takes precedence the
+192-match model leads by 21.9 points (exact McNemar p = 0.007); if the stated
+result takes precedence it trails by 10.9; if both must match the truth the
+difference is 1.6 points. The 32.8-point swing between the first two rules is
+significant (p < 0.001).
+
+The credited answers are recalled. The fine-tuned model writes the exact final
+score of 42 of the 64 named matches, where no constant guess gets more than 7
+and a Poisson model of the same statistics gets 5, and its stated result
+contradicts that score in 17 of them. The 2022 World Cup predates the base
+model's cutoff and is not in the training data. With team names masked, the
+model still writes 20 real scores and names one of the real teams in 46 answers.
 
 The paper is being extended into a preprint.
 
@@ -24,7 +32,7 @@ Each answer has three lines: `Prediction:` (the result), `Score:` and
 of the 2022 World Cup, each asked once with team names and once anonymized
 (128 answers). Brackets are Wilson 95% intervals.
 
-| Condition | Lenient: score overrides result | Stated result only | Coherent: result = score = truth | Predicts home win |
+| Condition | Score-first: score overrides result | Stated result only | Coherent: result = score = truth | Predicts home win |
 | --- | ---: | ---: | ---: | ---: |
 | Always home win | 45.3 [37.0, 53.9] | | | 100% |
 | ICL, 5-shot | 49.2 [40.7, 57.8] | 56.2 [47.6, 64.5] | 41.4 [33.2, 50.1] | 82% |
@@ -43,11 +51,12 @@ the named half, which is in-distribution for every adapter, I took every answer
 whose stated result and score disagree and asked which one was right. For the
 fine-tuned models the score was right 28 times to 2 at n = 96, 18 to 2 at
 n = 192 and 12 to 2 at n = 384. For the prompted model it was the reverse:
-4 to 9 for ICL and 6 to 13 for CoT. So the lenient rule adds points to
-fine-tuning and takes them from prompting.
+4 to 9 for ICL and 6 to 13 for CoT. So the score-first rule adds points to
+fine-tuning and takes them from prompting. Of the 18 answers it rescues for
+n = 192, 17 carry the exact real score.
 
 Fine-tuning learned the format. Every adapter answered in three lines on all
-128 inputs. It did not learn to make the result and the score agree: on the
+128 inputs (the 48-match adapter wrote its labels in title case). It did not learn to make the result and the score agree: on the
 named half, the two agree on 96.9% of answers at n = 48, 46.9% at n = 96 and
 64.1% at n = 192. Any benchmark that scores several fields of one answer
 (function calls, JSON, tool use) can hide the same failure. Reporting
@@ -130,7 +139,7 @@ The closest work is on how answer extraction moves scores:
 [Lessons from the Trenches](https://arxiv.org/abs/2405.14782) (Biderman et al.,
 2024) and [Finding Answers in Thought Matters](https://arxiv.org/abs/2510.14773)
 (Jo et al., 2025). They study how extraction rules change measured accuracy;
-this study shows a lenient multi-field rule changing which method wins.
+this study shows a rule that lets one field override another changing which method wins.
 Related threads are the mismatch between how a model is scored and what it
 generates ([Lyu et al., 2024](https://arxiv.org/abs/2402.13887)), reasoning
 that does not match the answer ([Turpin et al., NeurIPS 2023](https://arxiv.org/abs/2305.04388)),
@@ -160,8 +169,8 @@ The preprint is coming. Until then, please cite the repository:
 ```bibtex
 @misc{fu2026parserrescue,
   author       = {Fu, Zanwen},
-  title        = {The Parser-Rescue Gap: Why Small-Data Fine-Tuning
-                  Inflates Accuracy on Structured Prediction},
+  title        = {Right Score, Wrong Result: When One Answer Field
+                  Overrides Another, Recall Looks Like Skill},
   year         = {2026},
   howpublished = {\url{https://github.com/zanwenfu/football-llm-scaling}}
 }

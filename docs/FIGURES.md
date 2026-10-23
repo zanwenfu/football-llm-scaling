@@ -6,7 +6,7 @@ Every figure in the paper is reproducible from `results/raw/*.json` via
 
 | file                                                  | what it shows                                                                             | paper reference |
 | ----------------------------------------------------- | ----------------------------------------------------------------------------------------- | --------------- |
-| [`consistency_curve.png`](../results/figures/consistency_curve.png)           | Score-acc vs. text-acc vs. text/score agreement across all conditions. **The parser-rescue gap.** | **Figure 1**    |
+| [`consistency_curve.png`](../results/figures/consistency_curve.png)           | Score-acc vs. text-acc vs. text/score agreement across all conditions.  | **Figure 1**    |
 | [`scaling_curve.png`](../results/figures/scaling_curve.png)                  | QLoRA result accuracy vs. training budget, log-x. Horizontal lines for ICL, CoT, always-home. | §3.1            |
 | [`distribution_curve.png`](../results/figures/distribution_curve.png)        | Home / away / draw prediction rates per QLoRA budget. Makes the n=48 class-collapse visible. | §3.1            |
 | [`confusion_matrices.png`](../results/figures/confusion_matrices.png)        | 3×3 confusion matrix per condition. Column collapse = class collapse.                     | §3.1 appendix   |

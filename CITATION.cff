@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "The Parser-Rescue Gap: Why Small-Data Fine-Tuning Inflates Accuracy on Structured Prediction"
+title: "Right Score, Wrong Result: When One Answer Field Overrides Another, Recall Looks Like Skill"
 message: "If you use this code or the accompanying analysis, please cite the paper."
 type: software
 authors:
@@ -20,7 +20,7 @@ keywords:
   - in-context-learning
 preferred-citation:
   type: article
-  title: "The Parser-Rescue Gap: Why Small-Data Fine-Tuning Inflates Accuracy on Structured Prediction"
+  title: "Right Score, Wrong Result: When One Answer Field Overrides Another, Recall Looks Like Skill"
   authors:
     - family-names: Fu
       given-names: Zanwen
