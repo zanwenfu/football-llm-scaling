@@ -2,7 +2,7 @@
 
 **The Parser-Rescue Gap: Why Small-Data Fine-Tuning Inflates Accuracy on Structured Prediction**
 
-[![tests](https://img.shields.io/badge/tests-83%20passing-brightgreen)](tests/)
+[![tests](https://img.shields.io/badge/tests-87%20passing-brightgreen)](tests/)
 [![python](https://img.shields.io/badge/python-3.10%2B-blue)](pyproject.toml)
 [![license](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![preprint](https://img.shields.io/badge/preprint-coming%20soon-lightgrey)](#citing)

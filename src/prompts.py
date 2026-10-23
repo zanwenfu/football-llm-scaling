@@ -23,29 +23,30 @@ from config import ICLConfig
 # System prompts
 # ---------------------------------------------------------------------------
 
+# The system message stored with every training and test row, and the one the
+# saved predictions were generated with (notebooks/01-04).
 SYSTEM_PROMPT_BASE: str = (
-    "You are a football match prediction expert. Given aggregated player "
-    "statistics for two teams, predict the match result and final score. "
-    "Respond in exactly this format:\n"
-    "Prediction: <home_win|away_win|draw>\n"
-    "Score: <home_goals>-<away_goals>\n"
-    "Reasoning: <one short sentence>"
+    "You are a football match prediction model. Given team stats, predict the "
+    "result, score, and brief reasoning."
 )
 
-SYSTEM_PROMPT_COT: str = (
-    "You are a football match prediction expert. Given aggregated player "
-    "statistics for two teams, reason step by step before predicting.\n"
-    "Follow these five steps concisely:\n"
-    "Step 1: compare squad goal output.\n"
-    "Step 2: compare top scorer output.\n"
-    "Step 3: compare defensive stats (tackles, cards).\n"
-    "Step 4: weigh any conflicting signals.\n"
-    "Step 5: commit to a prediction.\n"
-    "After the steps, output exactly:\n"
+# notebooks/03b_cot_rerun.ipynb appends this scaffold to the base system message.
+COT_SCAFFOLD: str = (
+    "\n\nBefore your final answer, reason step-by-step:\n"
+    "Step 1: Compare the two teams' squad goal output. Which is higher and by how much?\n"
+    "Step 2: Compare the quality of each team's top scorer.\n"
+    "Step 3: Compare defensive stats (tackles, clean sheets, defensive rating).\n"
+    "Step 4: Identify any conflicts between these signals and weigh them.\n"
+    "Step 5: Based on the above, predict the outcome.\n\n"
+    "After your reasoning, conclude in EXACTLY this format on separate lines:\n"
     "Prediction: <home_win|away_win|draw>\n"
     "Score: <home_goals>-<away_goals>\n"
-    "Reasoning: <one short sentence>"
+    "Reasoning: <one sentence summary>\n"
+    "Keep your step-by-step reasoning concise (2-3 sentences per step) so you have "
+    "room for the conclusion."
 )
+
+SYSTEM_PROMPT_COT: str = SYSTEM_PROMPT_BASE + COT_SCAFFOLD
 
 # ---------------------------------------------------------------------------
 # Message builders

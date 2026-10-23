@@ -121,9 +121,9 @@ All conditions share the same decoding config (`config.GenerationConfig`):
 `temperature=0.1`, `top_p=0.9`, `repetition_penalty=1.1`. Low temperature
 plus fixed seed makes runs effectively deterministic; the tiny remaining
 token-level variance stress-tests the parser in the same way across
-conditions. CoT uses `max_new_tokens=1024` because a 5-step scaffold does
-not fit into 300 tokens while still reaching the concluding `Prediction:`
-line (the original CoT run truncated before the conclusion; see
+conditions. New-token budgets follow the saved runs: 400 for QLoRA, 300 for
+ICL and 1024 for CoT. CoT needs the larger budget because a first pass with 512
+tokens often ended before the concluding `Prediction:` line (see
 `notebooks/03b_cot_rerun.ipynb`).
 
 ## 8. Multi-seed aggregation (post-paper follow-up)

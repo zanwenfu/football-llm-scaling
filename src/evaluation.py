@@ -22,6 +22,7 @@ from config import (
     DEFAULT_COT_GEN,
     DEFAULT_GEN,
     DEFAULT_ICL,
+    DEFAULT_ICL_GEN,
     GenerationConfig,
     ICLConfig,
 )
@@ -71,7 +72,7 @@ def evaluate_condition(
     )
 
     if gen_cfg is None:
-        gen_cfg = DEFAULT_COT_GEN if condition == "cot" else DEFAULT_GEN
+        gen_cfg = {"cot": DEFAULT_COT_GEN, "icl": DEFAULT_ICL_GEN}.get(condition, DEFAULT_GEN)
 
     model, tokenizer = load_base_model(model_id=model_id)
     if condition == "qlora":

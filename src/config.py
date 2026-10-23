@@ -142,11 +142,18 @@ class GenerationConfig:
 class CoTGenerationConfig(GenerationConfig):
     """CoT needs a larger budget to reach the final `Prediction:` line.
 
-    The paper reran CoT (`notebooks/03b_cot_rerun.ipynb`) after discovering the
-    original 300-token cap was truncating before the conclusion.
+    The saved CoT predictions come from `notebooks/03b_cot_rerun.ipynb`; a first
+    pass with 512 new tokens often ended before the conclusion.
     """
 
     max_new_tokens: int = 1024
+
+
+@dataclass(frozen=True)
+class ICLGenerationConfig(GenerationConfig):
+    """The saved ICL predictions (`notebooks/03_icl_cot_baselines.ipynb`) used 300 new tokens."""
+
+    max_new_tokens: int = 300
 
 
 @dataclass(frozen=True)
@@ -177,5 +184,6 @@ DEFAULT_QUANT = QuantizationConfig()
 DEFAULT_TRAIN = TrainingConfig()
 DEFAULT_GEN = GenerationConfig()
 DEFAULT_COT_GEN = CoTGenerationConfig()
+DEFAULT_ICL_GEN = ICLGenerationConfig()
 DEFAULT_EVAL = EvalConfig()
 DEFAULT_ICL = ICLConfig()

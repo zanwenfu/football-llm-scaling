@@ -94,7 +94,7 @@ trusting any scaling trend.
   trained the adapters behind the saved predictions (20/18/10 home, away and
   draw at n=48; 39/36/21 at n=96). `tests/test_data.py` checks this against
   the notebook's own code.
-* **CoT token budget.** The first CoT pass used `max_new_tokens=300` and
+* **CoT token budget.** The first CoT pass used `max_new_tokens=512` and
   truncated before the concluding `Prediction:` line on ~40% of samples.
   The final reported numbers use 1024 (see `config.CoTGenerationConfig`).
   Don't regress this.
