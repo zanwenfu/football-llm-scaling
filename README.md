@@ -1,11 +1,10 @@
 # football-llm-scaling
 
-**Right Score, Wrong Result: When One Answer Field Overrides Another, Recall Looks Like Skill**
+**Is a fine-tuned model forecasting football results, or remembering them?**
 
 [![tests](https://img.shields.io/badge/tests-87%20passing-brightgreen)](tests/)
 [![python](https://img.shields.io/badge/python-3.10%2B-blue)](pyproject.toml)
 [![license](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![preprint](https://img.shields.io/badge/preprint-coming%20soon-lightgrey)](#citing)
 
 Does fine-tuning beat prompting, or does the grading make it look that way? I
 fine-tuned Llama 3.1 8B with QLoRA on World Cup matches and compared it with
@@ -20,10 +19,12 @@ The credited answers are recalled. The fine-tuned model writes the exact final
 score of 42 of the 64 named matches, where no constant guess gets more than 7
 and a Poisson model of the same statistics gets 5, and its stated result
 contradicts that score in 17 of them. The 2022 World Cup predates the base
-model's cutoff and is not in the training data. With team names masked, the
-model still writes 20 real scores and names one of the real teams in 46 answers.
+model's cutoff and is not in the training data. With the original anonymization,
+which hides team names but keeps coaches and stadiums, the model still writes 20
+real scores and names one of the real teams in 46 answers. With those hidden
+too, it writes about 5% (see [Controls](#controls-october-2026)).
 
-The paper is being extended into a preprint.
+This is work in progress.
 
 ## Result
 
@@ -64,6 +65,36 @@ coherence-required accuracy next to the usual number catches it.
 
 ![Score-based accuracy, stated-result accuracy and field agreement for every condition](results/figures/consistency_curve.png)
 
+## Controls (October 2026)
+
+Memory is a known risk when language models forecast past events
+([Gao et al., 2025](https://arxiv.org/abs/2512.23847);
+[Gorla & Puduppully, 2026](https://arxiv.org/abs/2602.04031)). These controls
+test it for this fine-tuned model on the same matches. Unless stated, they use
+the 64 named 2022 matches and three training seeds. The lead is the fine-tuned
+model's accuracy under the score-first rule minus 5-shot prompting's, in points,
+with a 95% bootstrap interval over matches.
+
+| Condition | Exact real score | Lead over prompting |
+| --- | ---: | ---: |
+| Real scores (the n = 192 setup above) | 62.0% | +19.3 [6.8, 31.8] |
+| Real scores, ten seeds | 63.4% | +20.0 [7.5, 32.8], p = 0.003 |
+| Fake scores: same matches and stated results, plausible fake scores | 9.9% | −5.7 [−17.7, 5.7] |
+| Full masking: team names, coaches, stadium, round and World Cup record hidden | 5.2% | −9.4 [−26.6, 7.8] |
+| 2026 World Cup: 104 matches after the model's training data ends | 8.7% | +2.2 [−9.0, 12.8] |
+
+- The best constant guess writes the exact score of 10.9% of 2022 matches and
+  11.5% of 2026 matches.
+- Mistral 7B and Qwen2.5 14B also recall the real scores after fine-tuning
+  (44.8% and 57.3%), and fake scores remove that recall (9.9% and 8.3%). Their
+  lead over prompting was small to begin with (+3.1 and +6.2 points; both
+  intervals include zero).
+- A simple Elo rating, which never predicts a draw, picks the winner of 54.7% of
+  2022 matches and 64.4% of 2026 matches. Prompting's stated result gets 56.2%
+  and 61.5%.
+
+The control runs are not yet in this repository.
+
 ## Setup
 
 - **Task.** From two teams' aggregated per-player statistics (API-Football,
@@ -85,8 +116,9 @@ coherence-required accuracy next to the usual number catches it.
 
 ## Limitations
 
-- One task, one 8B model, one prompt format and one seed per budget. The
-  n = 96 drop in field agreement needs more seeds before it is a trend.
+- One task and one prompt format. The table above uses one 8B model and one
+  seed per budget; the controls add seeds and two more models. The n = 96 drop
+  in field agreement needs more seeds before it is a trend.
 - The 128 answers are 64 matches asked twice, so the intervals and p-values
   above, which treat them as independent, are optimistic. On either half alone (64 answers)
   they are about ±12 points.
@@ -116,6 +148,10 @@ bash scripts/reproduce_paper.sh --train --eval
 
 [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md) covers each step, the
 software versions, seeds and multi-seed runs.
+
+**Data.** The prompts in [`data/`](data/) are built from public match
+records (team and player statistics from earlier matches, and final scores),
+retrieved through [API-Football](https://www.api-football.com).
 
 ## Use the check on your own outputs
 
@@ -164,19 +200,19 @@ accuracy in dialogue state tracking ([MultiWOZ](https://arxiv.org/abs/1810.00278
 
 ## Citing
 
-The preprint is coming. Until then, please cite the repository:
+Please cite the repository:
 
 ```bibtex
 @misc{fu2026parserrescue,
   author       = {Fu, Zanwen},
-  title        = {Right Score, Wrong Result: When One Answer Field
-                  Overrides Another, Recall Looks Like Skill},
+  title        = {football-llm-scaling: Is a Fine-Tuned Model Forecasting
+                  Football Results, or Remembering Them?},
   year         = {2026},
   howpublished = {\url{https://github.com/zanwenfu/football-llm-scaling}}
 }
 ```
 
-[CITATION.cff](CITATION.cff) has the same in machine-readable form.
+[CITATION.cff](CITATION.cff) has machine-readable citation metadata.
 
 ## License
 
